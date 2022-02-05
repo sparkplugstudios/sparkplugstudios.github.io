@@ -1,3 +1,0 @@
-# dyadica.github.io
-
-welcome
