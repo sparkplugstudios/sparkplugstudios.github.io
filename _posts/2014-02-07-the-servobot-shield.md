@@ -5,7 +5,7 @@ date: '2014-02-07T02:02:06+00:00'
 author: batts
 layout: post
 guid: '/?p=512'
-#permalink: /2014/02/07/the-servobot-shield/
+permalink: /2014/02/07/the-servobot-shield/
 image: /wp-content/uploads/2014/02/Close-Up-of-ServoBot-Shield1-1-1568x883.jpg
 categories:
     - Robotics

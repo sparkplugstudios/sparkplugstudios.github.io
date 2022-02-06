@@ -5,7 +5,7 @@ date: '2014-01-24T02:14:08+00:00'
 author: batts
 layout: post
 guid: '/?p=405'
-#permalink: /2014/01/24/ratchet-clank-kit-power-harness/
+permalink: /2014/01/24/ratchet-clank-kit-power-harness/
 image: /wp-content/uploads/2014/01/Servo-Distrib-Bot1-1-1568x883.jpg
 categories:
     - Robotics

@@ -5,7 +5,7 @@ date: '2015-07-20T22:36:45+00:00'
 author: batts
 layout: post
 guid: '/?p=1853'
-#permalink: /2015/07/20/capacitive-sensor-development-board/
+permalink: /2015/07/20/capacitive-sensor-development-board/
 image: /wp-content/uploads/2017/10/019-1-1568x882.jpg
 categories:
     - Easy

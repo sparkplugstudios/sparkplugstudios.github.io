@@ -5,7 +5,7 @@ date: '2014-03-13T00:08:20+00:00'
 author: batts
 layout: post
 guid: '/?p=1283'
-#permalink: /2014/03/13/simple-bluetooth-joystick/
+permalink: /2014/03/13/simple-bluetooth-joystick/
 image: /wp-content/uploads/2014/03/SBTJ1-1.jpg
 categories:
     - Microcontrollers

@@ -5,7 +5,7 @@ date: '2010-08-24T23:51:45+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=258'
-##permalink: /2010/08/24/netduino-serial-communication/
+#permalink: /2010/08/24/netduino-serial-communication/
 categories:
     - Microcontrollers
     - Tutorials

@@ -5,7 +5,7 @@ date: '2011-11-21T23:50:07+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=187'
-#permalink: /2011/11/21/project-leonard-y-carriage-build/
+permalink: /2011/11/21/project-leonard-y-carriage-build/
 image: /wp-content/uploads/2011/11/The-Mounted-Y-Stepper1-1-1568x1176.jpg
 categories:
     - '3D Printing'

@@ -5,7 +5,7 @@ date: '2012-04-14T22:22:36+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=89'
-#permalink: /2012/04/14/project-leonard-bar-clamp-chaos/
+permalink: /2012/04/14/project-leonard-bar-clamp-chaos/
 image: /wp-content/uploads/2012/04/Bolted-Clamp-Banner2-1.jpg
 categories:
     - '3D Printing'

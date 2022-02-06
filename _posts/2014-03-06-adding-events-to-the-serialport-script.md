@@ -5,7 +5,7 @@ date: '2014-03-06T00:37:44+00:00'
 author: batts
 layout: post
 guid: '/?p=1173'
-#permalink: /2014/03/06/adding-events-to-the-serialport-script/
+permalink: /2014/03/06/adding-events-to-the-serialport-script/
 image: /wp-content/uploads/2014/03/Updated-Serial-Script1-1.jpg
 categories:
     - Microcontrollers

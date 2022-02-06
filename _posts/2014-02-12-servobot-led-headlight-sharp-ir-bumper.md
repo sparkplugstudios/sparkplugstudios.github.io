@@ -5,7 +5,7 @@ date: '2014-02-12T20:57:46+00:00'
 author: batts
 layout: post
 guid: '/?p=686'
-#permalink: /2014/02/12/servobot-led-headlight-sharp-ir-bumper/
+permalink: /2014/02/12/servobot-led-headlight-sharp-ir-bumper/
 image: /wp-content/uploads/2014/02/Completed-Bumper-Front1-1-1568x883.jpg
 categories:
     - Robotics

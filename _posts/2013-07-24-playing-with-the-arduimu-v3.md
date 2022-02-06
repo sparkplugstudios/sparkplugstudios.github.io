@@ -5,7 +5,7 @@ date: '2013-07-24T19:41:45+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=1'
-#permalink: /2013/07/24/playing-with-the-arduimu-v3/
+permalink: /2013/07/24/playing-with-the-arduimu-v3/
 image: /wp-content/uploads/2013/07/ArduIMU-V3-Board-1024-1.jpg
 categories:
     - Microcontrollers

@@ -5,7 +5,7 @@ date: '2012-03-18T23:07:48+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=158'
-#permalink: /2012/03/18/koothrappali-and-the-arduino-motor-shield/
+permalink: /2012/03/18/koothrappali-and-the-arduino-motor-shield/
 image: /wp-content/uploads/2012/03/Koothrapalli13-1.jpg
 categories:
     - Microcontrollers

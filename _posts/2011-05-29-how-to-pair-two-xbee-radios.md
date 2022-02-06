@@ -5,7 +5,7 @@ date: '2011-05-29T23:08:35+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=240'
-#permalink: /2011/05/29/how-to-pair-two-xbee-radios/
+permalink: /2011/05/29/how-to-pair-two-xbee-radios/
 image: /wp-content/uploads/2011/05/xbee-pair-1.png
 categories:
     - Microcontrollers

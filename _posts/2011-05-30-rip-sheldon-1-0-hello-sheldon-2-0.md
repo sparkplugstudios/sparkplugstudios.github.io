@@ -5,7 +5,7 @@ date: '2011-05-30T22:39:41+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=222'
-#permalink: /2011/05/30/rip-sheldon-1-0-hello-sheldon-2-0/
+permalink: /2011/05/30/rip-sheldon-1-0-hello-sheldon-2-0/
 image: /wp-content/uploads/2011/05/19-08-2013-23-33-281-1.jpg
 categories:
     - Robotics

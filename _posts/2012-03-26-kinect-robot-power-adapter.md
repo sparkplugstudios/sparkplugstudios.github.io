@@ -5,7 +5,7 @@ date: '2012-03-26T23:36:18+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=103'
-#permalink: /2012/03/26/kinect-robot-power-adapter/
+permalink: /2012/03/26/kinect-robot-power-adapter/
 image: /wp-content/uploads/2012/03/Power-Adapter-Banner1-1.jpg
 categories:
     - Robotics

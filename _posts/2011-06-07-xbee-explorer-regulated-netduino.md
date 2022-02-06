@@ -5,7 +5,7 @@ date: '2011-06-07T21:37:54+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=215'
-#permalink: /2011/06/07/xbee-explorer-regulated-netduino/
+permalink: /2011/06/07/xbee-explorer-regulated-netduino/
 image: /wp-content/uploads/2011/06/xbee-reg-1.png
 categories:
     - Microcontrollers

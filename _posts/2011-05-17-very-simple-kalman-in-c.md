@@ -5,7 +5,7 @@ date: '2011-05-17T23:42:57+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=249'
-#permalink: /2011/05/17/very-simple-kalman-in-c/
+permalink: /2011/05/17/very-simple-kalman-in-c/
 image: /wp-content/uploads/2011/05/kal-1.png
 categories:
     - Medium

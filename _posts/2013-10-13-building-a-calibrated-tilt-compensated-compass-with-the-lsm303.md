@@ -5,7 +5,7 @@ date: '2013-10-13T23:46:51+00:00'
 author: batts
 layout: post
 guid: '/?p=268'
-#permalink: /2013/10/13/building-a-calibrated-tilt-compensated-compass-with-the-lsm303/
+permalink: /2013/10/13/building-a-calibrated-tilt-compensated-compass-with-the-lsm303/
 image: /wp-content/uploads/2013/10/The-LSM3031-1-1568x883.jpg
 categories:
     - Microcontrollers

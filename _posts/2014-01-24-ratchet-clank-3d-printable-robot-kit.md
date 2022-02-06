@@ -5,7 +5,7 @@ date: '2014-01-24T00:36:49+00:00'
 author: batts
 layout: post
 guid: '/?p=383'
-#permalink: /2014/01/24/ratchet-clank-3d-printable-robot-kit/
+permalink: /2014/01/24/ratchet-clank-3d-printable-robot-kit/
 image: /wp-content/uploads/2014/01/WP_0009391-1-1568x1176.jpg
 categories:
     - Robotics

@@ -5,7 +5,7 @@ date: '2014-02-11T00:17:37+00:00'
 author: batts
 layout: post
 guid: '/?p=517'
-#permalink: /2014/02/11/sharp-ir-servo-plug-tip/
+permalink: /2014/02/11/sharp-ir-servo-plug-tip/
 image: /wp-content/uploads/2014/02/Sharp-IR-with-Servo-Plug1-1-1568x883.jpg
 categories:
     - Tutorials

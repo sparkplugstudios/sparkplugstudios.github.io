@@ -5,7 +5,7 @@ date: '2011-02-12T23:45:21+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=251'
-##permalink: /2011/02/12/netduinoplus-sd-card-example/
+#permalink: /2011/02/12/netduinoplus-sd-card-example/
 categories:
     - Microcontrollers
     - Tutorials

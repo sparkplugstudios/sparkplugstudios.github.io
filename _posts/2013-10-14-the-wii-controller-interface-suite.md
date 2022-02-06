@@ -5,7 +5,7 @@ date: '2013-10-14T22:20:48+00:00'
 author: batts
 layout: post
 guid: '/?p=1914'
-#permalink: /2013/10/14/the-wii-controller-interface-suite/
+permalink: /2013/10/14/the-wii-controller-interface-suite/
 image: /wp-content/uploads/2013/10/wiici-1.png
 categories:
     - Research

@@ -5,7 +5,7 @@ date: '2014-03-06T22:15:50+00:00'
 author: batts
 layout: post
 guid: '/?p=1910'
-#permalink: /2014/03/06/a-wii-controller-extension-for-those-with-severe-physical-disability/
+permalink: /2014/03/06/a-wii-controller-extension-for-those-with-severe-physical-disability/
 image: /wp-content/uploads/2014/03/chuck-switch-1.png
 categories:
     - Research

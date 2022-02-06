@@ -5,7 +5,7 @@ date: '2015-06-06T00:33:47+00:00'
 author: batts
 layout: post
 guid: '/?p=1562'
-#permalink: /2015/06/06/walking-in-place-with-wearable-technology/
+permalink: /2015/06/06/walking-in-place-with-wearable-technology/
 image: /wp-content/uploads/2015/06/004-1.jpg
 categories:
     - Research

@@ -5,7 +5,7 @@ date: '2014-02-23T01:18:39+00:00'
 author: batts
 layout: post
 guid: '/?p=376'
-#permalink: /2014/02/23/unity3d-serialport-script/
+permalink: /2014/02/23/unity3d-serialport-script/
 image: /wp-content/uploads/2014/02/Unity3D-Serial-Port1-1.jpg
 categories:
     - Microcontrollers

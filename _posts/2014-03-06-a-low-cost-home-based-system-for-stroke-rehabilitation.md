@@ -5,7 +5,7 @@ date: '2014-03-06T22:12:50+00:00'
 author: batts
 layout: post
 guid: '/?p=1907'
-#permalink: /2014/03/06/a-low-cost-home-based-system-for-stroke-rehabilitation/
+permalink: /2014/03/06/a-low-cost-home-based-system-for-stroke-rehabilitation/
 image: /wp-content/uploads/2014/03/glove-1.png
 categories:
     - Research

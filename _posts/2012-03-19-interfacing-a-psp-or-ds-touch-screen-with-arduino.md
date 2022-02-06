@@ -5,7 +5,7 @@ date: '2012-03-19T22:53:31+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=143'
-#permalink: /2012/03/19/interfacing-a-psp-or-ds-touch-screen-with-arduino/
+permalink: /2012/03/19/interfacing-a-psp-or-ds-touch-screen-with-arduino/
 image: /wp-content/uploads/2012/03/track-pad-feat1-1-1568x1176.jpg
 categories:
     - Microcontrollers

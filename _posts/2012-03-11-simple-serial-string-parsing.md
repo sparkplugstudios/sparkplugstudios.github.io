@@ -5,7 +5,7 @@ date: '2012-03-11T23:19:53+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=172'
-#permalink: /2012/03/11/simple-serial-string-parsing/
+permalink: /2012/03/11/simple-serial-string-parsing/
 image: /wp-content/uploads/2012/03/code_image1-1.png
 categories:
     - Microcontrollers

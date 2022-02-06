@@ -5,7 +5,7 @@ date: '2015-03-30T20:20:06+00:00'
 author: batts
 layout: post
 guid: '/?p=672'
-#permalink: /2015/03/30/official-arduino-robot-compatible-servo-plugs/
+permalink: /2015/03/30/official-arduino-robot-compatible-servo-plugs/
 image: /wp-content/uploads/2017/11/Arduino-Robot-With-2-Sharp-IR-1024x576-1.jpg
 categories:
     - Easy

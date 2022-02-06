@@ -5,7 +5,7 @@ date: '2014-02-13T00:45:29+00:00'
 author: batts
 layout: post
 guid: '/?p=723'
-#permalink: /2014/02/13/ratchet-headstock-assembly/
+permalink: /2014/02/13/ratchet-headstock-assembly/
 image: /wp-content/uploads/2014/02/Headstock-With-Servo1-1-1568x883.jpg
 categories:
     - Robotics
