@@ -5,7 +5,7 @@ date: '2010-09-21T23:50:04+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=256'
-permalink: /2010/09/21/netduino-accelerometer-input-sample/
+##permalink: /2010/09/21/netduino-accelerometer-input-sample/
 categories:
     - Microcontrollers
     - Tutorials

@@ -5,7 +5,7 @@ date: '2014-03-12T01:15:23+00:00'
 author: batts
 layout: post
 guid: '/?p=1280'
-permalink: /2014/03/12/setting-up-a-bluesmirf-or-bluetooth-mate/
+#permalink: /2014/03/12/setting-up-a-bluesmirf-or-bluetooth-mate/
 image: /wp-content/uploads/2014/03/Bluetooth-Mate1-1-1568x883.jpg
 categories:
     - Microcontrollers

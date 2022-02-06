@@ -29,11 +29,17 @@ url: "https://dyadica.github.io" # the base hostname & protocol for your site, e
 twitter_username: dyadica
 github_username:  dyadica
 
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+show_excerpts: true
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -5,7 +5,7 @@ date: '2016-11-26T22:00:47+00:00'
 author: batts
 layout: post
 guid: '/?p=1761'
-permalink: /2016/11/26/photon-publish-and-subscription-events/
+#permalink: /2016/11/26/photon-publish-and-subscription-events/
 image: /wp-content/uploads/2017/03/012-1-1568x882.jpg
 categories: 
     - Microcontrollers

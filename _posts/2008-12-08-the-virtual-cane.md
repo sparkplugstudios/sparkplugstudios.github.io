@@ -5,7 +5,7 @@ date: '2008-12-08T15:09:04+00:00'
 author: batts
 layout: post
 guid: '/?p=1590'
-permalink: /2008/12/08/the-virtual-cane/
+##permalink: /2008/12/08/the-virtual-cane/
 image: /wp-content/uploads/2008/12/vc_1-1.png
 categories:
     - Research

@@ -5,7 +5,7 @@ date: '2014-03-05T00:53:24+00:00'
 author: batts
 layout: post
 guid: '/?p=1054'
-permalink: /2014/03/05/ratchets-headlight-prefab/
+#permalink: /2014/03/05/ratchets-headlight-prefab/
 image: /wp-content/uploads/2014/03/Ratchet-With-Headlights1-1-1568x883.jpg
 categories:
     - Robotics

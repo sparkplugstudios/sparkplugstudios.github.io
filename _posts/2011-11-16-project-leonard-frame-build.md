@@ -5,7 +5,7 @@ date: '2011-11-16T23:51:12+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=189'
-permalink: /2011/11/16/project-leonard-frame-build/
+#permalink: /2011/11/16/project-leonard-frame-build/
 image: /wp-content/uploads/2011/11/prusa_frame1-1-1568x1176.jpg
 categories:
     - '3D Printing'

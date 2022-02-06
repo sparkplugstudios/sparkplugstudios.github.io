@@ -5,7 +5,7 @@ date: '2011-07-01T23:55:06+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=193'
-permalink: /2011/07/01/openni-in-wpf-via-emgucv/
+#permalink: /2011/07/01/openni-in-wpf-via-emgucv/
 image: /wp-content/uploads/2011/07/KinectSDK-1.png
 categories:
     - Tutorials

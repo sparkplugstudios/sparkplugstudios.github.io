@@ -5,7 +5,7 @@ date: '2014-02-12T18:19:20+00:00'
 author: batts
 layout: post
 guid: '/?p=646'
-permalink: /2014/02/12/arduino-and-the-sharp-ir-proximity-sensor/
+#permalink: /2014/02/12/arduino-and-the-sharp-ir-proximity-sensor/
 image: /wp-content/uploads/2014/02/Sharp-IR-and-an-Arduino-Pro1-1-1568x883.jpg
 categories:
     - Tutorials

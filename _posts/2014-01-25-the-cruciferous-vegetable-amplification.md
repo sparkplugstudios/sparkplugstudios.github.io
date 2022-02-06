@@ -5,7 +5,7 @@ date: '2014-01-25T00:43:34+00:00'
 author: batts
 layout: post
 guid: '/?p=470'
-permalink: /2014/01/25/the-cruciferous-vegetable-amplification/
+#permalink: /2014/01/25/the-cruciferous-vegetable-amplification/
 image: /wp-content/uploads/2014/01/TBBT-S04E02-31-1.jpg
 categories:
     - Robotics

@@ -5,7 +5,7 @@ date: '2015-06-06T00:39:08+00:00'
 author: batts
 layout: post
 guid: '/?p=1566'
-permalink: /2015/06/06/mixed-reality-sphero-robots/
+#permalink: /2015/06/06/mixed-reality-sphero-robots/
 image: /wp-content/uploads/2015/06/graphic-step-011-1.png
 categories:
     - Research

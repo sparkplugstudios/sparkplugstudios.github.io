@@ -5,7 +5,7 @@ date: '2010-10-21T23:47:47+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=254'
-permalink: /2010/10/21/netduino-flex-sensor-example/
+##permalink: /2010/10/21/netduino-flex-sensor-example/
 categories:
     - Microcontrollers
     - Tutorials
