@@ -25,7 +25,7 @@ The `Particle.publish()` command allows you to trigger an event through the Part
 
 Calling `Particle.publish()` when the device is not connected to the cloud will not result in an event being published. This is indicated by the return success code of `false`. This in turn enables some form of notification to be made if the publish event fails.
 
-\[gist id=”45cce156e8d1a1eade1e736d57e72524″ file=”Particle.Publish().ino”\]
+{% gist 45cce156e8d1a1eade1e736d57e72524 Particle.Publish().ino %}
 
 <span class="caption">Code 1: The Particle.publish() Method</span>
 
@@ -39,7 +39,7 @@ Events received via the subscription are passed to a handler function; itself re
 
 A subscription handler (code 2) must return void and take two arguments, both of which are C strings (or const char \*).The first argument is the full name of the published event. The second argument (which may be NULL) is any data that came along with the event.
 
-\[gist id=”45cce156e8d1a1eade1e736d57e72524″ file=”Particle.Subscribe().ino”\]
+{% gist 45cce156e8d1a1eade1e736d57e72524 Particle.Subscribe().ino %}
 
 <span class="caption">Code 2: The Particle.subscribe() Method</span>
 
@@ -77,7 +77,7 @@ The following code block provides the full source code for the push button event
 
 The flag “pressed” is used to ensure that only the first trigger and release of the button is counted.
 
-\[gist id=”45cce156e8d1a1eade1e736d57e72524″ file=”PushButtonPublish.ino”\]
+{% gist 45cce156e8d1a1eade1e736d57e72524 PushButtonPublish.ino %}
 
 <span class="caption">Code 3: The (Push-Button) Publish Code</span>
 
@@ -87,7 +87,7 @@ The subscription code is much simpler than that of the publish code. All we are 
 
 The following code block provides the full source code for the led subscription.
 
-\[gist id=”45cce156e8d1a1eade1e736d57e72524″ file=”LedSubscribe.ino”\]
+{% gist 45cce156e8d1a1eade1e736d57e72524 LedSubscribe.ino %}
 
 <span class="caption">Code 4: The (LED Output) Subscribe Code</span>
 

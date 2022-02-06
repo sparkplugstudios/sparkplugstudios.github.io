@@ -55,13 +55,13 @@ Additionally all the property names such as those used for the pin references ha
 
 The following code block outlines the setup of the program and the registration of the “mosToggle” event subscription.
 
-\[gist id=”c5040c6a5f6cac533be6ab8936b29d0d” file=”MosfetSetup.ino”\]
+{% gist c5040c6a5f6cac533be6ab8936b29d0d MosfetSetup.ino %}
 
 <span class="caption">Code 1: The event subscription code</span>
 
 The next block of code shows the subscription handlers construction. The handler is instantiated as part of the registration of the “mosToggle” event subscription.
 
-\[gist id=”c5040c6a5f6cac533be6ab8936b29d0d” file=”MosfetHandler.ino”\]
+{% gist c5040c6a5f6cac533be6ab8936b29d0d MosfetHandler.ino %}
 
 <span class="caption">Code 2: The event subscription handler</span>
 
@@ -71,7 +71,7 @@ All this code does is set the mosfet pin (D3) to either HIGH or LOW depending up
 
 The next code block shows the main loop for the button input program. On each iteration of the loop; the value of the button input pin is read and the flag pressed is updated accordingly.
 
-\[gist id=”c5040c6a5f6cac533be6ab8936b29d0d” file=”MosfetLoop.ino”\]
+{% gist c5040c6a5f6cac533be6ab8936b29d0d MosfetLoop.ino %}
 
 <span class="caption">Code 3: The event publish code</span>
 
