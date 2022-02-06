@@ -7,7 +7,7 @@ layout: post
 guid: '/?p=1761'
 permalink: /2016/11/26/photon-publish-and-subscription-events/
 image: /wp-content/uploads/2017/03/012-1-1568x882.jpg
-categories:
+categories: 
     - Microcontrollers
     - particle.io
     - Tutorials
@@ -17,7 +17,7 @@ tags:
     - Tutorial
 ---
 
-This post introduces the use of the Particle.publish() and Particle.subscribe() events to enable photon devices to communicate via the Particle Cloud. This post acts to lay the groundwork for a [series of postings](/categories/particle-io/) that will enable the use of the [particle.io platform](https://www.particle.io/) to formulate a variety of IOT devices.
+This post introduces the use of the Particle.publish() and Particle.subscribe() events to enable photon devices to communicate via the Particle Cloud. This post acts to lay the groundwork for a [series of postings](/categories/particle.io/) that will enable the use of the [particle.io platform](https://www.particle.io/) to formulate a variety of IOT devices.
 
 **Particle.publish()**
 
@@ -55,7 +55,7 @@ The following example demonstrates the use of both the publish and subscribe com
 
 Figure 1 shows a simple push-button circuit. The Photons D6 pin is connected to one leg of the push-button. That same leg of the button connects through a pull-down resistor (here 10K ohm) to ground. The other leg of the button connects to the Photons 3v3 supply.
 
-[![](/wp-content/uploads/2017/03/015-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/03/015-1.jpg)
+[![](/wp-content/uploads/2017/03/015-1024x576.jpg)](/wp-content/uploads/2017/03/015-1.jpg)
 
 <span class="caption">Figure 1: A simple push-button circuit</span>
 
@@ -65,7 +65,7 @@ When the push-button is open (unpressed) there is no connection between the two 
 
 Figure 2 shows a simple LED Circuit. The Photons D3 pin is connected to the positive leg of the LED via a 22K resistor. The negative leg is then simply connected to ground. Use of the resistor is to prevent the LED from burning out.
 
-[![](/wp-content/uploads/2017/03/013-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/03/013-1.jpg)
+[![](/wp-content/uploads/2017/03/013-1024x576.jpg)](/wp-content/uploads/2017/03/013-1.jpg)
 
 <span class="caption">Figure 2: A simple LED output circuit</span>
 
@@ -93,7 +93,7 @@ The following code block provides the full source code for the led subscription.
 
 The handler is triggered each time the event is Published and depending on if the data sent equates to “on” or “off” the status of the LED is updated accordingly.
 
-[![](/wp-content/uploads/2017/03/012-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/03/012-1.jpg)
+[![](/wp-content/uploads/2017/03/012-1024x576.jpg)](/wp-content/uploads/2017/03/012-1.jpg)
 
 <span class="caption">Figure 3: Both circuits working together</span>
 

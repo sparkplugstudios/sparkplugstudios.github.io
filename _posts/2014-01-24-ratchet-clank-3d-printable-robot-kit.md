@@ -19,7 +19,7 @@ tags:
 
 Way back in 2011 I built my first ever robot [Sheldon](/journal/rip-sheldon-1-0-hello-sheldon-2-0/ "RIP Sheldon 1.0 – Hello Sheldon 2.0"). I always liked his overall look, so a while back (2012) decided to use his overarching style and structure as basis for a 3D printable robot kit. However as with so many of my projects back then, development was put on the back burner whilst I finished my PhD.
 
-[![](http://localhost:81/wordpress/wp-content/uploads/2014/01/WP_0009391-1.jpg)](http://localhost:81/wordpress/wp-content/uploads/2014/01/WP_0009391-1.jpg)
+[![](/wp-content/uploads/2014/01/WP_0009391-1.jpg)](/wp-content/uploads/2014/01/WP_0009391-1.jpg)
 
 The idea behind the kit’s design is to be an easily extend-able platform that can be utilised to provide basis for many and varied robot builds.
 

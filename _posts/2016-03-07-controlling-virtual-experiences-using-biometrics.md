@@ -29,7 +29,7 @@ Most importantly however; well for me anyway 🙂 is that the plugin can also ru
 
 The use of biometrics in this manner has been a personal research interest of mine for well over a year now.
 
-[![](/wp-content/uploads/2016/03/band-tech-2-1024x575.jpg)](http://localhost:81/wordpress/wp-content/uploads/2016/03/band-tech-2-1.jpg)
+[![](/wp-content/uploads/2016/03/band-tech-2-1024x575.jpg)](/wp-content/uploads/2016/03/band-tech-2-1.jpg)
 
 <span class="caption">Figure 1: The Band 2 Sensors</span>
 
@@ -145,7 +145,7 @@ There are also a few options made available via the MsBandAndroidBridge script c
 
 Secondly you can select which sensors your application uses via adding their string name to the SensorsToEnable list. If left blank this will default to all sensors. Finally the PreventSleep property can be used to prevent your application from sleeping via the Unity [SleepTimeout.NeverSleep](http://docs.unity3d.com/ScriptReference/Screen-sleepTimeout.html) command.
 
-[![Plugin Options](http://localhost:81/wordpress/wp-content/uploads/2016/03/Plugin-Options-1.png)](http://localhost:81/wordpress/wp-content/uploads/2016/03/Plugin-Options-1.png)
+[![Plugin Options](/wp-content/uploads/2016/03/Plugin-Options-1.png)](/wp-content/uploads/2016/03/Plugin-Options-1.png)
 
 **Its a wrap(per)**
 

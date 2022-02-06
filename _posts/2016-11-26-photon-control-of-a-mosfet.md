@@ -19,9 +19,9 @@ tags:
     - Tutorial
 ---
 
-This tutorial builds upon both the code base and circuitry as developed with the Particle.publish() and Particle.subscribe() [example](/blog/photon-publish-and-subscription-events/). This time around instead of registering a subscription that can be used to turn on or off an led we set one up to control a MOSFET.
+This tutorial builds upon both the code base and circuitry as developed with the Particle.publish() and Particle.subscribe() [example](/2016/11/26/photon-publish-and-subscription-events/). This time around instead of registering a subscription that can be used to turn on or off an led we set one up to control a MOSFET.
 
-[![](/wp-content/uploads/2017/03/017-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/03/017-1.jpg)
+[![](/wp-content/uploads/2017/03/017-1024x576.jpg)](/wp-content/uploads/2017/03/017-1.jpg)
 
 <span class="caption">Figure 1: The completed system</span>
 
@@ -39,7 +39,7 @@ As stated a MOSFET has three leads. The Source lead is basically an input whilst
 
 The MOSFET is connected so that by default the high powered device is connected to V+ but not to ground (V-). The ground however is connected to the transistor’s drain. When the micro-controller sends a HIGH signal to the transistor’s gate; the transistor switches, (connecting the drain and source) and thus completes the circuit for the high powered device.
 
-[![](/wp-content/uploads/2017/03/019-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/03/019-1.jpg)
+[![](/wp-content/uploads/2017/03/019-1024x576.jpg)](/wp-content/uploads/2017/03/019-1.jpg)
 
 <span class="caption">Figure 2: The MOSFET circuit</span>
 

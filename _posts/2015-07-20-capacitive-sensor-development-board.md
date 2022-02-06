@@ -19,7 +19,7 @@ tags:
 
 This tutorial details how to make a simple breakout for the [Arduino CapacitiveSensor library](http://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense). The library turns two or more pins of an Arduino pins into a capacitive sensor which can then be used to sense the electrical capacitance of the human body.
 
-[![019](/wp-content/uploads/2017/10/019-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/10/019-1.jpg)
+[![019](/wp-content/uploads/2017/10/019-1024x576.jpg)](/wp-content/uploads/2017/10/019-1.jpg)
 
 The above image shows the final product; a sensor breakout capable of handling up-to six soft textile contacts.
 
@@ -37,17 +37,17 @@ In order to build the above breakout you will need the following components:
 
 First; remove every other header from each of the header strips using a pair of pliers. This will result in a strip with six pins remaining as shown in figure 2. Make sure you start removing at pin 2. Once complete, repeat the process with the other strip. Again make sure you start at pin 2.
 
-[![005](/wp-content/uploads/2017/10/005-1-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/10/005-1-1.jpg)
+[![005](/wp-content/uploads/2017/10/005-1-1024x576.jpg)](/wp-content/uploads/2017/10/005-1-1.jpg)
 
 Next, layout each of the resistors on the breadboard so that there is a gap of 1 row between each and so that all of them connect to one of the boards negative lines. Use some blue-tack to hold them in place and then solder to the board.
 
-[![006](/wp-content/uploads/2017/10/006-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/10/006-1.jpg)
+[![006](/wp-content/uploads/2017/10/006-1024x576.jpg)](/wp-content/uploads/2017/10/006-1.jpg)
 
 At the same time also add a strip of wire to the final row instead of a resistor as shown in the above image (figure 3).
 
 Once the resistors and wires are soldered in place; next add both the header rows so that each pin lines up with one of the resistors. Make sure that the male row is situated between both the resistors and the female row. Once soldered into place you should have something that looks like the following image (figure 4).
 
-[![017](/wp-content/uploads/2017/10/017-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/10/017-1.jpg)
+[![017](/wp-content/uploads/2017/10/017-1024x576.jpg)](/wp-content/uploads/2017/10/017-1.jpg)
 
 Finally add the single header pin to the column with the wire attached as shown above (figure 4). Once soldered into place this pin will become the shared connection line for all of our attached sensor contacts. This is possible because we are using the negative line of the proto-board to share the connection, not supply negative power!
 

@@ -21,7 +21,7 @@ tags:
 
 The following text is an extended abstract for a another paper I hope to be presenting at this years [ITAG](http://itag.gamecity.org/). This time round the paper features the research which I am conducting into the use of mixed reality in conjunction with robotics; in this instance, the robots in question are the most excellent [Sphero](http://www.gosphero.com/) platform.
 
-[![](http://localhost:81/wordpress/wp-content/uploads/2015/06/graphic-step-011-1.png)](http://localhost:81/wordpress/wp-content/uploads/2015/06/graphic-step-011-1.png)
+[![](/wp-content/uploads/2015/06/graphic-step-011-1.png)](/wp-content/uploads/2015/06/graphic-step-011-1.png)
 
 **Applying Mixed Reality &amp; Sphero Robots to Teach STEM Concepts**
 

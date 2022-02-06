@@ -31,11 +31,11 @@ The analog read on your micro-controller is basically a voltage meter. Arduinos 
 
 The following is an example of a voltage divider circuit used for a pressure sensor. As you can see the sensor is connected to the Arduino via the pin A0. It is also connected to the 5v supply. The comparison resistor is simply connected to the signal line of the sensor and then to GND. An easy way of looking at it is that the two resistors (one the sensor) are connected in series; whilst the data output is connected between them:
 
-[![Simple Voltage Divider_bb](http://localhost:81/wordpress/wp-content/uploads/2017/10/Simple-Voltage-Divider_bb-1.png)](http://localhost:81/wordpress/wp-content/uploads/2017/10/Simple-Voltage-Divider_bb-1.png)
+[![Simple Voltage Divider_bb](/wp-content/uploads/2017/10/Simple-Voltage-Divider_bb-1.png)](/wp-content/uploads/2017/10/Simple-Voltage-Divider_bb-1.png)
 
 Here is an image of the same circuit however this time physically put together on the breadboard. A few extra wires have been added just to allow for ease of wiring both the 5v and GND lines.
 
-[![005](http://localhost:81/wordpress/wp-content/uploads/2017/10/005-2.jpg)](http://localhost:81/wordpress/wp-content/uploads/2017/10/005-2.jpg)
+[![005](/wp-content/uploads/2017/10/005-2.jpg)](/wp-content/uploads/2017/10/005-2.jpg)
 
 These can be singular wires if you have them long enough.
 

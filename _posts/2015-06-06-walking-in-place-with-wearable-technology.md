@@ -18,7 +18,7 @@ tags:
 
 The following text is an extended abstract for a paper which I hope to present at this years [ITAG](http://itag.gamecity.org/). The paper features the continued research and development of the [Virtual Cane](http://isrg.org.uk/projects/virtual-cane/) system I originally developed as part of my PhD.
 
-[![](/wp-content/uploads/2015/06/004-1024x576.jpg)](http://localhost:81/wordpress/wp-content/uploads/2015/06/004-1.jpg)
+[![](/wp-content/uploads/2015/06/004-1024x576.jpg)](/wp-content/uploads/2015/06/004-1.jpg)
 
 **Walking in Place with Wearable Technology: the development of a system for travel training and applied travel for people with a visual impairment.**
 
