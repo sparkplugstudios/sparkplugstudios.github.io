@@ -5,7 +5,7 @@ date: '2011-11-06T23:52:12+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=191'
-permalink: /2011/11/06/project-leonard-my-own-reprap/
+#permalink: /2011/11/06/project-leonard-my-own-reprap/
 image: /wp-content/uploads/2011/11/Assembled-prusa-mendel1-1.jpg
 categories:
     - '3D Printing'

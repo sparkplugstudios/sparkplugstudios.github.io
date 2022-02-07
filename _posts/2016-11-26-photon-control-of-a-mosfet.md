@@ -5,7 +5,7 @@ date: '2016-11-26T22:40:33+00:00'
 author: batts
 layout: post
 guid: '/?p=1844'
-permalink: /2016/11/26/photon-control-of-a-mosfet/
+#permalink: /2016/11/26/photon-control-of-a-mosfet/
 image: /wp-content/uploads/2017/03/019-1-1568x882.jpg
 categories:
     - Microcontrollers

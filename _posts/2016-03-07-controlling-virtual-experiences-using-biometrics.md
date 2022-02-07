@@ -5,7 +5,7 @@ date: '2016-03-07T20:11:20+00:00'
 author: batts
 layout: post
 guid: '/?p=1635'
-permalink: /2016/03/07/controlling-virtual-experiences-using-biometrics/
+#permalink: /2016/03/07/controlling-virtual-experiences-using-biometrics/
 image: /wp-content/uploads/2016/03/band-2-1-1568x881.png
 categories:
     - Featured

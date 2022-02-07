@@ -5,7 +5,7 @@ date: '2014-03-02T00:33:43+00:00'
 author: batts
 layout: post
 guid: '/?p=843'
-permalink: /2014/03/02/basic-differential-aka-tank-drive/
+#permalink: /2014/03/02/basic-differential-aka-tank-drive/
 image: /wp-content/uploads/2014/03/Headlight-Prefab1-1.jpg
 categories:
     - Robotics

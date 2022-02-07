@@ -5,7 +5,7 @@ date: '2016-11-11T21:19:31+00:00'
 author: batts
 layout: post
 guid: '/?p=1836'
-permalink: /2016/11/11/a-simple-voltage-divider-circuit/
+#permalink: /2016/11/11/a-simple-voltage-divider-circuit/
 image: /wp-content/uploads/2017/10/005-2-1568x882.jpg
 categories:
     - Easy

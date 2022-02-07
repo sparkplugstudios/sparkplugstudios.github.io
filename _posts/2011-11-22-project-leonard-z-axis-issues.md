@@ -5,7 +5,7 @@ date: '2011-11-22T23:48:58+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=185'
-permalink: /2011/11/22/project-leonard-z-axis-issues/
+#permalink: /2011/11/22/project-leonard-z-axis-issues/
 image: /wp-content/uploads/2011/11/WP_0013681-1-1568x1176.jpg
 categories:
     - '3D Printing'

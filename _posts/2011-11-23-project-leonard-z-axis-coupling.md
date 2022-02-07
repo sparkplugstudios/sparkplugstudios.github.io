@@ -5,7 +5,7 @@ date: '2011-11-23T23:30:21+00:00'
 author: batts
 layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=178'
-permalink: /2011/11/23/project-leonard-z-axis-coupling/
+#permalink: /2011/11/23/project-leonard-z-axis-coupling/
 image: /wp-content/uploads/2011/11/coupling-featured1-1.jpg
 categories:
     - '3D Printing'
