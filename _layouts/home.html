@@ -79,7 +79,7 @@ layout: default
 <select name="categories" id="categories" onchange="location = this.value;">
   <option value="/">All</option>
   {% for category in site.categories %}
-    <option value="/categories/{{category | first}}/"> 
+    <option value="/categories/{{category | first | downcase}}/"> 
       {{category | first }}
     </option>
   {% endfor %} 
