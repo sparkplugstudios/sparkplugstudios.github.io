@@ -19,7 +19,6 @@ I was contacted the other day with a request for some help with code needed for 
 So by way of response here we have a quick example, enjoy:
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
 using System;
 using System.IO;
 using System.Net;

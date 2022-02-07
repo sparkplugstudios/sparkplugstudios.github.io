@@ -56,7 +56,6 @@ To enter command mode you need to send to the device “$$$” (fig 1). If you a
 Once we are in command mode, all that we need to do to change the devices name is send to the modem the following command (code 1):
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
 //  <value> is the name of the device, 20 characters maximum.
 SN, <value>
 // e.g. for my robot Ratchet
@@ -72,13 +71,11 @@ Before I did this, I also sent a “D” to the device in order to get a listing
 Similarly, all we need to do to change the Baudrate is to send the following command (code 2):
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
 // <rate is the desired Baudrate
 SU, <rate>
 // e.g. for my robot Ratchet
 // also note, only the first 2 characters are needed
 SU, 38 
-
 ```
 
 <span class="caption">Code 2: The update / set baudrate command</span>

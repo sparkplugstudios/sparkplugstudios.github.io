@@ -26,8 +26,6 @@ As the sensor is flexed, the resistance across the sensor increases. Patented te
 Lets start by taking a look at the circuit. The circuit used is a plain [voltage divider](http://en.wikipedia.org/wiki/Voltage_divider "Voltage Divider"). It is used since we need to present a voltage to one of the Netduinos Analog In ports and the bend sensor merely changes resistance.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 #region Netduino Flex Sensor Wiring
         /*
 Flex Sensor
@@ -42,7 +40,6 @@ to change scale. This can
 then be range adjusted
 */
 #endregion Netduino Flex Sensor Wiring
-
 ```
 
 As the resistance of the bend sensor reduces (as a result of bending it into a convex shape) the voltage on A0 will go up towards 3v3. If the resistance of the bend sensor decreases (as a result of bending it in the opposite direction) the voltage on A0 will fall towards Gnd (0V).
@@ -54,7 +51,7 @@ I have also included the above ASCII art representation of the circuit in the [s
 As with the [Accelerometer](http://www.dyadica.net/journal/netduino-accelerometer-input-sample "Netduino Accelerometer Example") example there is not much to explain as far as the code goes. We use the default Netduino using statements, initialise the analog port and then read from it. Simple eh!
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">using System;
+using System;
 using System.Threading;
 using Microsoft.SPOT;
 using Microsoft.SPOT.Hardware;
@@ -87,7 +84,6 @@ Debug.Print("Flex: " + f);
 }
 }
 }
-
 ```
 
 One major difference between the two examples is the inclusion of the SetRange(180,-180) function call. This is used to configure the range of the port so that the data more accurately reflects the physical bend of the sensor.

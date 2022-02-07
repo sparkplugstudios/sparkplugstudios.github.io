@@ -47,8 +47,6 @@ Also made available to the editor is the ability to select which of two methods,
 If you decide not to have the port initialize on startup then you can initialize the port by making a call to the function OpenSerialPort(). I have included a static reference of the script called Instance that is initialized on the scripts Awake() function. This means that you can call the OpenSerialPort() function from any other script via a static instance (Code 1, Option A), or via a predefined property call (Code 1, Option B). Similarly, the port can be closed again via calling CloseSerialPort().
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // For use with Option B
 UnitySerialPort port;
 
@@ -66,7 +64,6 @@ void Update()
     if (Input.GetKeyDown("space"))
     { port.OpenSerialPort(); }
 }
-
 ```
 
 <span class="caption">Code 1: Open via defined property or static instance</span>
@@ -114,8 +111,6 @@ When dropped onto your scene this will show up as another Gizmo which looks like
 That’s all there is too it really. The only other thing to mention is that I have also included a couple of example output calls within the scripts Update() method (Code 2). These are directly compatible with my [simple serial string parsing](/blog/simple-serial-string-parsing/ "Simple Serial String Parsing") tutorial example to get you up and running in no time.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // Example of sending space press event to arduino
 if (Input.GetKeyDown("space"))
 { SerialPort.WriteLine(""); }
@@ -131,7 +126,6 @@ if (Input.GetKeyDown(KeyCode.Alpha1))
 // char value of 2
 if (Input.GetKeyDown(KeyCode.Alpha2))
 { SerialPort.WriteLine("A,2"); }
-
 ```
 
 <span class="caption">Code 2: Example output calls</span>
@@ -835,7 +829,6 @@ public class UnitySerialPort : MonoBehaviour
         return BaudRate;
     }
 }
-
 ```
 
 <span class="caption">Code 3: The full Unity SerialPort Script</span>

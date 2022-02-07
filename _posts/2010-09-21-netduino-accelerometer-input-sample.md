@@ -42,7 +42,6 @@ The following table details how to wire up the ADXL335 to the Netduino. As you c
 As you may expect as indicated from the above table, complex code is not needed to obtain acceleration values from the breakout. So lets take a look at it:
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
 using System;
 using System.Threading;
 using Microsoft.SPOT;
@@ -81,7 +80,6 @@ Debug.Print("X: " + x + " Y: " + y + " Z: " + z);
 }
 }
 }
-
 ```
 
 As you can see there is not really much to explain. We use the default Netduino using statements, initialise the analog ports and then read from them. Simple eh!

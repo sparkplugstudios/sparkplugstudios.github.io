@@ -26,7 +26,6 @@ During my search I came across a posting for a [simplified Kalman filter](http:/
 Immediately I set about doing a quick conversion to C# and here it is:
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
 namespace VerySimpleKalman
 {
  public class SimpleKalman
@@ -55,7 +54,6 @@ namespace VerySimpleKalman
 To call the filter all you need to do is as follows:
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
 private void PerfomKalmanTest()
         {
             DATA = new int[16] { 0, 0, 0, 0, 1, 1, 2, 2, 2, 100, 10, 2, 3, 3, 1, 0 };

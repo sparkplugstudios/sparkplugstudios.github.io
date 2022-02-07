@@ -24,8 +24,6 @@ As always the code is both fully commented available for download [here](/wp-con
 First up we have the behaviours Start() function. All thats going on here is the initialization of a reference to the serial script for easy access etc. As the UnitySerialPort.Instance value is set in the Awake() function of the UnitySerialPort script, we know that it will be instantiated before the start is called. However I always like to define a null exception check just in case; but in reality this is not really needed.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 void Start ()
 {
     // Instantiate a reference to the serial script for
@@ -34,7 +32,6 @@ void Start ()
     if (UnitySerialPort.Instance != null)
         unitySerialPort = UnitySerialPort.Instance;
 }
-
 ```
 
 <span class="caption">Code 1: The Unity Behaviour start function</span>
@@ -42,8 +39,6 @@ void Start ()
 Next we have an example of one of the input polls used to determine the state of the headlights and change its status on the robot accordingly (Code 2). All that is going on here is that we check to see if there is a key or button-press that corresponds to the respective identifier (LightLeft), and if there is toggle the logged status of the LED (LeftLightOn). Finally a string is created that is dependent upon the lights state and is sent to the serialport. This code is situated within the behavious Update() function and thus is called once on each frame.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // Poll for a button input to toggle the status of the
 // left light.
 
@@ -62,7 +57,6 @@ if (Input.GetButtonDown("LightLeft"))
 
     unitySerialPort.SerialPort.WriteLine(L);
 }
-
 ```
 
 <span class="caption">Code 2: The Left light input poll</span>
@@ -195,7 +189,6 @@ public class HeadlightScript : MonoBehaviour
         }
 	}
 }
-
 ```
 
 <span class="caption">Code 3: The full Unity3D Behaviour</span>
@@ -207,8 +200,6 @@ Also please note that this code can also be utilized in a non Unity3D environmen
 The Arduino script simply consists of an initialization function, used for setting up the required pins and three additional functions used to toggle the status of the lights. Two of these functions are simply used to toggle either the left or right light. Code block 4 shows the function used to toggle the left light.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // This is a simple function used to toggle the state
 // of the left light depending upon the received value
 void TurnOnOffLeftLight(boolean onL)
@@ -219,7 +210,6 @@ void TurnOnOffLeftLight(boolean onL)
     case false: digitalWrite(ledL, LOW);break;
   }
 }
-
 ```
 
 <span class="caption">Code 4: The TurnOnOffLeftLight() function</span>
@@ -227,8 +217,6 @@ void TurnOnOffLeftLight(boolean onL)
 Whilst code block 5 shows the function used to toggle both lights. In each instance a conversion is made from a char value received via serial utilizing (boolean)atoi(char). This code first converts the char to an int and then casts the int as a boolean value. The only real difference is, is that conversion takes place within the function for toggling both lights (code 5), whilst for a single light toggle conversion is conducted as part of the function call (see code 6).
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // This is a function used to toggle both of the
 // headlights.
 void TurnOnOffBothLights(char *prop, char *prod)
@@ -243,7 +231,6 @@ void TurnOnOffBothLights(char *prop, char *prod)
   // Call the funtion to turn on/off the right light
   TurnOnOffRightLight(onR);
 }
-
 ```
 
 <span class="caption">Code 5: The TurnOnOffBothLights() function</span>
@@ -251,8 +238,6 @@ void TurnOnOffBothLights(char *prop, char *prod)
 To make use of the functions all you need to do is expand the case statements within the ParseSerialData() method (as found within my [Simple Serial String Parsing](/journal/simple-serial-string-parsing/ "Simple Serial String Parsing") tutorial). First up we have the relevant calls for singular headlight operation. The func identifiers for each headlight are “L” and “R” for left and right respectively and the prop identifiers are “0” or “1” for on or off.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // If the data has two values then..
 if(count == 2)
 {
@@ -270,7 +255,6 @@ if(count == 2)
     case 'R': TurnOnOffRightLight((boolean)atoi(prop)); break;
   }
 }
-
 ```
 
 <span class="caption">Code 6: Extending the ParseSerialData() for single light control</span>
@@ -278,8 +262,6 @@ if(count == 2)
 Next we have the relevant call for dual headlight operation. As before the func identifier for the headlight is “L” and the prop and prod identifiers are “0” or “1” for on or off.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // If the data has three values then..
 if(count == 3)
 {
@@ -301,7 +283,6 @@ if(count == 3)
     case 'L': TurnOnOffBothLights(prop, prod);
   }
 }
-
 ```
 
 <span class="caption">Code 7: Extending the ParseSerialData() for dual light control</span>
@@ -365,7 +346,6 @@ void TurnOnOffRightLight(boolean onR)
     case false: digitalWrite(ledR, LOW);break;
   }
 }
-
 ```
 
 <span class="caption">Code N: The full Arduino headlights script</span>

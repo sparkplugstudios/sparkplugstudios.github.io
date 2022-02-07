@@ -130,7 +130,6 @@ public float RawRight;
 
 public float ValLeft;
 public float ValRight;
-
 ```
 
 <span class="caption">Code 2: The Available Properties in the C# Script</span>
@@ -148,8 +147,6 @@ MaxJoy and MinJoy are the current minimum and maximum range of your joysticks ou
 The code used to perform this mapping is simply a C# conversion of the [Arduino mapping](http://arduino.cc/en/reference/map#.UwE0doWaiVo "Arduino Mapping Function") function as shown in code 3. The function maps a number from one range to another. That is, a value of from1 would get mapped to from2, a value of to1 to to2, values in-between to values in-between, etc.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 public static float Remap(this float value, float from1, float to1, float from2, float to2)
 { return (value - from1) / (to1 - from1) * (to2 - from2) + from2; }
 
@@ -157,7 +154,6 @@ public static float Remap(this float value, float from1, float to1, float from2,
 
 public float Remap(float value, float from1, float to1, float from2, float to2)
 { return (value - from1) / (to1 - from1) * (to2 - from2) + from2; }
-
 ```
 
 <span class="caption">Code 3: Conversion of the Arduino Map Function to C#</span>
@@ -211,7 +207,6 @@ void Update ()
     if (unitySerialPort.SerialPort != null && unitySerialPort.SerialPort.IsOpen)
         unitySerialPort.SerialPort.WriteLine(data);
 }
-
 ```
 
 <span class="caption">Code 4: The Unity3D Update Function</span>
@@ -283,12 +278,9 @@ void CalculateTankDrive(float x, float y)
 As you can see it is almost identical to its C# counterpart. There is however an additional step right at the bottom that caters for the orientation of the motors (code 6). As one motor is mounted on the left and the other on the right, one of them can be seen as being upside down. This means that the control of the motor needs inverting i.e. forwards becomes backwards etc.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // Cater for inverse of direction if needed
 if(invXL){ rawLeft *= -1; ValLeft = MaxValue - ValLeft; }
 if(invXR){ rawRight *= -1; ValRight = MaxValue - ValRight}
-
 ```
 
 <span class="caption">Code 6: The Work in progress inversion code</span>
@@ -304,8 +296,6 @@ In addition to the CalculateTankDrive function, there are three additional funct
 To make use of the functions all you need to do is expand the data count == 3 case statement within the ParseSerialData() method (as found within my [Simple Serial String Parsing](/blog/simple-serial-string-parsing/ "Simple Serial String Parsing") tutorial). The following code block (7) shows each of the available serial input scenarios. I have left the FunctionA1 example from the original tutorial in there just to aid with bearing etc.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // If the data has three values then..
 if(count == 3)
 {
@@ -326,9 +316,7 @@ if(count == 3)
     case 'V': ApplyTankDriveMapValue(prop, prod); break;
   }
 }
-
 ```
-
 <span class="caption">Code 7: ParseSerialData() modifications</span>
 
 Basically, all this switch does is call a function dependent upon the assigned identifiers “J”, “R” or “V”. It then passes the two properties prop = left and prod = right to the function in order for the relevant drive calculation to be executed.
@@ -336,8 +324,6 @@ Basically, all this switch does is call a function dependent upon the assigned i
 The CalculateTankJoyDrive function is called via the “J” identifier. This function is called when you want to perform the aforementioned tank drive calculation on board the robot. In this instance the left and right values are passed to the CalculateTankDrive function as floats (thanks to the [atof](http://www.tutorialspoint.com/c_standard_library/c_function_atof.htm "The atof function") conversion) and the resulting values are then applied to the servos.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 void CalculateTankJoyDrive(char *prop, char *prod)
 {
   // Convert property to float
@@ -353,7 +339,6 @@ void CalculateTankJoyDrive(char *prop, char *prod)
    LeftTrack.write(ValLeft);
    RightTrack.write(ValRight);
 }
-
 ```
 
 <span class="caption">Code 8: The CalculateTankJoyDrive function</span>
@@ -361,13 +346,10 @@ void CalculateTankJoyDrive(char *prop, char *prod)
 The ApplyTankDriveRawValue function is called via the “R” identifier. In all honesty I haven’t made use of this function yet, however its there just in case and I’m sure I’ll make use of it at some stage 😉
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 void ApplyTankDriveRawValue(char *prop, char *prod)
 {
    // Not yet implemented, but maybe someday!
 }
-
 ```
 
 <span class="caption">Code 9: ApplyTankDriveRawValue function</span>
@@ -375,8 +357,6 @@ void ApplyTankDriveRawValue(char *prop, char *prod)
 The ApplyTankDriveMapValue function is called via the “V” identifier. This function applies the speed and directional values as calculated via the Unity desktop application.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 void ApplyTankDriveMapValue(char *prop, char *prod)
 {
   // Convert property to int
@@ -403,7 +383,6 @@ void ApplyTankDriveMapValue(char *prop, char *prod)
   // Apply the received right value
   RightTrack.write(ValRight);
 }
-
 ```
 
 <span class="caption">Code 10: The ApplyTankDriveMapValue function</span>

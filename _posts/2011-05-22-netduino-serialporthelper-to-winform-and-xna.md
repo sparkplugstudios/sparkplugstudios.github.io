@@ -22,9 +22,7 @@ A while back I decided to adopt the methods as described by [Hari](http://forums
 The resulting amalgamation of code enables simple filtering of data via separating the “inBound” data to a string array via a “,” delimiter. The first entry of the array then acts as an identifier for functionality, achieved via use of a switch statement. The following code block details the heart of this method:
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
-        /// <summary>
+/// <summary>
         /// Filter and do something with read data
         /// </summary>
         /// <param name="inBound"></param>

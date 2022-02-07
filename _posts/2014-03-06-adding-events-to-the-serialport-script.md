@@ -31,8 +31,6 @@ Up until now the serialport script has mainly been utilized to send commands fro
 The following code block (1) shows the existing ParseSerialData method with provided example functionality.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 ///
 /// Function used to filter and act upon the data received. You can add
 /// bespoke functionality here.
@@ -52,7 +50,6 @@ private void ParseSerialData(string[] data, string rawData)
     //if (data == null || data.Length != 2)
     //{ print(rawData); }
 }
-
 ```
 
 <span class="caption">Code 1: The existing ParseSerialData method</span>
@@ -70,8 +67,6 @@ Just what we wanted eh!
 Fortunately adding provision for event notifications to the script is an easy task. All we need to do is define within the existing properties both a delegate and an event itself which utilizes that delegate. The following code (2) block shows the code needed to define both the delegate and event.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 // Define a delegate for our event to use. Delegates
 // encapsulate both an object instance and a method
 // and are similar to c++ pointers.
@@ -80,7 +75,6 @@ public delegate void SerialDataParseEventHandler(string[] data, string rawData);
 // Define the event that utilizes the delegate to
 // fire off a notification to all registered objs
 public static event SerialDataParseEventHandler SerialDataParseEvent;
-
 ```
 
 <span class="caption">Code 2: Defining the delegate and event</span>
@@ -88,8 +82,6 @@ public static event SerialDataParseEventHandler SerialDataParseEvent;
 With these in place all we now need to do is update the SerialDataParseEvent method so that it fires off a notification each time that it is called. This is achieved by simply calling the event. At the same time we also pass it both the rawData and data properties so that these are also available to any notified object. Code block three shows this in practice.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 ///
 /// Function used to filter and act upon the data received. You can add
 /// bespoke functionality here.
@@ -111,7 +103,6 @@ private void ParseSerialData(string[] data, string rawData)
             SerialDataParseEvent(data, rawData);
     }
 }
-
 ```
 
 <span class="caption">Code 3: The updated ParseSerialData event.</span>
@@ -121,13 +112,10 @@ That’s all there is too it really, we can now register the event in any of our
 We are going to use this placeholder as a method that will be triggered within the UnitySerialPort script as we call the notification. Lets begin by removing that method (see just a placeholder) and replacing it with the following (code 4) one. All we are really doing here is updating the naming conventions used to reflect the new ones implemented as the script developed.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 void UnitySerialPort_SerialDataParseEvent(string[] Data, string RawData)
 {
     // print("Data Received via port: " + RawData);
 }
-
 ```
 
 <span class="caption">Code 4: The event notification within UnitySerialPort</span>
@@ -135,10 +123,7 @@ void UnitySerialPort_SerialDataParseEvent(string[] Data, string RawData)
 Next, at the end of the start method add the following code (5). This code registers the event for notification. Please note that if this code is not called then there are no notifications registered and thus the event wont be fired. To ensure this I added a null check to the call as can be seen within Code 3.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 SerialDataParseEvent += new SerialDataParseEventHandler(UnitySerialPort_SerialDataParseEvent);
-
 ```
 
 <span class="caption">Code 5: Registering for a notification within SerialPortScript</span>
@@ -146,8 +131,6 @@ SerialDataParseEvent += new SerialDataParseEventHandler(UnitySerialPort_SerialDa
 The final thing we need to do before moving onto the implementation of the event within another behaviour is ensure that we clean up after ourselves.
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 ///
 /// This function is called when the MonoBehaviour will be destroyed.
 /// OnDestroy will only be called on game objects that have previously
@@ -161,7 +144,6 @@ void OnDestroy()
     if (SerialDataParseEvent != null)
         SerialDataParseEvent -= UnitySerialPort_SerialDataParseEvent;
 }
-
 ```
 
 <span class="caption">Code 6: The OnDestroy() cleanup code</span>
@@ -173,11 +155,8 @@ This is simply achieved by utilizing the MonoBehaviour [OnDestroy()](https://doc
 As indicated at the beginning of this post, the whole point of implementing events is so that they can be utilized as a method to notify other behaviours when a registered activity occurs. As with events themselves, fortunately this is also easy to implement, check out the following code block (7).
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">
-
 UnitySerialPort.SerialDataParseEvent +=
     new UnitySerialPort.SerialDataParseEventHandler(UnitySerialPort_SerialDataParseEvent);
-
 ```
 
 <span class="caption">Code 7: Initialisation code for the SerialDataParseEvent</span>

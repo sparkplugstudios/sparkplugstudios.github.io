@@ -25,13 +25,13 @@ As a bonus it’s ready for some Image manipulation via EmguCV too.
 By default the example is running the standard WPF code to get is to show the EmguCV image as shown above in MainWindow.xmal.cs comment out:
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">imgVideo.Source = _kinect.IrImageSource;
+imgVideo.Source = _kinect.IrImageSource;
 ```
 
 and replace with:
 
 ```
-<pre class="brush: csharp; title: ; notranslate" title="">imgVideo.Source = ToBitmapSource(irGrayCVImage);
+imgVideo.Source = ToBitmapSource(irGrayCVImage);
 ```
 
 Kudos must go to [Vangos Pterneas](http://www.studentguru.gr/blogs/vangos/archive/2011/01/28/kinect-and-wpf-getting-the-raw-and-depth-image-using-openni.aspx) who’s excelent work provided most of the groundwork for this demo.
