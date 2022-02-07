@@ -41,8 +41,6 @@ As we receive data we add it to a pre-defined char array called inData. The loca
 Once all the data is received we reset index to zero ready for the next event and set a flag stringComplete to indicate that the data is ready to be parsed.
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 void serialEvent()
 {
 // Read while we have data
@@ -68,14 +66,11 @@ stringComplete = true;
 }
 }
 }
-
 ```
 
 Each iteration of the main loop looks at the status of the stringComplete flag and if it is set to true we then calls the function ParseSerialData(). Upon completion of data parsing the flag is reset to false so that the system can continue listening for new data. Synchronisation is handled via the fact that the SerialEvent() call is only available after the completion of each loop.
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 void loop()
 {
 if (stringComplete)
@@ -89,7 +84,6 @@ inString = "";
 stringComplete = false;
 }
 }
-
 ```
 
 As indicated the ParseSerialData() function is the place where we do all our evaluation and filtering of the received data.As previously stated, by using the strtok\_r() function we split our received char array up into chunks each time we find a designated delimiter, which can be anything but in this case is is assigned as a comma “,”. Each time a chunk is identified it is then added to another pre-defined array called inParse. As with the SerialEvent() inString array the position of the data within the array is handled via the increment of an index value, this time called count.
@@ -101,8 +95,6 @@ This example uses this to determine which out of two switch statements to apply 
 Finally the determined switch statement is used to call and pass data to a function depending upon an identifier “func”, the first chunk of our data. The code demonstrate the use of two switches and three independent function calls.
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 void ParseSerialData()
 {
 // The data to be parsed
@@ -154,14 +146,11 @@ case 'A': FunctionA1(prop,prod); break;
 }
 }
 }
-
 ```
 
 Ok our data is now parsed, so lets have a look at the example functions to see how it can be used. If we were to send the command A,100 this would be separated into two chunks “A” and “100” the “two chunk switch” would then use the first chunk “A” to determine to send the “prop” value of “100” to FunctionA.
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 void FunctionA(char *prop)
 {
 // Output the data
@@ -170,14 +159,11 @@ Serial.print(prop);
 // Output new line
 Serial.println();
 }
-
 ```
 
 FunctionA() then simply returns the value so that we can see it has been triggered via use of Serial.print(). Ok so we have the ability to call a designated function lets go a little further and use the property value to do something. If we now were to send the command B,100 this would also be separated into two chunks “B” and “100” the “two chunk switch” would then use the first chunk “B” to determine to send the “prop” value of “100” to FunctionB().
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 void FunctionB(char *prop)
 {
 // Convert prop to int
@@ -189,7 +175,6 @@ Serial.println();
 // Set value of pin 9 to val
 analogWrite(9, val);
 }
-
 ```
 
 FunctionB however also contains some additional code that converts the property sent to an integer via use of [atoi()](http://pubs.opengroup.org/onlinepubs/007904875/functions/atoi.html "a look at the atoi function") which can then be used to set the [Pulse Width Modulation PWM](http://arduino.cc/en/Tutorial/PWM "Arduino PWM Tutorial") value of pin 9 and by way of result we can now use serial commands to control the brightness of the LED.
@@ -205,8 +190,6 @@ A good example of this could be for motor control e.g. turn the motor at half sp
 Finally in order to use the code we need to initialise the serial link on setup() this is simply achieved via use of the Serial.begin() command as shown in the following code:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 void setup()
 {
 // Delay to facilitate start up of Xbee usually about
@@ -216,7 +199,6 @@ delay(6000);
 // Initialise the serial port
 Serial.begin(9600);
 }
-
 ```
 
 I have also added a delay to the start-up to allow for start-up time when using an Xbee for wireless communication. This can be removed without effect if you are using a standard cable link. You also might want to change the baurdrate from 9600 to reflect your requirements etc.

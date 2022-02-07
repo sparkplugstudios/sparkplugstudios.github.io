@@ -70,7 +70,6 @@ Each sensor has its own update event and can find all of the events within the M
 The following code example is for the Accelerometer Sensor. First in your scripts start function we will need to both register for Accelerometer events and initialise the connection to any paired bands. If you wanted; initialisation could be moved to a separate method to allow for scenarios such as an activation on button press etc.
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
 void Start()
 {
     // Register for raw Accelerometer events.
@@ -90,7 +89,6 @@ void Start()
 Depending upon your IDE; when you create the event registration, a corresponding method will also automatically be created that will be called when the event is fired. In this instance the corresponding method MsBandAndroidBridge\_RawAccUpdateEvent looks like the following code block. If your IDE does not do this then you can just add the method yourself. Just ensure that the names match etc.
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
 private void MsBandAndroidBridge_RawAccUpdateEvent(float x, float y, float z, MsBand band)
 {
    // Do something with data
@@ -102,7 +100,6 @@ private void MsBandAndroidBridge_RawAccUpdateEvent(float x, float y, float z, Ms
 As you can see the raw Accelerometer data is passed to the method as three float values. In addition, an instance of the updated band class is also received. This is useful as it provides immediate access to the whole of the current band state.
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
 private void MsBandAndroidBridge_RawAccUpdateEvent(float x, float y, float z, MsBand band)
 {
     if (band.BandId == 0)
@@ -132,7 +129,6 @@ To do this all you need do is use a standard (non VR) manifest. Once deployed an
 Please make sure that in both (all) instances that you include the required permissions in your manifest as detailed below:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
 <uses-permission android:name="android.permission.BLUETOOTH" />
 <uses-permission android:name="com.microsoft.band.service.access.BIND_BAND_SERVICE" />
 ```

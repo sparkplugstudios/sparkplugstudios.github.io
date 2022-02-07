@@ -26,13 +26,27 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dyadica.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: dyadica
 github_username:  dyadica
+youtube_username: dyadica
+instagram_username: ashedcalledskynet
+pinterest_username: sjb1182
 
-paginate: 5
+paginate: 9
 paginate_path: "/blog/page:num/"
 
 show_excerpts: true
+
+# Custom implimentation of related posts
+# Methods:
+# 1: Categories
+# 2: Tags
+# 3: Collections, TBI!
+related_p: 2 
+max_related_p: 3
+min_common_p: 1
+
 
 # Build settings
 theme: minima
@@ -40,6 +54,21 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+
+# Using Front Matter Defaults to enable check is_post and is_page
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: pages   # limit to posts
+    values:
+      is_page: true # automatically set is_page=true for all pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.

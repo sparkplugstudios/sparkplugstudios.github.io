@@ -31,8 +31,6 @@ The components used can be sourced as follows:
 Both variants of the hardware utilise the same code and both connectors break out to the same connections. The only artifact that you will have to tweak in each case is the Offsets which are screen and usage dependant. These can be found within the main loop.
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 // Set our pin id's
 int y1 = A0;
 int x2 = A1;
@@ -110,7 +108,6 @@ delay(5);
 // Return reading
 return analogRead(x2);
 }
-
 ```
 
 That’s it, I hope that the code is self explanatory, however if you would like some more information as to how the system works check out the How Does it Work? data-sheet provided by Sparkfun [here](http://www.sparkfun.com/datasheets/LCD/HOW%20DOES%20IT%20WORK.pdf "How Does it Work - Touch Screen - Sparkfun.com"). If your still not satisfied, then sparkfun also provide a Touch Screen tutorial [here](http://www.sparkfun.com/tutorials/139 "Touch Screen Tutorial - Sparkfun.com"), on which this code is based.

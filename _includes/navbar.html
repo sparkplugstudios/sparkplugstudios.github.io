@@ -1,0 +1,12 @@
+<!-- Navigation -->
+
+<navigation>
+  <div class="wrapper">
+    <a class="nav_site_title" href="/"><h3>{{site.title}}</h3></a>
+    <ul class="nav_site_menu">
+      {% for item in site.data.navbar %}
+      <li><a href="{{item.link}}">{{ item.name }}</a></li>
+      {% endfor %} 
+    </ul>
+  </div>  
+</navigation>

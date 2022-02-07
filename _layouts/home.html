@@ -7,6 +7,9 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+  <div>Hello and welcome to a drop in the digital ocean. Here you can find a current total of {{ site.posts.size }} postings about making, robotics, microcontrollers and other such stuff.</div>
+  <br>
+
   {{ content }}
 
   <!--
@@ -56,21 +59,79 @@ layout: default
 
 <!-- Pagination links -->
 <div class="pagination">
-{% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" class="previous">
-    Previous
-  </a>
-{% else %}
-  <span class="previous">Previous</span>
-{% endif %}
-<span class="page_number ">
-  Page: {{ paginator.page }} of {{ paginator.total_pages }}
-</span>
-{% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-{% else %}
-  <span class="next ">Next</span>
-{% endif %}
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
 </div>
+
+<!--
+<ul class="dropdown-menu">
+  {% for category in site.categories %}
+      <li class="camelize_me">
+          <a href="/categories/{{category | first}}/">
+              {{category | first }}
+              <span class="badge">
+              
+              </span>
+          </a>
+      </li>
+  {% endfor %} 
+</ul>
+-->
+
+<select name="categories" id="categories" onchange="location = this.value;">
+  <option value="/">All</option>
+  {% for category in site.categories %}
+    <option value="/categories/{{category | first}}/"> 
+      {{category | first }}
+    </option>
+  {% endfor %} 
+</select>
+
+<!--
+<ul class="tag-box inline">
+  {% assign tags_list = site.categories %}  
+    {% if tags_list.first[0] == null %}
+      {% for tag in tags_list %} 
+        <li><a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a></li>
+      {% endfor %}
+    {% else %}
+      {% for tag in tags_list %} 
+        <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+      {% endfor %}
+    {% endif %}
+  {% assign tags_list = nil %}
+  </ul>
+  
+  {% for tag in site.categories %} 
+    <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
+    <ul class="post-list">
+      {% assign pages_list = tag[1] %}  
+      {% for post in pages_list %}
+        {% if post.title != null %}
+        {% if group == null or group == post.group %}
+        <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+        {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% assign pages_list = nil %}
+      {% assign group = nil %}
+    </ul>
+  {% endfor %}
+  -->
+
+
 
 </div>

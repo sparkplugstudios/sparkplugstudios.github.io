@@ -39,7 +39,6 @@ The Wiki states that you first need to download the [ latest ArduIMU software](h
 Next open up the ArduIMU code within the Arduino IDE via the Sketchbook &gt; ArduIMU. This will open all the tabs required. You can then make any configuration changes needed in the first tab of the code. If you just want to try out the IMU with the desktop demo programs also provided by the Wiki, make sure the following configuration options are set as shown below:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
 //This will print the analog raw data
 #define PRINT_ANALOGS 1
 
@@ -58,11 +57,8 @@ Next open up the ArduIMU code within the Arduino IDE via the Sketchbook &gt; Ard
 The Wiki states that You should also select a GPS module and defines uBlox as the recommended default. More Information on this can be found via the official wiki [page](http://code.google.com/p/ardu-imu/wiki/Code "Official Wiki Page"). This can be done via the following line:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 // GPS Options: 1 - NMEA,  2 - EM406,  3 - Ublox, 4 - MediaTek
 #define GPS_PROTOCOL 3
-
 ```
 
 <span class="caption">Code 2: Setting the GPS</span>

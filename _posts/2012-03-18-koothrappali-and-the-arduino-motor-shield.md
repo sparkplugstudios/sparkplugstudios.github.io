@@ -133,8 +133,6 @@ As with the wiring, the basic code needed in order to run the motors is dead eas
 Drawing from this deffinition we can easily draw up a simple script to get things running. Using the above table lets start with the properties:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 //PWM control for motor outputs 1 and 2 is on digital pin 3
 int pwm_a = 3;
 //PWM control for motor outputs 3 and 4 is on digital pin 11
@@ -149,7 +147,6 @@ int dir_b = 13;
 int brk_a = 9;
 // break control for motor output 3 and 4 is on digital pin 8
 int brk_b = 8;
-
 ```
 
 As you will be able to see, currently I have left out the current sensing definitions this time around, however I plan to detail their implementation in another post along with the wheel encoders etc, for now were just concentrating on getting things moving.
@@ -157,8 +154,6 @@ As you will be able to see, currently I have left out the current sensing defini
 Next we need to set up the pins, this is done within the scripts setup function:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 void setup()
 {
   pinMode(pwm_a, OUTPUT);
@@ -171,14 +166,11 @@ void setup()
 
   Serial.begin(9600);
 }
-
 ```
 
 I have also included initialisation for the serial for debug purposes. You may need to change the baud-rate here to reflect your setup. Next we are onto the loop. The following loop example demonstrates simple forward and backward motion and use of the breaks:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 void loop()
 {
   // First set the direction (in my setup FWD is LOW and BCK is HIGH)
@@ -216,7 +208,6 @@ void loop()
   // Again use a delay to define a period for the motors to run
   delay(2000);
 }
-
 ```
 
 The above code will make the Rover 5 move forward of a period of 2000 then reverse for another 2000 period. Please not that we don’t have to use the breaks. If we want to stop the platform this can be achieved by setting the duty cycle to zero, however the break works instantly. By varying the value of duty cycle (0-255) we can vary the speed of the motors (0-100%).
@@ -224,11 +215,8 @@ The above code will make the Rover 5 move forward of a period of 2000 then rever
 In order to make the Rover 5 turn all we need to do is set each of the motors in opposing directions:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
   digitalWrite(dir_a, HIGH);
   digitalWrite(dir_b, LOW);
-
 ```
 
 That’s it really. In a future post I will expand upon this example to show you how to control your bot via use of a XBox360 Pad. Additionally I also plan to expand upon the example by detailing use of both current sensing and the wheel encoders.

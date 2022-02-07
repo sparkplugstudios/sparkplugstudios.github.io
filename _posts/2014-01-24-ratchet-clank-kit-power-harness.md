@@ -59,8 +59,6 @@ In order to test the system I then wired both an led and mini servo up to the di
 Finally in order to really test the harness I then created a simple script that sends oscillating servo movement commands from the Arduino. The script is simply a clone of the Sweep Servo example that comes with the Arduino IDE, however expanded to cater for 4 Servos.
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
-
 #include <Servo.h>
 
 // create servo object to control a servo
@@ -113,7 +111,6 @@ myservo4.write(pos);
 delay(15);
 }
 }
-
 ```
 
 <span class="caption">Code 1: Simple servo test script</span>

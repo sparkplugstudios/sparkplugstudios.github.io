@@ -107,6 +107,7 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 
@@ -272,3 +273,63 @@
   text-align: right;
 }
 
+.video-container iframe {
+  width: 100%;
+}
+
+.social-media-list
+{
+  width: 100%;
+  display: block;
+  padding: 0 20px 0 20px;  
+  text-align: center;
+
+  .username
+  {
+    display: none;
+  }
+
+  li{
+    display: inline;
+  }
+
+}
+
+.foot_meta
+{
+  margin-top: $spacing-unit;
+  width: 100%;
+  text-align: center;
+}
+
+.related_posts
+{
+  width: 100%;
+  text-align: center;
+}
+
+navigation
+{
+  display: inline;
+  margin-top: $spacing-unit/2;
+  width: 100%;
+  display: block;
+
+  .wrapper
+  {
+    margin: 0px;
+    padding: 0px;
+  } 
+
+  .nav_site_title
+  {    
+    display: block;
+    float: left;
+  }
+
+  .nav_site_menu
+  {
+    float: right;
+  }
+  
+}
