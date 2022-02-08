@@ -1,12 +1,14 @@
 <!-- Navigation -->
 
-<navigation>
+<div class="navbar" id="navbar">
   <div class="wrapper">
-    <a class="nav_site_title" href="/"><h3>{{site.title}}</h3></a>
-    <ul class="nav_site_menu">
-      {% for item in site.data.navbar %}
-      <li><a href="{{item.link}}">{{ item.name }}</a></li>
-      {% endfor %} 
-    </ul>
-  </div>  
-</navigation>
+  {% for item in site.data.navbar %}
+    <a href="{{item.link}}">{{ item.name }}</a>
+  {% endfor %} 
+
+  <a href="javascript:void(0);" class="icon" onclick="naviFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+  </div>
+</div>

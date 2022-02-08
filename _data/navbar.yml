@@ -1,5 +1,9 @@
 #_data/navbar.yml
 - name: Home
   link: /
+- name: Blog
+  link: /
 - name: About
   link: /about
+- name: YouTube
+  link: https://youTube.com/dyadica

@@ -19,6 +19,10 @@ layout: default
     {{ content }}
   </div>
 
+  <footer class="post-footer">
+    <h4>{{ page.title | escape }}</h4>
+  </footer>
+
   <div class="PageNavigation">
     {% if page.previous.url %}
       <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
