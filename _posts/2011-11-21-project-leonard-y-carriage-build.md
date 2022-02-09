@@ -8,11 +8,11 @@ guid: 'http://sandbox.dyadica.co.uk/?p=187'
 #permalink: /2011/11/21/project-leonard-y-carriage-build/
 image: /wp-content/uploads/2011/11/The-Mounted-Y-Stepper1-1-1568x1176.jpg
 categories:
-    - '3D Printing'
+    - 3D Printing
 tags:
-    - '3D Printing'
-    - 'Project Leonard'
-    - 'Rep Rap'
+    - 3D Printing
+    - Project Leonard
+    - Rep Rap
 ---
 
 Well some more of the parts for the Project Leonard build arrived today, more specifically the RAMPS electronics. Inspired by this I decided to allocate an hour this evening to a little more of the build. I started by tightening and squaring off the frame. This step takes some time and would be nearly impossible without the aid of spacing jigs (fashioned out of some spare lengths of wood).

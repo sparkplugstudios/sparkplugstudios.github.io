@@ -1,0 +1,60 @@
+.related_posts
+{
+    width: 100%;
+    text-align: center;
+    background-color: #222b3e;
+
+    h1
+    {        
+        color: white;
+    }
+
+    h3
+    {
+        margin: 10px;
+        color: white;
+    }
+
+    p
+    {
+        color: #888;
+        text-align: left;
+    }
+}
+
+.module-grid
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-module.third
+{
+	float: left;
+    width: 30%;
+	transition: 0.3s;
+
+    .tmpImage
+    {
+        width: 100%;
+        overflow: hidden;
+	    border-radius: 8px;
+    }
+
+    .tmpImageEmpty
+    {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+	    border-radius: 8px;
+    }
+}
+
+@include media-query(600px) 
+{
+    .flex-module.third
+    {
+        width: 100%; 
+    }
+}

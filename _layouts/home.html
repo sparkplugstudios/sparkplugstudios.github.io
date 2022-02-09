@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<div class="home">
-
   {%- if page.title -%}
     <!-- <h1 class="page-heading">{{ page.title }}</h1> -->
   {%- endif -%}
@@ -15,33 +13,30 @@ layout: default
   <div>Hello and welcome to a drop in the digital ocean. Here you can find a current total of {{ site.posts.size }} postings about making, robotics, microcontrollers and other such stuff.</div>
   <br>
 
-  {{ content }}
-
   <!-- This loops through the paginated posts -->
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-    <li>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
+  <div class="module-grid">
 
+    {% for post in paginator.posts %}
+
+    <a class="flex-module third" href="{{ post.url | relative_url }}">
+      
       {%- if post.thumb -%}
-      <a class="post-thumb" href="{{ post.url | relative_url }}">
-        <img src="{{ post.thumb | relative_url }}" alt="{{ post.title | escape }}">
-      </a>
+        <img class="tmpImage" src="{{ post.thumb }}">
+      {%- else -%}
+        <img class="tmpImageEmpty" width="300px" height="169px">
       {%- endif -%}
+
+      <h3 class="mod-title">{{ post.title }}</h3>
 
       {%- if site.show_excerpts -%}
-        <p>{{ post.excerpt }}...</p>
+        <p>{{ post.excerpt | strip_html }}...</p>
       {%- endif -%}
 
-    </li>
+    </a>
+    
     {% endfor %}
-  </ul>
+    
+  </div>
 
 
 <!-- Pagination links -->
@@ -66,10 +61,8 @@ layout: default
 <select name="categories" id="categories" onchange="location = this.value;">
   <option value="/">All</option>
   {% for category in site.categories %}
-    <option value="/categories/{{category | first | downcase}}"> 
+    <option value="/blog/categories/{{category | first | downcase}}"> 
       {{category | first }}
     </option>
   {% endfor %} 
 </select>
-
-</div>

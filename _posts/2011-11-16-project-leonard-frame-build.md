@@ -8,11 +8,11 @@ guid: 'http://sandbox.dyadica.co.uk/?p=189'
 #permalink: /2011/11/16/project-leonard-frame-build/
 image: /wp-content/uploads/2011/11/prusa_frame1-1-1568x1176.jpg
 categories:
-    - '3D Printing'
+    - 3D Printing
 tags:
-    - '3D Printing'
-    - 'Project Leonard'
-    - 'Rep Rap'
+    - 3D Printing
+    - Project Leonard
+    - Rep Rap
 ---
 
 Time for a quick update on my RepRap build, Leonard. Some of my part orders arrived at the weekend (kudos to thingfarm.org for great customer service) so today I finally started on assembling the frame and was pleasantly surprised at how fast everything went together. Utilising the Prusa build guide available at [reprap.org](http://reprap.org/wiki/Prusa_Mendel_Assembly "Prusa Mendel Assembly Guide") I managed to get the basic structure put together in around an hour.

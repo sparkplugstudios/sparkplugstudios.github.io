@@ -8,11 +8,11 @@ guid: 'http://sandbox.dyadica.co.uk/?p=185'
 #permalink: /2011/11/22/project-leonard-z-axis-issues/
 image: /wp-content/uploads/2011/11/WP_0013681-1-1568x1176.jpg
 categories:
-    - '3D Printing'
+    - 3D Printing
 tags:
-    - '3D Printing'
-    - 'Project Leonard'
-    - 'Rep Rap'
+    - 3D Printing
+    - Project Leonard
+    - Rep Rap
 ---
 
 Well this evening I hit the first snag in the Leonard build. No matter how much I tightened the motor to 8mm bar couplers the bar would not grip. I even tried wrapping tape around the bar in order to increase diameter (yup a dirty hack) but alas to no avail (bad design and/or model implementation if you ask me).

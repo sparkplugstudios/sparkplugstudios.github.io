@@ -8,7 +8,7 @@ guid: 'http://sandbox.dyadica.co.uk/?p=178'
 #permalink: /2011/11/23/project-leonard-z-axis-coupling/
 image: /wp-content/uploads/2011/11/coupling-featured1-1.jpg
 categories:
-    - '3D Printing'
+    - 3D Printing
 ---
 
 Following on from yesterdays Project Leonard [post](/2011/11/22/project-leonard-z-axis-issues/ "Project Leonard - Z Axis Issues"), today I fortunately I managed to get a set of the Z Axis couplings I designed last night printed. If you haven’t been following my RepRap build, yesterday evening I tried to assemble the machines Z axis and hit a small problem, when trying to attach the steppers to the 8mm threaded bar used to lift the X carriage.

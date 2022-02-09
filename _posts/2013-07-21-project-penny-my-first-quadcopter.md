@@ -8,7 +8,7 @@ guid: 'http://sandbox.dyadica.co.uk/?p=74'
 #permalink: /2013/07/21/project-penny-my-first-quadcopter/
 image: /wp-content/uploads/2013/07/My-Quad1-1-1568x883.jpg
 categories:
-    - 'RC &amp; Drones'
+    - Robotics
 tags:
     - Quad
     - Quadcopter

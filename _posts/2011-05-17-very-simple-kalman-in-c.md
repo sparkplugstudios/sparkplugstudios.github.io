@@ -8,7 +8,6 @@ guid: 'http://sandbox.dyadica.co.uk/?p=249'
 #permalink: /2011/05/17/very-simple-kalman-in-c/
 image: /wp-content/uploads/2011/05/kal-1.png
 categories:
-    - Medium
     - Tutorials
 tags:
     - 'C#'

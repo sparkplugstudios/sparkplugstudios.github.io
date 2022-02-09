@@ -8,7 +8,7 @@ guid: 'http://sandbox.dyadica.co.uk/?p=51'
 #permalink: /2013/07/22/the-3dr-power-distribution-board-assembly/
 image: /wp-content/uploads/2013/07/WP_20130327_0281-1.jpg
 categories:
-    - 'RC &amp; Drones'
+    - Robotics
 tags:
     - Quad
     - Quadcopter

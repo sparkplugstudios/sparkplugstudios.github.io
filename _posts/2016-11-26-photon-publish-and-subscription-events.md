@@ -10,12 +10,12 @@ image: /wp-content/uploads/2017/03/012-1-1568x882.jpg
 thumb: '/wp-content/uploads/2017/03/012-1-300x169.jpg'
 categories: 
     - Microcontrollers
-    - particle.io
     - Tutorials
 tags:
     - IOT
     - Photon
     - Tutorial
+    - particle.io
 ---
 
 This post introduces the use of the Particle.publish() and Particle.subscribe() events to enable photon devices to communicate via the Particle Cloud. This post acts to lay the groundwork for a [series of postings](/categories/particle.io/) that will enable the use of the [particle.io platform](https://www.particle.io/) to formulate a variety of IOT devices.

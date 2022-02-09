@@ -11,7 +11,6 @@ image: /wp-content/uploads/2017/03/019-1-1568x882.jpg
 thumb: '/wp-content/uploads/2017/03/019-1-300x169.jpg'
 categories:
     - Microcontrollers
-    - particle.io
     - Tutorials
 tags:
     - IOT
@@ -19,6 +18,7 @@ tags:
     - 'Motor Control'
     - Photon
     - Tutorial
+    - particle.io
 ---
 
 This tutorial builds upon both the code base and circuitry as developed with the Particle.publish() and Particle.subscribe() [example](/2016/11/26/photon-publish-and-subscription-events/). This time around instead of registering a subscription that can be used to turn on or off an led we set one up to control a MOSFET.

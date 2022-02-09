@@ -11,7 +11,6 @@ excerpt: "Here we have a quick repost of a tutorial which I originally developed
 image: /wp-content/uploads/2017/10/005-2-1568x882.jpg
 thumb: "/wp-content/uploads/2017/10/005-2-300x169.jpg"
 categories:
-    - Easy
     - Microcontrollers
     - Tutorials
 tags:

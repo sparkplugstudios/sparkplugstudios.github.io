@@ -9,7 +9,6 @@ image: /wp-content/uploads/2017/11/Arduino-Robot-With-2-Sharp-IR-1024x576-1.jpg
 thumb: /wp-content/uploads/2017/11/Arduino-Robot-With-2-Sharp-IR-1024x576-1-300x169.jpg
 
 categories:
-    - Easy
     - Microcontrollers
     - Robotics
     - Tutorials

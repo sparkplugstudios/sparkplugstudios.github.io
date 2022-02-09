@@ -1,11 +1,13 @@
 <div class="related_posts">
 
-    <h2>Related Posts</h2>
+<div class="wrapper">
 
-    {%- if site.related_p == 1 -%}
-        
+    <h1>Related Posts</h1>
+
+    <div class="module-grid">
+
     {% assign maxRelated = site.max_related_p %}
-    {% assign minCommonTags =  site._min_common_p %}
+    {% assign minCommonTags =  site.min_common_p %}
     {% assign maxRelatedCounter = 0 %}
     
     {% for post in site.posts %}
@@ -13,65 +15,42 @@
         {% assign sameTagCount = 0 %}
         {% assign commonTags = '' %}
     
-        {% for category in post.categories %}
-          {% if post.url != page.url %}
-            {% if page.categories contains category %}
-              {% assign sameTagCount = sameTagCount | plus: 1 %}
-              {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
-              {% assign commonTags = commonTags | append: tagmarkup %}
+        {% for tag in post.tags %}
+        {% if post.url != page.url %}
+            {% if page.tags contains tag %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+            {% assign commonTags = commonTags | append: tagmarkup %}
             {% endif %}
-          {% endif %}
+        {% endif %}
         {% endfor %}
     
         {% if sameTagCount >= minCommonTags %}
-          <div>
-          <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
-          </div>
-          {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-          {% if maxRelatedCounter >= maxRelated %}
+
+        <a class="flex-module third" href="{{ post.url }}"> <!-- {{ post.title }}{{ commonTags }} -->
+          {%- if post.thumb -%}
+          <img class="tmpImage" src="{{ post.thumb }}">
+          {%- else -%}
+          <img class="tmpImageEmpty" width="300px" height="169px">
+          {%- endif -%}
+          <h3 class="mod-title">{{ post.title }}</h3>
+          <p>{{ post.excerpt | strip_html }}...</p>
+        </a>
+
+        <!-- 
+        <div>
+          <h5><a href="{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
+        </div> 
+        -->
+
+        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+        {% if maxRelatedCounter >= maxRelated %}
             {% break %}
-          {% endif %}
+        {% endif %}
         {% endif %}
     
-      {% endfor %}
+    {% endfor %}
 
-    {%- endif -%}
-
-    {%- if site.related_p == 2-%}
-
-        {% assign maxRelated = site.max_related_p %}
-        {% assign minCommonTags =  site.min_common_p %}
-        {% assign maxRelatedCounter = 0 %}
-        
-        {% for post in site.posts %}
-        
-            {% assign sameTagCount = 0 %}
-            {% assign commonTags = '' %}
-        
-            {% for tag in post.tags %}
-            {% if post.url != page.url %}
-                {% if page.tags contains tag %}
-                {% assign sameTagCount = sameTagCount | plus: 1 %}
-                {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-                {% assign commonTags = commonTags | append: tagmarkup %}
-                {% endif %}
-            {% endif %}
-            {% endfor %}
-        
-            {% if sameTagCount >= minCommonTags %}
-            <div>
-            <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
-            </div>
-            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-            {% if maxRelatedCounter >= maxRelated %}
-                {% break %}
-            {% endif %}
-            {% endif %}
-        
-        {% endfor %}
-        {%- endif -%}
-
-    {%- if site.related_p == 3 -%}
-        <div>Collections TBI!</div>
-    {%- endif -%}
+    </div> <!-- module-grid -->
+  </div>
 </div>

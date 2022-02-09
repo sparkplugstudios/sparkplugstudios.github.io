@@ -8,10 +8,10 @@ guid: 'http://sandbox.dyadica.co.uk/?p=89'
 #permalink: /2012/04/14/project-leonard-bar-clamp-chaos/
 image: /wp-content/uploads/2012/04/Bolted-Clamp-Banner2-1.jpg
 categories:
-    - '3D Printing'
+    - 3D Printing
 tags:
-    - '3D Printing'
-    - 'Project Leonard'
+    - 3D Printing
+    - Project Leonard
 ---
 
 Well this week I had some time off and was finally able to devote some overdue attention to some of my many on-going projects. First in line was my 3D printer build Leonard. It’s been a while since my last Leonard posting, what with work, Koothrappali and Project Wave (coming soon) poor old Leonard has just sat in a corner collecting dust and er…. breaking!!!

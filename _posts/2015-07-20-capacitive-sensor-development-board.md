@@ -9,7 +9,6 @@ excerpt: "This tutorial details how to make a simple breakout for the Arduino Ca
 image: /wp-content/uploads/2017/10/019-1-1568x882.jpg
 thumb: /wp-content/uploads/2017/10/019-1-300x169.jpg
 categories:
-    - Easy
     - Microcontrollers
     - Tutorials
 tags:

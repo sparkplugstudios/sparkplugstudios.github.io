@@ -1,14 +1,11 @@
-<footer class="site-footer h-card">
+<footer class="site-footer">
   
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-    <div class="related_posts">
-      {%- if page.is_post -%}
-        {%- include related_posts.html -%}
-      {%- endif -%}
-    </div>
-  </div>
+  {%- if page.is_post -%}
+    {%- include related_posts.html -%}
+  {%- endif -%}
+
 </footer>
 
 <footer>

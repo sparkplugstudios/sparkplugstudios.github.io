@@ -8,11 +8,11 @@ guid: 'http://sandbox.dyadica.co.uk/?p=191'
 #permalink: /2011/11/06/project-leonard-my-own-reprap/
 image: /wp-content/uploads/2011/11/Assembled-prusa-mendel1-1.jpg
 categories:
-    - '3D Printing'
+    - 3D Printing
 tags:
-    - '3D Printing'
-    - 'Project Leonard'
-    - 'Rep Rap'
+    - 3D Printing
+    - Project Leonard
+    - Rep Rap
 ---
 
 Today I have started a new robotics project, Project Leonard. Leonard is to be my first CNC style automaton based on a [RepRap](http://reprap.org/wiki/Main_Page "The RepRap Project") design. I hope that the machine will afford me capability for home 3D printing, engraving, light milling and more. My thinking is that once I have completed the main unit (3D Printer) I will be able to then use it to develop and implement as many interchangeable CNC based attachments that I can think of.
