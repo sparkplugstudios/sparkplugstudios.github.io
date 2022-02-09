@@ -1,12 +1,13 @@
 ---
 id: 1566
-title: 'Mixed Reality &#038; Sphero Robots'
+title: 'Mixed Reality & Sphero Robots'
 date: '2015-06-06T00:39:08+00:00'
 author: batts
 layout: post
-guid: '/?p=1566'
+excerpt: The following text is an extended abstract for a another paper I hope to be presenting at this years ITAG. This time round the paper features the research
 #permalink: /2015/06/06/mixed-reality-sphero-robots/
 image: /wp-content/uploads/2015/06/graphic-step-011-1.png
+thumb: /wp-content/uploads/2015/06/graphic-step-011-1-300x131.png
 categories:
     - Research
     - Robotics

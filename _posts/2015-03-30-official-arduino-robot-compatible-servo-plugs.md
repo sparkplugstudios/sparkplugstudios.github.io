@@ -1,12 +1,13 @@
 ---
-id: 672
 title: 'Official Arduino Robot Compatible Servo Plugs'
 date: '2015-03-30T20:20:06+00:00'
 author: batts
 layout: post
-guid: '/?p=672'
-#permalink: /2015/03/30/official-arduino-robot-compatible-servo-plugs/
+excerpt: In a previous post I demonstrated how to prepare sensors and components such as Sharp IR’s to be compatible with the servo plugs and the servo wiring convention
+
 image: /wp-content/uploads/2017/11/Arduino-Robot-With-2-Sharp-IR-1024x576-1.jpg
+thumb: /wp-content/uploads/2017/11/Arduino-Robot-With-2-Sharp-IR-1024x576-1-300x169.jpg
+
 categories:
     - Easy
     - Microcontrollers

@@ -4,9 +4,10 @@ title: 'Walking in Place with Wearable Technology'
 date: '2015-06-06T00:33:47+00:00'
 author: batts
 layout: post
-guid: '/?p=1562'
+excerpt: The following text is an extended abstract for a another paper I hope to be presenting at this years ITAG. This time round the paper features the research and development of
 #permalink: /2015/06/06/walking-in-place-with-wearable-technology/
 image: /wp-content/uploads/2015/06/004-1.jpg
+thumb: /wp-content/uploads/2015/06/004-1-300x169.jpg
 categories:
     - Research
 tags:

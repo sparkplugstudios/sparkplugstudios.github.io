@@ -5,8 +5,11 @@ date: '2016-11-11T21:19:31+00:00'
 author: batts
 layout: post
 guid: '/?p=1836'
+excerpt: "Here we have a quick repost of a tutorial which I originally developed for the IoST project that I worked on back in 2015/2016. The tutorial details how to make a simple voltage divider"
+
 #permalink: /2016/11/11/a-simple-voltage-divider-circuit/
 image: /wp-content/uploads/2017/10/005-2-1568x882.jpg
+thumb: "/wp-content/uploads/2017/10/005-2-300x169.jpg"
 categories:
     - Easy
     - Microcontrollers

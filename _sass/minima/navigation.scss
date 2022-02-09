@@ -5,6 +5,8 @@
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
     z-index: 10000000;
+    margin: 0px;
+    padding: 0px;
   }
   
   /* Style the navbar links */
@@ -17,10 +19,12 @@
     text-decoration: none;
   }
 
+  /*
   #navbar a:first-child
   {
     margin-left: -15px;
   }
+  */
   
   #navbar a:hover {
     background-color: #ddd;
@@ -31,17 +35,22 @@
     display: none;
   }
 
+  @media screen and (max-width: 800px) 
+{
+  /*.wrapper
+  {
+    padding: 30px;
+  }
+  */
+
+}
+
   /* When the screen is less than 600 pixels wide, hide all links, except for 
   the first one ("Home"). Show the link that contains should open and close 
   the topnav (.icon) */
 
 @media screen and (max-width: 600px) 
 {
-  #navbar a
-  {
-    margin-left: -15px;
-  }
-
   #navbar a:not(:first-child) {display: none;}
   #navbar a.icon {
     float: right;
@@ -57,7 +66,7 @@ clicks on the icon. This class makes the topnav look good on small screens
 (display the links vertically instead of horizontally) */
 
 @media screen and (max-width: 600px) {
-  // #navbar.responsive {position: relative;}
+  #navbar.responsive {position: relative;}
   #navbar.responsive a.icon {
     position: absolute;
     right: 0;

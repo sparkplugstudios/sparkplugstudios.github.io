@@ -4,9 +4,11 @@ title: 'Photon Control of a MOSFET'
 date: '2016-11-26T22:40:33+00:00'
 author: batts
 layout: post
-guid: '/?p=1844'
+excerpt: "This tutorial builds upon both the code base and circuitry as developed with the Particle.publish() and Particle.subscribe() example. This time around instead of registering a subscription that can be used to"
+
 #permalink: /2016/11/26/photon-control-of-a-mosfet/
 image: /wp-content/uploads/2017/03/019-1-1568x882.jpg
+thumb: '/wp-content/uploads/2017/03/019-1-300x169.jpg'
 categories:
     - Microcontrollers
     - particle.io

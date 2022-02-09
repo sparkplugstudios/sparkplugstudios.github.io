@@ -4,9 +4,10 @@ title: 'Controlling virtual experiences using biometrics'
 date: '2016-03-07T20:11:20+00:00'
 author: batts
 layout: post
-guid: '/?p=1635'
+excerpt: "Over the last year or so I have developed several plugins that allow use of the Microsoft Band, within Android based Unity3D applications. Finally, the time has come"
 #permalink: /2016/03/07/controlling-virtual-experiences-using-biometrics/
 image: /wp-content/uploads/2016/03/band-2-1-1568x881.png
+thumb: /wp-content/uploads/2016/03/band-2-1-300x169.png
 categories:
     - Featured
     - Unity3D

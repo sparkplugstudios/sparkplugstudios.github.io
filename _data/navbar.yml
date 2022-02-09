@@ -2,7 +2,7 @@
 - name: Home
   link: /
 - name: Blog
-  link: /
+  link: /blog
 - name: About
   link: /about
 - name: YouTube

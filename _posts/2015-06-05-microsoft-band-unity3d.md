@@ -3,11 +3,11 @@ id: 1574
 title: 'Microsoft Band & Unity3D'
 date: '2015-06-05T18:43:51+00:00'
 author: batts
-excerpt: 'In this post I present a video of a plugin which I have been developing recently to enable communication between the excellent Microsoft Band and the Unity3D games development environment. '
+excerpt: 'In this post I present a video of a plugin which I have been developing recently to enable communication between the excellent Microsoft Band and the Unity3D games development environment.'
 layout: post
-guid: '/?p=1574'
 #permalink: /2015/06/05/microsoft-band-unity3d/
 image: /wp-content/uploads/2015/06/Band-App-Small-1.jpg
+thumb: /wp-content/uploads/2015/06/Band-App-Small-1-300x169.jpg
 categories:
     - Unity3D
 tags:
