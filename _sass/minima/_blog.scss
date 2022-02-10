@@ -121,9 +121,37 @@ div.post-content strong
         {
             h3.mod-title
             {
-                color: #68c9e8;    
+                color: #68c9e8;  
+                transition: 0.3s;   
             }
         }
     }
     
 }
+
+.module-grid
+{
+    a
+    {
+        &:hover
+        {
+            h3.mod-title
+            {
+                color: #68c9e8;  
+                transition: 0.3s;  
+            }
+        }
+    }
+    
+}
+
+.post-content
+{
+    img
+    {
+        border-radius: 8px;
+        // border: #68c9e8 1px solid;
+    }
+}
+
+*{scroll-behavior: smooth;}

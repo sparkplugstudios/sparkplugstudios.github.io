@@ -5,9 +5,12 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.cat_title | escape }}</h1>
+    <h1 class="post-title">Category</h1>    
   </header>
 
-  <div>Hello and welcome to the {{ page.cat_title }} category. Here you can find {{site.categories[page.cat_title].size}} postings related to {{page.cat_title}}.</div>
+  <div>Hello and welcome to the {{ page.cat_title }} category. Here you can find {{site.categories[page.cat_title].size}} postings related to {{page.cat_title}}. If 
+    {{ page.cat_title }} don't interest you; scroll down to find a full listing of all the categories available!
+  </div>
   
   <br>
     
@@ -17,8 +20,20 @@ layout: default
     <li class="cat_title"><a href="{{ post.url }}">{{ post.title }}</a></li>
    {% endfor %}
    </ul>
+  </div>
 
-    {{ content }}
+  <h1 class="post-title">All Categories</h1>
+
+  <div class="post-content">
+    <ul>
+      {% for category in site.categories %}
+
+      <li class="cat_title">
+        <a href="/blog/categories/{{category | first | downcase | relative_url}}">{{ category[0]] }} ( {{ category[1].size }} )</a>
+      </li>
+
+     {% endfor %}
+     </ul>
   </div>
 
 </article>

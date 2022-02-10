@@ -42,18 +42,18 @@ a.flex-module
         font-weight:600;
      }
 
-    color: #888;
+    color: #111;
     text-decoration: none;
     // border-radius: 8px;
     transition: 0.5s;
   
     &:visited {
-        color: #888;
+        color: #111;
         text-decoration: none;
     }
   
     &:hover {
-        color: #888;
+        color: #111;
         text-decoration: none;
         background-color: $background-body-hover-color;
     }
