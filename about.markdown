@@ -1,10 +1,8 @@
 ---
-id: 248
 title: About
 date: '2013-06-21T19:41:45+00:00'
 author: batts
 layout: page
-guid: 'http://sandbox.dyadica.co.uk/?page_id=2'
 ---
 
 For about the last 20 years or so I primarily worked as a software engineer and academic researcher. During this period I specialised in topics like: games design, virtual &amp; augmented reality, natural user interfaces, assistive technology, IOT and robotics.

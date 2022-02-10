@@ -1,0 +1,34 @@
+<div class="latest_posts">
+
+    <h1 class="post-title">recent posts</h1>
+    
+        <div class="module-grid">
+
+        {% for post in site.posts limit:3 %}
+
+            <a class="flex-module third" href="{{ post.url }}"> <!-- {{ post.title }}{{ commonTags }} -->
+                {%- if post.thumb -%}
+                <img class="tmpImage" src="{{ post.thumb }}">
+                {%- else -%}
+                <img class="tmpImageEmpty" width="300px" height="169px">
+                {%- endif -%}
+                <h3 class="mod-title">{{ post.title }}</h3>
+                <p>{{ post.excerpt | strip_html }}...</p>
+            </a>
+
+        {% endfor %}
+
+        </div>
+
+</div>
+
+<!-- 
+<h1>Latest Post</h1>
+{% for post in site.posts limit:1 %}
+... Show the first post all big ...
+{% endfor %}
+<h1>Recent Posts</h1>
+{% for post in site.posts offset:1 limit:2 %}
+... Show the next two posts ...
+{% endfor %} 
+-->

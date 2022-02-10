@@ -7,6 +7,7 @@
     z-index: 10000000;
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
   }
   
   /* Style the navbar links */
@@ -18,13 +19,6 @@
     padding: 15px;
     text-decoration: none;
   }
-
-  /*
-  #navbar a:first-child
-  {
-    margin-left: -15px;
-  }
-  */
   
   #navbar a:hover {
     color: white;
@@ -65,7 +59,7 @@ clicks on the icon. This class makes the topnav look good on small screens
 (display the links vertically instead of horizontally) */
 
 @media screen and (max-width: 600px) {
-  #navbar.responsive {position: relative;}
+  #navbar.responsive {position: relative; top:0}
   #navbar.responsive a.icon {
     position: absolute;
     right: 0;
@@ -82,18 +76,12 @@ clicks on the icon. This class makes the topnav look good on small screens
 
 @media screen and (max-width: 360px) 
 {
+  #navbar.responsive {position: relative;}
   #navbar a
   {
     margin-left: -15px;
   }
 
-  #navbar a.icon
-  {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    z-index: 1000;
-  }
 }
 
 .pagination

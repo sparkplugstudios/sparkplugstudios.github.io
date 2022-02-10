@@ -108,7 +108,6 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   border-bottom: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
 }
 
 .footer-heading {
@@ -281,7 +280,7 @@
 {
   width: 100%;
   display: block;
-  padding: 0 20px 0 20px;  
+  // padding: 0 20px 0 20px;  
   text-align: center;
 
   .username
@@ -346,5 +345,34 @@ navigation
   width: 100%;
   text-align: center;
   vertical-align: middle;
+}
+
+footer
+{
+  overflow: hidden;
+  background-color: $background-footer-color;
+
+  .foot_meta
+  {
+    color: #888;
+
+    a
+    {
+      color:white;
+    };
+  }
+
+  .svg-icon
+  {
+    fill:white;
+  }
+
+  .social-media-list
+  {
+    li
+    {
+      padding: 5px;
+    }
+  }
 }
 

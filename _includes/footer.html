@@ -1,28 +1,23 @@
 <footer class="site-footer">
   
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
   {%- if page.is_post -%}
     {%- include related_posts.html -%}
   {%- endif -%}
 
-</footer>
-
-<footer>
   <div class="wrapper">
     <div class="foot_meta">
       Fulled by <a href="https://jekyllrb.com/">Jekyll</a>
       , nitro by <a href="https://dyadica.github.io">dyadica</a>
       | <a href="/feed.xml">rss</a>
-      | <a href="/disclaimer.html">disclaimer</a>
+      | <a href="/disclaimer">disclaimer</a>
       <!-- | <a href="/cookiesprivacy">cookies & privacy</a> -->
     </div>
   </div>
-</footer>
 
-<footer>
   <br>
+
   <div class="wrapper">
     {%- include social.html -%}
   </div>
+
 </footer>

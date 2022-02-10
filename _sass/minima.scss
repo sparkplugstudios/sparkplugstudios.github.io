@@ -26,6 +26,13 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+$background-body-color:           #f8f8f8 !default;
+$background-body-hover-color:     #f8f8f8 !default;
+$background-header-color:         #222b3e !default;
+$background-related-color:        #222b3e !default;
+$background-related-hover-color:  #334366 !default;
+$background-footer-color:         #121722 !default;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -51,5 +58,6 @@ $on-laptop:        800px !default;
   "minima/navigation",
   "minima/youtube",
   "minima/categories",
-  "minima/related_posts"
+  "minima/related_posts",
+  "minima/_blog"
 ;

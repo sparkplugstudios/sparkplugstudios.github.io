@@ -3,7 +3,9 @@
     width: 100%;
     text-align: center;
     text-decoration: none;
-    background-color: #222b3e;
+    background-color: $background-related-color;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
     h1
     {        
@@ -53,11 +55,12 @@ a.flex-module
     &:hover {
         color: #888;
         text-decoration: none;
-        background-color: #f7f7f7;
+        background-color: $background-body-hover-color;
     }
 
     margin-bottom: 10px;
-    border-bottom: #f7f7f7 solid 1px;
+    margin-top: 10px;
+    border-bottom: $background-body-hover-color solid 1px;
   
   }
 
@@ -74,7 +77,7 @@ a.flex-module
    
        color: #888;
        text-decoration: none;
-       border-radius: 8px;
+       // border-radius: 8px;
        transition: 0.5s;
      
        &:visited {
@@ -85,10 +88,11 @@ a.flex-module
        &:hover {
            color: #888;
            text-decoration: none;
-           background-color: #2a3650;
+           background-color: $background-related-hover-color
            
        }
-   
+       
+       border-bottom: $background-related-hover-color solid 1px;
        margin-bottom: 10px;
      
      }

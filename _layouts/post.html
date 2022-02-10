@@ -5,21 +5,23 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
+    <!-- 
+      <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}</p> 
+    -->
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
-  <footer class="post-footer">
+  <div class="post-footer">
     <h3>{{ page.title | escape }}</h3>
     <h4 class="post-foot-meta">Posted on {{ page.date | date: "%-d %B %Y" }} in 
 
@@ -35,7 +37,7 @@ layout: default
       {% endfor %}
 
       by {{ page.author }}</h4>
-  </footer>
+  </div>
 
   <div class="PageNavigation">
     {% if page.previous.url %}
@@ -46,11 +48,4 @@ layout: default
     {% endif %}
   </div>
 
-  
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
