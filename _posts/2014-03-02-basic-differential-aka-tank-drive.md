@@ -7,6 +7,10 @@ layout: post
 guid: '/?p=843'
 #permalink: /2014/03/02/basic-differential-aka-tank-drive/
 image: /wp-content/uploads/2014/03/Headlight-Prefab1-1.jpg
+thumb: '/wp-content/uploads/2014/03/Headlight-Prefab1-1.jpg'
+
+excerpt: 'With the Ratchet hardware build now complete, my developmental focus has turned to the software needed to run him. First up of course has to be getting him to move.'
+
 categories:
     - Robotics
     - Tutorials

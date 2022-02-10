@@ -7,6 +7,10 @@ layout: post
 guid: '/?p=1280'
 #permalink: /2014/03/12/setting-up-a-bluesmirf-or-bluetooth-mate/
 image: /wp-content/uploads/2014/03/Bluetooth-Mate1-1-1568x883.jpg
+thumb: '/wp-content/uploads/2014/03/Bluetooth-Mate1-1-1568x883.jpg'
+
+excerpt: Here we have a quick tip type post detailing how to configure a Sparkfun Bluetooth Mate for micro-controller UART based serial communication.
+
 categories:
     - Microcontrollers
     - Tutorials

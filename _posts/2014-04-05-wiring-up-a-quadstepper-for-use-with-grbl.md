@@ -1,12 +1,15 @@
 ---
-id: 1390
 title: 'Wiring up a Quadstepper for use with Grbl'
 date: '2014-04-05T00:15:39+00:00'
 author: batts
 layout: post
 guid: '/?p=1390'
-#permalink: /2014/04/05/wiring-up-a-quadstepper-for-use-with-grbl/
+
 image: /wp-content/uploads/2014/04/WP_20140404_0041-1-1568x883.jpg
+thumb: '/wp-content/uploads/2014/04/WP_20140404_0041-1-1568x883.jpg'
+
+excerpt: 'In this post I will show you how to wire up a Sparkfun Quadstepper so that it can be used with Grbl. Grbl is an Arduino based'
+
 categories:
     - Tutorials
 tags:

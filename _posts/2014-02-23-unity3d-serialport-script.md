@@ -7,6 +7,10 @@ layout: post
 guid: '/?p=376'
 #permalink: /2014/02/23/unity3d-serialport-script/
 image: /wp-content/uploads/2014/02/Unity3D-Serial-Port1-1.jpg
+thumb: '/wp-content/uploads/2014/02/Unity3D-Serial-Port1-1.jpg'
+
+excerpt: 'This post presents a script and or prefab developed to allow drag and drop capability for serial communication within the Unity3D game development ecosystem.'
+
 categories:
     - Microcontrollers
     - Tutorials

@@ -5,13 +5,21 @@
     {% for post in site.categories["Featured"] limit:1 %}
 
     <a href="{{ post.url }}"> <!-- {{ post.title }}{{ commonTags }} -->
+        
         {%- if post.thumb -%}
         <img class="featuredImage" src="{{ post.image }}">
         {%- else -%}
         <img class="tmpImageEmpty" width="100%" height="auto">
         {%- endif -%}
+        
         <h1 class="mod-title">{{ post.title }}</h1>
+        
+        {%- if post.featured -%}
+        <p>{{ post.featured | strip_html }}...</p>
+        {%- else -%}
         <p>{{ post.excerpt | strip_html }}...</p>
+        {%- endif -%}
+        
     </a>
 
     {% endfor %}

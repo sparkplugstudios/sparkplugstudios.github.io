@@ -7,6 +7,10 @@ layout: post
 guid: '/?p=1910'
 #permalink: /2014/03/06/a-wii-controller-extension-for-those-with-severe-physical-disability/
 image: /wp-content/uploads/2014/03/chuck-switch-1.png
+thumb: '/wp-content/uploads/2014/03/chuck-switch-1.png'
+
+excerpt: 'The design objective of this study is the realisation of a Wii Controller extension, that would enable those with severe physical disability'
+
 categories:
     - Research
 tags:

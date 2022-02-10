@@ -7,6 +7,10 @@ layout: post
 guid: '/?p=1283'
 #permalink: /2014/03/13/simple-bluetooth-joystick/
 image: /wp-content/uploads/2014/03/SBTJ1-1.jpg
+thumb: '/wp-content/uploads/2014/03/SBTJ1-1.jpg'
+
+excerpt: 'In this post I will introduce a couple of Arduino scripts and the accompanying circuitry needed to make a very simple Bluetooth joystick.'
+
 categories:
     - Microcontrollers
     - Tutorials

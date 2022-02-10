@@ -7,6 +7,11 @@ layout: post
 guid: '/?p=1907'
 #permalink: /2014/03/06/a-low-cost-home-based-system-for-stroke-rehabilitation/
 image: /wp-content/uploads/2014/03/glove-1.png
+
+thumb: '/wp-content/uploads/2014/03/glove-1.png'
+
+excerpt: 'The objective of this study is the development of a low cost home based system for stroke rehabilitation which would allow patients to practice'
+
 categories:
     - Research
 tags:

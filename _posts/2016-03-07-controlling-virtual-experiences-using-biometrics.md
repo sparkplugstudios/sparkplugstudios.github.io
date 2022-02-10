@@ -5,6 +5,10 @@ date: '2016-03-07T20:11:20+00:00'
 author: batts
 layout: post
 excerpt: "Over the last year or so I have developed several plugins that allow use of the Microsoft Band, within Android based Unity3D applications. Finally, the time has come"
+featured: "Over the last year or so I have developed several plugins that allow use of the Microsoft Band, within Android based Unity3D applications. Finally, the time has come to release at least one of them (the most functional if not simple) to the masses.
+
+In this post I predominately focus on the Unity side of things so that you can get up and running with the plugin asap."
+
 #permalink: /2016/03/07/controlling-virtual-experiences-using-biometrics/
 image: /wp-content/uploads/2016/03/band-2-1-1568x881.png
 thumb: /wp-content/uploads/2016/03/band-2-1-300x169.png

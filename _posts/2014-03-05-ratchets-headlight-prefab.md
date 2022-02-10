@@ -7,6 +7,10 @@ layout: post
 guid: '/?p=1054'
 #permalink: /2014/03/05/ratchets-headlight-prefab/
 image: /wp-content/uploads/2014/03/Ratchet-With-Headlights1-1-1568x883.jpg
+thumb: '/wp-content/uploads/2014/03/Ratchet-With-Headlights1-1-1568x883.jpg'
+
+excerpt: 'In this post I will introduce some code developed for controlling Ratchets Headlights. The presented script extends the growing C# Mono Ratchet library of scripts for Unity3D'
+
 categories:
     - Robotics
 tags:
