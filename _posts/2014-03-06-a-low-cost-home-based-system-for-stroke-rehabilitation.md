@@ -33,7 +33,9 @@ A systematic review of studies conducted by Nottingham University’s Stroke reh
 
 A proposed solution (Battersby S. , 2008) is the development of a low cost rehabilitation glove using the capacity of the Optical Sensor on the Nintendo Wii Controller to pick up the signal from four diodes placed at the patient’s fingertips. This compensates for the inability of previous low cost solutions to track fine motor movement.
 
-<div class="video-container"><iframe allowfullscreen="allowfullscreen" frameborder="0" height="150" loading="lazy" src="//www.youtube.com/embed/6y8xJODJJQ4" width="300"></iframe></div><span class="caption">Video 1: The Wii Glove was featured on BBC East Midlands Today</span>
+{% include youtube-video.html video_id="6y8xJODJJQ4" %}
+
+<span class="caption">Video 1: The Wii Glove was featured on BBC East Midlands Today</span>
 
 The expansion of typical Virtual Environment application areas such as computer gaming, simulation based training and academic research to include provision for those recovering from stroke has many potential benefits. In terms of the individual, such provision would act to empower and enable active participation in new forms of rehabilitation and exercise. Furthermore, stroke survivors with continuing impairment in their upper limb often find it difficult to access the early intensive, task specific practice that research has shown is necessary for motor recovery.
 

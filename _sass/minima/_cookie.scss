@@ -1,0 +1,32 @@
+#cookie-notice 
+{
+    margin-top: 0px;
+    display: none; 
+    text-align: center; 
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+    background: #121722; 
+    color: rgba(255,255,255,0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+#cookie-notice a 
+{
+    color: #888;
+    display: inline-block; 
+    cursor: pointer; 
+}
+
+@media (max-width: 767px) 
+{
+    #cookie-notice span {
+        display: block;
+        padding-top: 3px;
+        margin-bottom: 1rem;}
+    #cookie-notice a {position: relative; 
+    bottom: 4px;
+    }
+}

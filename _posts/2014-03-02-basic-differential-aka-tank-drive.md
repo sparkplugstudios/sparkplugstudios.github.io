@@ -415,6 +415,8 @@ Finally you will also need to ensure that you have set up the required Input axi
 
 A completed version of both scripts is available for download [here](/wp-content/uploads/2014/03/Basic-Differential-aka-Tank-Drive.zip "Basic-Differential-aka-Tank-Drive.zip"). Finally I have included is a quick video (below) showing the working code in action.
 
-<div class="video-container"><iframe allowfullscreen="allowfullscreen" frameborder="0" height="150" loading="lazy" src="//www.youtube.com/embed/VLr4FuyLRuY?list=PL7uNkdkvLF2sn3eEWkOUGhqHJ2fwk6Nbx" width="300"></iframe></div><span class="caption">Video 1: The working code in action</span>
+{% include youtube-video.html video_id="VLr4FuyLRuY?list=PL7uNkdkvLF2sn3eEWkOUGhqHJ2fwk6Nbx" %}
+
+<span class="caption">Video 1: The working code in action</span>
 
 Next time around I will be focusing on getting the headlights up and running. For more information, intermediate updates and if you have any questions, please check out my [facebook page](http://facebook.com/adropinthedigitalocean "dyadica on facebook").

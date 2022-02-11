@@ -1,0 +1,23 @@
+<div id="cookie-notice">
+    <span>I would like to use third party cookies and scripts to improve the functionality of this website.</span>
+    <a id="cookie-notice-accept" class="btn btn-primary btn-sm">[ approve ]</a> | <a href="/privacy/#cookies-and-web-beacons" >[ more info ]</a>
+</div>
+
+<script>
+if(readCookie('cookie-notice-dismissed')=='true')
+{
+  // Un-comment as and if required 
+  // {% if jekyll.environment == "production" and site.analytics.google.tracking_id %}
+  // {% include google-analytics.js %}
+  // {% endif %}
+} 
+else 
+{
+  document.getElementById('cookie-notice').style.display = 'block';
+}
+document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+  createCookie('cookie-notice-dismissed','true',31);
+  document.getElementById('cookie-notice').style.display = 'none';
+  location.reload();
+});
+</script>

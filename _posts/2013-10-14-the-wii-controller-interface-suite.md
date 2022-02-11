@@ -16,7 +16,7 @@ tags:
     - Wiimote
 ---
 
-<div>Since its launch in 2006, the Nintendo Wii Console has continued to draw attention from the Assistive Technology (AT) development community , due to the unique styles of game-play and interaction facilitated by its accompanying controllers, the Wii Remote (Wiimote) and the WiiFit Balance Board.
+Since its launch in 2006, the Nintendo Wii Console has continued to draw attention from the Assistive Technology (AT) development community , due to the unique styles of game-play and interaction facilitated by its accompanying controllers, the Wii Remote (Wiimote) and the WiiFit Balance Board.
 
 **The Technology of the Nintendo Wii Controller**
 
@@ -30,12 +30,12 @@ The Wii Controller Interface Suite (Wiici) is an ever evolving collection of too
 
 Currently the main suite consists of five primary [applications](http://wiici.dyadica.net/pages/wiici-applications "Wiici Applications") and four dynamic link [libraries](http://wiici.dyadica.net/pages/wiici-libraries "Wiici Libraries").
 
-<div class="video-container"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed?v=kL_tcacJwC8&list=PLB4301DCCC381D38B"></iframe></div><span class="caption">Video 1: The WiiCi Suite</span>
+{% include youtube-video.html video_id="kL_tcacJwC8" %}
+
+<span class="caption">Video 1: The WiiCi Suite</span>
 
 Wiici and its associated Hardware, are a primary result of extensive investigative study to evaluate each aspect of the technologies of the Nintendo Wii Controller and its potential capability as a base platform for the development of Assistive Human Interface Devices (AHID’s).
 
 In turn, these studies themselves were a direct result from an initial technology [review](http://wiici.dyadica.net/pages/publications/serious-games-and-the-wii "Serious Games and the Wii") and a revised concept creation [document](http://wiici.dyadica.net/pages/publications/the-nintendo-wii-controller-as-an-adaptive-assistive-device " The Nintendo Wii Controller As An Adaptive Assistive Device ") derived via practical application of the [Flexible Object Orientated Design model](http://irep.ntu.ac.uk/id/eprint/260/1/212504_Steven.Battersby-2013%20excl.3rdpartycopyright.pdf) (FLOOD).
 
 For more information please visit: [http://wiici.dyadica.co.uk](http://wiici.dyadica.co.uk "The Wii Controller Interface Suite")
-
-</div>

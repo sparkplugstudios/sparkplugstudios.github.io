@@ -257,19 +257,20 @@
 .PageNavigation {
   font-size: 14px;
   display: block;
-  width: auto;
+  width: 100%;
   overflow: hidden;
+  text-align: center;
 }
 
 .PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
+  display: inline;
+  // width: 50%;
+  // float: left;
+  margin: 20px;
 }
 
 .PageNavigation .next {
-  text-align: right;
+  // text-align: right;
 }
 
 .video-container iframe {
@@ -336,7 +337,7 @@ navigation
 .post-footer
 {
   text-align: center;
-  border-bottom: 8px solid $grey-color-light;
+  border-bottom: 8px solid #f7f7f7;
   width: 100%;
 }
 

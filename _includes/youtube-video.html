@@ -1,3 +1,30 @@
 <div class="video-wrapper">
-    <iframe src="https://www.youtube.com/embed/{{ include.video_id }}" frameborder="0" allowfullscreen></iframe>
+
+    <div class="vidSplash">
+        <p>You need to accept third party cookies to view Youtube content. Blame the GDPR</p>
+        <p>To do so click <a id="cookie-notice-video">[here]</a> or to find out more <a href="/privacy/#youtube-cookies">[here]</a></p>
+    </div>
+
+    <iframe class="videoDisplay" src="https://www.youtube-nocookie.com/embed/{{ include.video_id }}" frameborder="0" allowfullscreen></iframe>
+    
 </div>
+
+<script>
+
+    if(readCookie('cookie-notice-dismissed')=='true')
+    {
+        var video = document.querySelector('.videoDisplay');
+        video.style.display = "block";
+    }
+    else 
+    {
+        var video = document.querySelector('.videoDisplay');
+        video.style.display = "none";
+    }
+
+    document.getElementById('cookie-notice-video').addEventListener("click",function() {
+      createCookie('cookie-notice-dismissed','true',31);
+      location.reload();
+    });
+
+</script>

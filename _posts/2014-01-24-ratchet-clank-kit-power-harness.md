@@ -117,6 +117,8 @@ delay(15);
 
 The following video shows the servos in action.
 
-<div class="video-container"><iframe allowfullscreen="" frameborder="0" src="//www.youtube.com/embed/Zg94NeE75C0?rel=0"></iframe></div><span class="caption">Video 1: Servo test run</span>
+{% include youtube-video.html video_id="Zg94NeE75C0?rel=0" %}
+
+<span class="caption">Video 1: Servo test run</span>
 
 As you can see all that I need to do is adjust the initial starting position of the servos on the final build and jobs a good un 🙂
