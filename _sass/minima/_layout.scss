@@ -107,7 +107,7 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid 1px solid #2f3d5a;
 }
 
 .footer-heading {
@@ -338,6 +338,7 @@ navigation
 {
   text-align: center;
   border-bottom: 8px solid #f7f7f7;
+  margin-bottom: 10px;
   width: 100%;
 }
 

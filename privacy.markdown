@@ -1,9 +1,11 @@
 ---
-title: "Privacy Policy"
+title: "Privacy & Cookies"
 modified: 11-02-2022
 ---
 
-The privacy of our visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used by our site(s). With all this in mind; as an entity we really don't care about who you are and/or your personal data! Our site(s) is/are authored for fun; and as a means of archiving personal projects/works. Of course if a site takes off this may change, but we highly doubt it!
+The privacy of our visitors is extremely important. This Privacy & Cookies Policy outlines the types of personal information that is received and collected and how it is used by our site(s). 
+
+<!-- With all this in mind; as an entity we really don't care about who you are and/or your personal data! Our site(s) is/are authored for fun; and as a means of archiving personal projects/works. Of course if a site takes off this may change, but we highly doubt it! -->
 
 ## Designation of the responsible authority
 
@@ -113,7 +115,9 @@ This website uses the function "demographic characteristics" of Google Analytics
 
 ### Embedded links to other websites
 
-This website may contain links to other websites provided by third parties not under our control. When following a link and providing information to a 3rd-party website, please be aware that we are not responsible for the data provided to that third party. This privacy policy only applies to the website(s) we author and provide for public consumption, so when you visit other websites, even when you click on a link posted on the website(s), you should read their own privacy policies.
+This website may contain links to other websites provided by third parties not under our control. When following a link and providing information to a 3rd-party website, please be aware that we are not responsible for the data provided to that third party. 
+
+This policy only applies to the website(s) we author and provide for public consumption, so when you visit other websites, even when you click on a link posted on the website(s), you should read their own privacy policies.
 
 ### Google Web Fonts
 
@@ -131,8 +135,8 @@ By using the website(s) or the services we provide you acknowledge your consent 
 
 ### Privacy Policy Changes
 
-Although most changes are likely to be minor, we may change this Privacy Policy from time to time, and at our sole discretion. To this end we encourage visitors to frequently check this page for any changes to this Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.
+Although most changes are likely to be minor, we may change this Privacy & Cookies Policy from time to time, and at our sole discretion. To this end we encourage visitors to frequently check this page for any changes to this policy. Your continued use of this site after any change in our policies will constitute your acceptance of such change.
 
 ### Current Status
 
-Our Privacy Policy was last updated {{page.modified}}
+This Privacy & Cookies Policy was last updated {{page.modified}}
