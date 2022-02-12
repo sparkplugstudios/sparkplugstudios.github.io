@@ -6,7 +6,7 @@ layout: post
 excerpt: In a previous post I demonstrated how to prepare sensors and components such as Sharp IR’s to be compatible with the servo plugs and the servo wiring convention
 
 image: /wp-content/uploads/2017/11/Arduino-Robot-With-2-Sharp-IR-1024x576-1.jpg
-thumb: /wp-content/uploads/2017/11/Arduino-Robot-With-2-Sharp-IR-1024x576-1-300x169.jpg
+thumb: /wp-content/uploads/2017/11/Arduino-Robot-With-2-Sharp-IR-1024x576-1.jpg
 
 categories:
     - Microcontrollers

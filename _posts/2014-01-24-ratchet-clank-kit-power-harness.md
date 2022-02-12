@@ -7,6 +7,10 @@ layout: post
 guid: '/?p=405'
 #permalink: /2014/01/24/ratchet-clank-kit-power-harness/
 image: /wp-content/uploads/2014/01/Servo-Distrib-Bot1-1-1568x883.jpg
+thumb: '/wp-content/uploads/2014/01/Servo-Distrib-Bot1-1-1568x883.jpg'
+
+excerpt: 'Today my attention turned towards a means of providing power for my servo based 3D printed robots, Ratchet &; Clank'
+
 categories:
     - Robotics
     - Tutorials

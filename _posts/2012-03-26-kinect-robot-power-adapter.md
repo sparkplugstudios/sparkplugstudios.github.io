@@ -7,6 +7,10 @@ layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=103'
 #permalink: /2012/03/26/kinect-robot-power-adapter/
 image: /wp-content/uploads/2012/03/Power-Adapter-Banner1-1.jpg
+thumb: /wp-content/uploads/2012/03/Power-Adapter-Banner1-1.jpg
+
+excerpt: 'Those of you who have been following me via facebook would have seen that I have been toying around with the idea of utilising the power of the Kinect with my latest robot build, Koothrappali.'
+
 categories:
     - Robotics
 tags:

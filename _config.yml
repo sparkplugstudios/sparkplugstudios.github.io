@@ -32,12 +32,13 @@ url: "https://dyadica.github.io" # the base hostname & protocol for your site, e
 
 permalink: /blog/:title/
 
-twitter_username: dyadica
+#twitter_username: dyadica
 github_username:  dyadica
 youtube_username: dyadica
 instagram_username: ashedcalledskynet
-pinterest_username: sjb1182
+#pinterest_username: sjb1182
 steam_username: binarii
+scholar_username: PeFH5psAAAAJ&hl
 
 paginate: 9
 paginate_path: "/blog/page:num/"

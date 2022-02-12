@@ -7,7 +7,7 @@ layout: post
 excerpt: The following text is an extended abstract for a another paper I hope to be presenting at this years ITAG. This time round the paper features the research and development of
 #permalink: /2015/06/06/walking-in-place-with-wearable-technology/
 image: /wp-content/uploads/2015/06/004-1.jpg
-thumb: /wp-content/uploads/2015/06/004-1-300x169.jpg
+thumb: /wp-content/uploads/2015/06/004-1.jpg
 categories:
     - Research
 tags:

@@ -9,7 +9,7 @@ excerpt: "Here we have a quick repost of a tutorial which I originally developed
 
 #permalink: /2016/11/11/a-simple-voltage-divider-circuit/
 image: /wp-content/uploads/2017/10/005-2-1568x882.jpg
-thumb: "/wp-content/uploads/2017/10/005-2-300x169.jpg"
+thumb: "/wp-content/uploads/2017/10/005-2-1568x882.jpg"
 categories:
     - Microcontrollers
     - Tutorials

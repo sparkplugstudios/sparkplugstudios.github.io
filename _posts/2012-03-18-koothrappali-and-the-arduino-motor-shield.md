@@ -4,9 +4,13 @@ title: 'Koothrappali and the Arduino Motor Shield'
 date: '2012-03-18T23:07:48+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=158'
+
 #permalink: /2012/03/18/koothrappali-and-the-arduino-motor-shield/
 image: /wp-content/uploads/2012/03/Koothrapalli13-1.jpg
+thumb: /wp-content/uploads/2012/03/Koothrapalli13-1.jpg
+
+excerpt: 'In today’s post I am going to kill two birds with one stone as so to speak. Primarily I plan to introduce the Arduino Motor Shield R3 and provide an accompanying tutorial'
+
 categories:
     - Microcontrollers
     - Robotics

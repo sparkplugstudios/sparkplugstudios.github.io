@@ -7,6 +7,10 @@ layout: post
 guid: '/?p=517'
 #permalink: /2014/02/11/sharp-ir-servo-plug-tip/
 image: /wp-content/uploads/2014/02/Sharp-IR-with-Servo-Plug1-1-1568x883.jpg
+thumb: '/wp-content/uploads/2014/02/Sharp-IR-with-Servo-Plug1-1-1568x883.jpg'
+
+excerpt: 'This post is really a tip rather than a tutorial. Within it I will demonstrate how I prepare sensors and components such as Sharp IR’s to be compatible with'
+
 categories:
     - Tutorials
 tags:

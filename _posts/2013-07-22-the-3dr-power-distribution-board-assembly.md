@@ -7,6 +7,10 @@ layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=51'
 #permalink: /2013/07/22/the-3dr-power-distribution-board-assembly/
 image: /wp-content/uploads/2013/07/WP_20130327_0281-1.jpg
+thumb: '/wp-content/uploads/2013/07/WP_20130327_0281-1.jpg'
+
+excerpt: 'A Power Distribution Board (PDB) is a simple circuit board who’s function is to distribute the power from a battery to the four Electronic Speed Controllers (ESC’s)'
+
 categories:
     - Robotics
 tags:

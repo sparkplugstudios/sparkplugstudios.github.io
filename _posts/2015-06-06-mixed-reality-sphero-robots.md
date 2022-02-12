@@ -7,7 +7,7 @@ layout: post
 excerpt: The following text is an extended abstract for a another paper I hope to be presenting at this years ITAG. This time round the paper features the research
 #permalink: /2015/06/06/mixed-reality-sphero-robots/
 image: /wp-content/uploads/2015/06/graphic-step-011-1.png
-thumb: /wp-content/uploads/2015/06/graphic-step-011-1-300x131.png
+thumb: /wp-content/uploads/2015/06/graphic-step-011-1.png
 categories:
     - Research
     - Robotics

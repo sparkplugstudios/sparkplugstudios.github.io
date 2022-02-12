@@ -7,6 +7,10 @@ layout: post
 guid: '/?p=1914'
 #permalink: /2013/10/14/the-wii-controller-interface-suite/
 image: /wp-content/uploads/2013/10/wiici-1.png
+thumb: '/wp-content/uploads/2013/10/wiici-1.png'
+
+excerpt: 'Since its launch in 2006, the Nintendo Wii Console has continued to draw attention from the Assistive Technology (AT) development community'
+
 categories:
     - Research
 tags:
@@ -26,9 +30,8 @@ The volume of physical data made available by the device allows for feature expa
 
 **The Wii Controller Interface Suite**
 
-The Wii Controller Interface Suite (Wiici) is an ever evolving collection of tools developed to facilitate the connection and interface of Nintendo Wii style peripherals (official and devised variants) with the Windows family of operating systems.
+The Wii Controller Interface Suite (Wiici) is an ever evolving collection of tools developed to facilitate the connection and interface of Nintendo Wii style peripherals (official and devised variants) with the Windows family of operating systems. Currently the main suite consists of five primary [applications](http://wiici.dyadica.net/pages/wiici-applications "Wiici Applications") and four dynamic link [libraries](http://wiici.dyadica.net/pages/wiici-libraries "Wiici Libraries").
 
-Currently the main suite consists of five primary [applications](http://wiici.dyadica.net/pages/wiici-applications "Wiici Applications") and four dynamic link [libraries](http://wiici.dyadica.net/pages/wiici-libraries "Wiici Libraries").
 
 {% include youtube-video.html video_id="kL_tcacJwC8" %}
 
@@ -38,4 +41,4 @@ Wiici and its associated Hardware, are a primary result of extensive investigati
 
 In turn, these studies themselves were a direct result from an initial technology [review](http://wiici.dyadica.net/pages/publications/serious-games-and-the-wii "Serious Games and the Wii") and a revised concept creation [document](http://wiici.dyadica.net/pages/publications/the-nintendo-wii-controller-as-an-adaptive-assistive-device " The Nintendo Wii Controller As An Adaptive Assistive Device ") derived via practical application of the [Flexible Object Orientated Design model](http://irep.ntu.ac.uk/id/eprint/260/1/212504_Steven.Battersby-2013%20excl.3rdpartycopyright.pdf) (FLOOD).
 
-For more information please visit: [http://wiici.dyadica.co.uk](http://wiici.dyadica.co.uk "The Wii Controller Interface Suite")
+For more information please visit: [http://wiici.dyadica.co.uk](https://web.archive.org/web/20101208021728/http://wiici.dyadica.net/)

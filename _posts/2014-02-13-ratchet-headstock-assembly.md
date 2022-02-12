@@ -7,6 +7,8 @@ layout: post
 guid: '/?p=723'
 #permalink: /2014/02/13/ratchet-headstock-assembly/
 image: /wp-content/uploads/2014/02/Headstock-With-Servo1-1-1568x883.jpg
+thumb: '/wp-content/uploads/2014/02/Headstock-With-Servo1-1-1568x883.jpg'
+excerpt: 'Here we have another posting on the on-going build of my robot Ratchet. This time around I will detail the construction of the headstock assembly'
 categories:
     - Robotics
 tags:

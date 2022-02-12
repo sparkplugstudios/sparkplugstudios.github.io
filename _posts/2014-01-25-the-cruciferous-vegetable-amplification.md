@@ -7,6 +7,8 @@ layout: post
 guid: '/?p=470'
 #permalink: /2014/01/25/the-cruciferous-vegetable-amplification/
 image: /wp-content/uploads/2014/01/TBBT-S04E02-31-1.jpg
+thumb: '/wp-content/uploads/2014/01/TBBT-S04E02-31-1.jpg'
+excerpt: 'For those of you not in the know: “The Cruciferous Vegetable Amplification” is the second episode of the fourth season of the American sitcom The Big Bang Theory'
 categories:
     - Robotics
 tags:

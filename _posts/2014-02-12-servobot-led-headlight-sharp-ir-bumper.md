@@ -7,6 +7,8 @@ layout: post
 guid: '/?p=686'
 #permalink: /2014/02/12/servobot-led-headlight-sharp-ir-bumper/
 image: /wp-content/uploads/2014/02/Completed-Bumper-Front1-1-1568x883.jpg
+thumb: '/wp-content/uploads/2014/02/Completed-Bumper-Front1-1-1568x883.jpg'
+excerpt: 'In this post I will demonstrate the assembly of the bumper for my current robot build Ratchet. The bumper contains both'
 categories:
     - Robotics
 tags:

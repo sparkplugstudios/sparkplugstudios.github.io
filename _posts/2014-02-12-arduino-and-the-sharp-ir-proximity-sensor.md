@@ -7,6 +7,9 @@ layout: post
 guid: '/?p=646'
 #permalink: /2014/02/12/arduino-and-the-sharp-ir-proximity-sensor/
 image: /wp-content/uploads/2014/02/Sharp-IR-and-an-Arduino-Pro1-1-1568x883.jpg
+thumb: '/wp-content/uploads/2014/02/Sharp-IR-and-an-Arduino-Pro1-1-1568x883.jpg'
+
+excerpt: 'In my last post I demonstrated how I modified a couple of Sharp IR sensors for use with the ServoBot Shield'
 categories:
     - Tutorials
 tags:

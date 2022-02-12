@@ -7,6 +7,8 @@ layout: post
 guid: '/?p=512'
 #permalink: /2014/02/07/the-servobot-shield/
 image: /wp-content/uploads/2014/02/Close-Up-of-ServoBot-Shield1-1-1568x883.jpg
+thumb: '/wp-content/uploads/2014/02/Close-Up-of-ServoBot-Shield1-1-1568x883.jpg'
+excerpt: 'Last month I published a post detailing the construction of a power harness servo based robots Ratchet and Clank. The harness is used to'
 categories:
     - Robotics
 tags:

@@ -7,6 +7,9 @@ layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=74'
 #permalink: /2013/07/21/project-penny-my-first-quadcopter/
 image: /wp-content/uploads/2013/07/My-Quad1-1-1568x883.jpg
+thumb: /wp-content/uploads/2013/07/My-Quad1-1-1568x883.jpg
+
+excerpt: 'Ever since I first saw a quad-copter a few years ago I wanted to have a go at building one. Slowly over the last year I have been collecting all the parts'
 categories:
     - Robotics
 tags:
@@ -15,7 +18,7 @@ tags:
     - Quadrotor
 ---
 
-Ever since I first saw a quadcopter a few years ago I wanted to have a go at building one. So slowly over the last year I have been collecting all the parts, with the idea that following the completion of my PhD, I would treat myself to putting one together.This week (with some much appreciated [help](http://diydrones.com/forum/topics/take-off-issues "DiyDrones - Take Off Issues")) I finally got around to getting my first quad build aka Project Penny finished and off the ground.
+Ever since I first saw a quad-copter a few years ago I wanted to have a go at building one. Slowly over the last year I have been collecting all the parts, with the idea that following the completion of my PhD, I would treat myself to putting one together.This week (with some much appreciated [help](http://diydrones.com/forum/topics/take-off-issues "DiyDrones - Take Off Issues")) I finally got around to getting my first quad build aka Project Penny finished and off the ground.
 
 **What is a QuadCopter**
 

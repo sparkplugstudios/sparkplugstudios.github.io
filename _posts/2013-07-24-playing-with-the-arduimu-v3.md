@@ -7,6 +7,10 @@ layout: post
 guid: 'http://sandbox.dyadica.co.uk/?p=1'
 #permalink: /2013/07/24/playing-with-the-arduimu-v3/
 image: /wp-content/uploads/2013/07/ArduIMU-V3-Board-1024-1.jpg
+thumb: '/wp-content/uploads/2013/07/ArduIMU-V3-Board-1024-1.jpg'
+
+excerpt: 'The ArduIMU V3 is an Inertial Measurement Unit (IMU) plus an Arduino compatible processor that can run Attitude Heading Reference System (AHRS) code'
+
 categories:
     - Microcontrollers
 tags:

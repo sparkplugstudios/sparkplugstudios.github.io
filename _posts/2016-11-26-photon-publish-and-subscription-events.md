@@ -7,7 +7,7 @@ layout: post
 excerpt: "This post introduces the use of the Particle.publish() and Particle.subscribe() events to enable photon devices to communicate via the Particle Cloud. This post acts to lay the groundwork"
 # permalink: /2016/11/26/photon-publish-and-subscription-events/
 image: /wp-content/uploads/2017/03/012-1-1568x882.jpg
-thumb: '/wp-content/uploads/2017/03/012-1-300x169.jpg'
+thumb: '/wp-content/uploads/2017/03/012-1-1568x882.jpg'
 categories: 
     - Microcontrollers
     - Tutorials

@@ -11,7 +11,7 @@ In this post I predominately focus on the Unity side of things so that you can g
 
 #permalink: /2016/03/07/controlling-virtual-experiences-using-biometrics/
 image: /wp-content/uploads/2016/03/band-2-1-1568x881.png
-thumb: /wp-content/uploads/2016/03/band-2-1-300x169.png
+thumb: /wp-content/uploads/2016/03/band-2-1-1568x881.png
 categories:
     - Featured
     - Unity3D

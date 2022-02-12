@@ -7,7 +7,7 @@ excerpt: 'In this post I present a video of a plugin which I have been developin
 layout: post
 #permalink: /2015/06/05/microsoft-band-unity3d/
 image: /wp-content/uploads/2015/06/Band-App-Small-1.jpg
-thumb: /wp-content/uploads/2015/06/Band-App-Small-1-300x169.jpg
+thumb: /wp-content/uploads/2015/06/Band-App-Small-1.jpg
 categories:
     - Unity3D
 tags:

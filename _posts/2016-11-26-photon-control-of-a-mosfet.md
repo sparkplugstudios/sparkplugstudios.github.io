@@ -8,7 +8,7 @@ excerpt: "This tutorial builds upon both the code base and circuitry as develope
 
 #permalink: /2016/11/26/photon-control-of-a-mosfet/
 image: /wp-content/uploads/2017/03/019-1-1568x882.jpg
-thumb: '/wp-content/uploads/2017/03/019-1-300x169.jpg'
+thumb: '/wp-content/uploads/2017/03/019-1-1568x882.jpg'
 categories:
     - Microcontrollers
     - Tutorials

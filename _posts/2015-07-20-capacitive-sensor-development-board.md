@@ -7,7 +7,7 @@ layout: post
 excerpt: "This tutorial details how to make a simple breakout for the Arduino CapacitiveSensor library. The library turns two or more pins of an Arduino pins into a capacitive"
 #permalink: /2015/07/20/capacitive-sensor-development-board/
 image: /wp-content/uploads/2017/10/019-1-1568x882.jpg
-thumb: /wp-content/uploads/2017/10/019-1-300x169.jpg
+thumb: /wp-content/uploads/2017/10/019-1-1568x882.jpg
 categories:
     - Microcontrollers
     - Tutorials

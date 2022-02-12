@@ -1,12 +1,15 @@
 ---
 id: 383
-title: 'Ratchet &#038; Clank &#8211; 3D Printable Robot Kit'
+title: 'Ratchet & Clank - 3D Printable Robot Kit'
 date: '2014-01-24T00:36:49+00:00'
 author: batts
 layout: post
 guid: '/?p=383'
 #permalink: /2014/01/24/ratchet-clank-3d-printable-robot-kit/
 image: /wp-content/uploads/2014/01/WP_0009391-1-1568x1176.jpg
+thumb: '/wp-content/uploads/2014/01/WP_0009391-1-1568x1176.jpg'
+
+excerpt: 'Way back in 2011 I built my first ever robot Sheldon. I always liked his overall look, so a while back (2012) decided'
 categories:
     - Robotics
 tags:
@@ -17,7 +20,7 @@ tags:
     - 'Servo Bot'
 ---
 
-Way back in 2011 I built my first ever robot [Sheldon](/journal/rip-sheldon-1-0-hello-sheldon-2-0/ "RIP Sheldon 1.0 – Hello Sheldon 2.0"). I always liked his overall look, so a while back (2012) decided to use his overarching style and structure as basis for a 3D printable robot kit. However as with so many of my projects back then, development was put on the back burner whilst I finished my PhD.
+Way back in 2011 I built my first ever robot [Sheldon](/journal/rip-sheldon-1-0-hello-sheldon-2-0/ "RIP Sheldon 1.0 – Hello Sheldon 2.0"). I always liked his overall look, so a while back (2012) I decided to use his overarching style and structure as basis for a 3D printable robot kit. However as with so many of my projects back then, development was put on the back burner whilst I finished my PhD.
 
 [![](/wp-content/uploads/2014/01/WP_0009391-1.jpg)](/wp-content/uploads/2014/01/WP_0009391-1.jpg)
 

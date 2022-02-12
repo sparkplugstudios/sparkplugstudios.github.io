@@ -7,6 +7,8 @@ layout: post
 guid: '/?p=268'
 #permalink: /2013/10/13/building-a-calibrated-tilt-compensated-compass-with-the-lsm303/
 image: /wp-content/uploads/2013/10/The-LSM3031-1-1568x883.jpg
+thumb: '/wp-content/uploads/2013/10/The-LSM3031-1-1568x883.jpg'
+excerpt: 'The LSM303 Breakout is a nice little compass module that consists of a triple axis accelerometer and a triple axis magnetometer.'
 categories:
     - Microcontrollers
     - Tutorials
