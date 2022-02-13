@@ -1,12 +1,16 @@
 ---
-id: 191
-title: 'Project Leonard &#8211; My Own RepRap'
+
+title: 'Project Leonard - My Own RepRap'
 date: '2011-11-06T23:52:12+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=191'
+
 #permalink: /2011/11/06/project-leonard-my-own-reprap/
 image: /wp-content/uploads/2011/11/Assembled-prusa-mendel1-1.jpg
+thumb: /wp-content/uploads/2011/11/Assembled-prusa-mendel1-1.jpg
+
+excerpt: 'Today I have started a new robotics project, Project Leonard. Leonard is to be my first CNC style automaton based on a RepRap design.'
+
 categories:
     - 3D Printing
 tags:

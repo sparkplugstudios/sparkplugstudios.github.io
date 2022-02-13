@@ -1,12 +1,16 @@
 ---
-id: 189
-title: 'Project Leonard &#8211; Frame Build'
+
+title: 'Project Leonard - Frame Build'
 date: '2011-11-16T23:51:12+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=189'
+
 #permalink: /2011/11/16/project-leonard-frame-build/
 image: /wp-content/uploads/2011/11/prusa_frame1-1-1568x1176.jpg
+thumb: /wp-content/uploads/2011/11/prusa_frame1-1-1568x1176.jpg
+
+excerpt: 'Time for a quick update on my RepRap build, Leonard. Some of my part orders arrived at the weekend (kudos to thingfarm.org for great customer service)'
+
 categories:
     - 3D Printing
 tags:

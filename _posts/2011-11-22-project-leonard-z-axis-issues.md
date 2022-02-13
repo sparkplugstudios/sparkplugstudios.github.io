@@ -1,12 +1,15 @@
 ---
-id: 185
-title: 'Project Leonard &#8211; Z Axis Issues'
+title: 'Project Leonard - Z Axis Issues'
 date: '2011-11-22T23:48:58+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=185'
+
 #permalink: /2011/11/22/project-leonard-z-axis-issues/
 image: /wp-content/uploads/2011/11/WP_0013681-1-1568x1176.jpg
+thumb: /wp-content/uploads/2011/11/WP_0013681-1-1568x1176.jpg
+
+excerpt: 'Well this evening I hit the first snag in the Leonard build. No matter how much I tightened the motor to 8mm bar couplers the bar would not grip.'
+
 categories:
     - 3D Printing
 tags:

@@ -1,12 +1,16 @@
 ---
-id: 222
-title: 'RIP Sheldon 1.0 &#8211; Hello Sheldon 2.0'
+
+title: 'RIP Sheldon 1.0 - Hello Sheldon 2.0'
 date: '2011-05-30T22:39:41+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=222'
+
 #permalink: /2011/05/30/rip-sheldon-1-0-hello-sheldon-2-0/
 image: /wp-content/uploads/2011/05/19-08-2013-23-33-281-1.jpg
+thumb: /wp-content/uploads/2011/05/19-08-2013-23-33-281-1.jpg
+
+excerpt: 'Today is a sad day, poor little Sheldon the wonderbot 1.0 is no more. Due to a design floor several of his wires came loose whilst traversing the kitchen step and the rest as they say is history'
+
 categories:
     - Robotics
 tags:

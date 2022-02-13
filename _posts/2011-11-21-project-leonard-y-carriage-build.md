@@ -1,12 +1,16 @@
 ---
-id: 187
-title: 'Project Leonard &#8211; Y Carriage Build'
+
+title: 'Project Leonard - Y Carriage Build'
 date: '2011-11-21T23:50:07+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=187'
+
 #permalink: /2011/11/21/project-leonard-y-carriage-build/
 image: /wp-content/uploads/2011/11/The-Mounted-Y-Stepper1-1-1568x1176.jpg
+thumb: /wp-content/uploads/2011/11/The-Mounted-Y-Stepper1-1-1568x1176.jpg
+
+excerpt: 'Well some more of the parts for the Project Leonard build arrived today, more specifically the RAMPS electronics'
+
 categories:
     - 3D Printing
 tags:

@@ -1,12 +1,16 @@
 ---
-id: 215
-title: 'Xbee Explorer Regulated &#8211; Netduino'
+
+title: 'Xbee Explorer Regulated - Netduino'
 date: '2011-06-07T21:37:54+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=215'
+
 #permalink: /2011/06/07/xbee-explorer-regulated-netduino/
 image: /wp-content/uploads/2011/06/xbee-reg-1.png
+thumb: /wp-content/uploads/2011/06/xbee-reg-1.png
+
+excerpt: 'A very quick example demonstrating the use of the Xbee Explorer Regulated Board as an alternative to the Arduino Xbee Shield for serial communication.'
+
 categories:
     - Microcontrollers
     - Tutorials

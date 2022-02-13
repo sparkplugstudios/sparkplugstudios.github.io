@@ -1,12 +1,16 @@
 ---
-id: 193
+
 title: 'OpenNI in WPF via EmguCV'
 date: '2011-07-01T23:55:06+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=193'
+
 #permalink: /2011/07/01/openni-in-wpf-via-emgucv/
 image: /wp-content/uploads/2011/07/KinectSDK-1.png
+thumb: /wp-content/uploads/2011/07/KinectSDK-1.png
+
+excerpt: 'Another quick demo showing the Kinect’s IR stream running in a WPF app. This time the image is created as an EmguCV (OpenCV-C#) Image Gray, ushort.'
+
 categories:
     - Tutorials
 tags:

@@ -1,12 +1,16 @@
 ---
-id: 220
-title: 'Sheldon 2.0 &#8211; Bumper and Headstock'
+
+title: 'Sheldon 2.0 - Bumper and Headstock'
 date: '2011-06-06T22:41:28+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=220'
+
 #permalink: /2011/06/06/sheldon-2-0-bumper-and-headstock/
 image: /wp-content/uploads/2011/06/Sheldon-Headstock-e1376927435239-1.jpg
+thumb: /wp-content/uploads/2011/06/Sheldon-Headstock-e1376927435239-1.jpg
+
+excerpt: 'Happily I managed to get quite a lot done on the Sheldon 2.0 upgrade this weekend. Primary focus was that cleaning up the wiring'
+
 categories:
     - Microcontrollers
     - Robotics
