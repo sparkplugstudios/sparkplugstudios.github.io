@@ -75,6 +75,7 @@ function navigation2() {
 </script>
 
 <div class="navbar" id="navbar">
+
     <div class="wrapper">
     {% for item in site.data.navbar %}
     <a href="{{item.link}}">{{ item.name }}</a>
@@ -86,4 +87,7 @@ function navigation2() {
     </a>  
     -->
     </div>
+
+    {%- include scroll-progress-bar.html -%}
+
 </div>
