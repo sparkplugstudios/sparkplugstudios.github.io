@@ -1,12 +1,15 @@
 ---
-id: 178
-title: 'Project Leonard &#8211; Z Axis Coupling'
+title: 'Project Leonard - Z Axis Coupling'
 date: '2011-11-23T23:30:21+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=178'
+
+excerpt: 'Following on from yesterdays Project Leonard post, today I fortunately I managed to get a set of the Z Axis couplings I designed last night printed. '
+
 #permalink: /2011/11/23/project-leonard-z-axis-coupling/
 image: /wp-content/uploads/2011/11/coupling-featured1-1.jpg
+thumb: /wp-content/uploads/2011/11/coupling-featured1-1.jpg
+
 categories:
     - 3D Printing
 ---
