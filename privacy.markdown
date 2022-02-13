@@ -1,6 +1,6 @@
 ---
 title: "Privacy & Cookies"
-modified: 11-02-2022
+modified: 13-02-2022
 ---
 
 The privacy of our visitors is extremely important. This Privacy & Cookies Policy outlines the types of personal information that is received and collected and how it is used by our site(s). 
@@ -25,11 +25,16 @@ Further information for both of of these third party services/providers and thei
 
 ## Cookies and Web Beacons
 
-We don't want to personally store any first party cookies when you visit our websites. Our site(s) are built using Jekyll and hosted via Github Pages in order to try and avoid such a situation. This being said third party cookies may be set either by some of the site(s) embedded content or by our third party service providers. Because of this we have to store a cookie on your device to control the visibility of a banner that informs you that other sites may store a cookie on your device. 
+We don't want to store any first party cookies when you visit our websites. Our site(s) are built using Jekyll and hosted via Github Pages in order to try and avoid such a situation. This being said third party cookies may be set either by some of the site(s) embedded content and/or by our third party service providers. Because of this GDPR compliance means we have to store a cookie on your device to control the visibility of a banner that informs you that other sites may store a cookie on your device. 
 
-This we determine this as a strictly necessary cookie! <!-- ...although believe that metaphorically speaking its totally unnecessary :D -->
+This we determine this as a strictly necessary cookie! <!-- ...although we believe that metaphorically speaking its totally unnecessary and total madness :D -->
 
-The cookie we set is to store your acceptance of the policies outlined within this document. This expires after 31 days.
+The following block details the cookie we store to log your acceptance of the policies outlined within this document. As you can see the cookie will expire after 31 days.
+
+```
+cookie-notice-dismissed - * Expires after 31 days
+```
+<span class="caption">Code 1: The Cookies, Cookie</span>
 
 ### What are Cookies
 
@@ -58,7 +63,7 @@ VSC - * expires at the end of your session
 VISITOR_INFO1_LIVE - *expires after eight months
 remote_sid - * expires at the end of your session
 ```
-<span class="caption">Code 1: The Youtube Cookies</span>
+<span class="caption">Code 2: The Youtube Cookies</span>
 
 For more information on how youtube protect your privacy and personal information; please check out their [privacy policy](https://www.google.com/aclk?sa=L&ai=DChcSEwi3uuPT7Pf1AhWBnu0KHQa5DGkYABAAGgJkZw&ae=2&sig=AOD64_2yffkenlSOCvtbC7Sj_2MNRA6eYg&q&adurl&ved=2ahUKEwi64tvT7Pf1AhUMJ8AKHf2xCsIQ0Qx6BAgCEAE)
 

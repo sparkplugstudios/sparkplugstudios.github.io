@@ -1,0 +1,52 @@
+<style>
+    #git-result a
+    {
+        color: #333;          
+    }
+
+    .svg-icon
+    {
+        fill: #333;
+    }
+
+</style>
+
+<div class="github-activity">
+
+    <h1 class="post-title">github activity</h1>
+
+    <ul id="git-result"></ul>
+
+    <script>
+    var request = new XMLHttpRequest();
+
+    var path = "https://api.github.com/users/{{ site.github_username}}/repos?per_page=5&sort=updated";
+    console.log(path);
+
+    request.open('GET', path, true)
+
+    request.onload = function() 
+    {
+        var data = JSON.parse(this.response);
+        console.log(data);
+
+        var statusHTML = ''; 
+
+        // 'repo: ' + status.name + ' | description: ' + status.description + ' | forks: ' + status.forks_count
+
+        var fork = '<svg class="svg-icon"><use xlink:href="' + '/assets/images/minima-social-icons.svg#git_fork' + '"></use></svg>'; 
+        var star = '<svg class="svg-icon"><use xlink:href="' + '/assets/images/minima-social-icons.svg#git_star' + '"></use></svg>'; 
+
+        $.each(data, function(i, status)
+        {
+            statusHTML += 
+            '<li><a href=' + status.html_url + '> \
+                repo: ' + status.name + ' | description: ' + status.description + ' | ' + fork + ': ' + status.forks_count + ' ' + star + ': ' + status.stargazers_count +
+            '</a></li>';
+        });
+
+        document.getElementById("git-result").innerHTML = statusHTML;
+    }
+    request.send();
+    </script>
+</div>
