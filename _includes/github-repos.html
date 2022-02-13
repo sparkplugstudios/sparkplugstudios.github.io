@@ -38,11 +38,14 @@
         var star = '<svg class="svg-icon"><use xlink:href="' + '/assets/images/minima-social-icons.svg#git_star' + '"></use></svg>'; 
         var watch = '<svg class="svg-icon"><use xlink:href="' + '/assets/images/minima-social-icons.svg#git_watch' + '"></use></svg>';
 
+        // Add below to include watch count
+        // + ' ' + watch + ': ' + status.watchers_count +
+
         $.each(data, function(i, status)
         {
             statusHTML += 
             '<li><a href=' + status.html_url + '> \
-                repo: ' + status.name + ' | description: ' + status.description + ' | ' + fork + ': ' + status.forks_count + ' ' + star + ': ' + status.stargazers_count + ' ' + watch + ': ' + status.watchers_count +
+                repo: ' + status.name + ' | description: ' + status.description + ' | ' + fork + ': ' + status.forks_count + ' ' + star + ': ' + status.stargazers_count + 
             '</a></li>';
         });
 

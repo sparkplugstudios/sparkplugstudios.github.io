@@ -136,7 +136,7 @@ Details about Google Web Fonts can be found here: [https://www.google.com/fonts#
 
 ## Acknowledgement
 
-By using the website(s) or the services we provide you acknowledge your consent to the practices described herein. You also acknowledge your consent to the practices described within both this Cookies and Privacy document and also our Disclaimer.
+By using the website(s) or the services we provide you acknowledge your consent to the practices described herein. You also acknowledge your consent to the practices described within our [Disclaimer](/disclaimer).
 
 ### Privacy Policy Changes
 
