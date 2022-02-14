@@ -24,7 +24,7 @@ h3
 {
     background-color: #f8f8f8;
 
-    border-left: 1px solid #68c9e8;
+    border-left: 1px solid #17D2A8;
 
     padding-left: 5px;
     padding-right: 5px;
