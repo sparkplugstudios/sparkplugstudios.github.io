@@ -69,3 +69,13 @@ function readCookie(name) {
 function eraseCookie(name) {
   createCookie(name,"",-1);
 }
+
+// document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+// createCookie('cookie-notice-dismissed','true',31);
+// location.reload();
+// });
+
+// document.getElementById('cookie-notice-decline').addEventListener("click",function() {
+// eraseCookie(cookie-notice-dismissed);
+// location.reload();
+// });

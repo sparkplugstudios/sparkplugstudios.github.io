@@ -1,7 +1,62 @@
 ---
 title: "Privacy & Cookies"
-modified: 13-02-2022
+modified: 14-02-2022
 ---
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+document.getElementById('cookie-notice-decline').addEventListener("click",function() {
+eraseCookie('cookie-notice-dismissed');
+location.reload();
+});
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+createCookie('cookie-notice-dismissed','true',31);
+document.getElementById('cookie-notice').style.display = 'none';
+location.reload();
+});
+});
+
+</script>
+
+<style>
+
+h2
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;	
+	font-size: 22px;
+	line-height: 30px;
+	background-color:#f8f8f8;  
+  color: #3a3a3a;
+	padding:0px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+h3
+{
+    background-color: #f8f8f8;
+
+    border-left: 1px solid #68c9e8;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    font-size:14px;
+    font-weight:300;
+
+    width: fit-content;
+
+    font-size: 14px;
+	  line-height: 22px;
+    
+}
+
+</style>
 
 The privacy of our visitors is extremely important. This Privacy & Cookies Policy outlines the types of personal information that is received and collected and how it is used by our site(s). 
 
@@ -23,11 +78,43 @@ There may be server logs held by the domain provider [ipage.com](https://www.ipa
 
 Further information for both of of these third party services/providers and their respective privacy policies can be found within the [Where we send your data](#where-we-send-your-data) section of this document.
 
+## Where we send your data
+
+ Our sites are hosted via third party providers. As such our services and website(s) may be hosted outside of your country of residence. Your data may be transferred inside or outside of the EU. By using our website(s) or the services we provide, you acknowledge your consent to such data transfer. 
+ 
+ For more information on how our third party domain provider [ipage.com](https://www.ipage.com) ensure the protection of your data please see their privacy [information](https://newfold.com/privacy-center). For more information on how our third party hosting provider [Github](https://www.github.com) ensure the protection of your data please see their privacy [information](https://docs.github.com/en/github/site-policy/github-privacy-statement)
+
+### Embedded links to other websites
+
+This website may contain links to other websites provided by third parties not under our control. When following a link and providing information to a 3rd-party website, please be aware that we are not responsible for the data provided to that third party. 
+
+This policy only applies to the website(s) we author and provide for public consumption, so when you visit other websites, even when you click on a link posted on the website(s), you should read their own privacy policies.
+
+### Google Web Fonts
+
+This website uses Web Fonts from Google. The provider is Google Inc, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+
+The use of Google Fonts allows me to present this website using my choice of fonts, regardless of the fonts that are installed locally. This is done by retrieving the Google Web Fonts from a Google server in the USA and the associated transfer of your data to Google. This data is your IP address and which page you have visited on this website. The use of Google Web Fonts is based on Art. 6 para. 1 lit. f DSGVO. As the operator of this website, I have a legitimate interest in the optimal display and transmission of my web presence.
+
+The company Google is certified for the US-European data protection convention "Privacy Shield". This data protection agreement is intended to ensure compliance with the level of data protection applicable in the EU.
+
+Details about Google Web Fonts can be found here: [https://www.google.com/fonts#AboutPlace:about](https://www.google.com/fonts#AboutPlace:about) and further information in the Google Privacy Policy: [https://policies.google.com/privacy/partners?hl=de](https://policies.google.com/privacy/partners?hl=de).
+
 ## Cookies and Web Beacons
 
-We don't want to store any first party cookies when you visit our websites. Our site(s) are built using Jekyll and hosted via Github Pages in order to try and avoid such a situation. This being said third party cookies may be set either by some of the site(s) embedded content and/or by our third party service providers. Because of this GDPR compliance means we have to store a cookie on your device to control the visibility of a banner that informs you that other sites may store a cookie on your device. 
+Cookies are text files containing small amounts of information which are downloaded to your personal computer, mobile or other devices when you visit a website. Cookies are then sent back to the originating website on each subsequent visit, or to another website that recognises that cookie. 
 
-This we determine this as a strictly necessary cookie! <!-- ...although we believe that metaphorically speaking its totally unnecessary and total madness :D -->
+Cookies are useful because they allow a website to recognise a user’s device. Cookies do lots of different jobs, like letting you navigate between pages efficiently, remembering your preferences, and generally improve the user experience. You can find more information about cookies at [www.allaboutcookies.org](www.allaboutcookies.org)and [www.youronlinechoices.eu](www.youronlinechoices.eu).
+
+Visitors who do not wish to have cookies placed on their devices should set their browsers to refuse cookies before using our websites. Instructions on how this may be achieved are featured within the [Managing Cookies section of this policy](#managing-cookies).
+
+### Our Cookie(s)
+
+We don't want to store any first party cookies when you visit our websites. Our site(s) are built using Jekyll and hosted via Github Pages in order to try and avoid such a situation. This being said third party cookies may be set either by some of the site(s) embedded content and/or by our third party service providers. 
+
+Because of this; GDPR compliance means we have to store a cookie on your device to control the visibility of a banner that informs you that other sites may store a cookie on your device. 
+
+This cookie we determine as a strictly necessary cookie! <!-- ...although we believe that metaphorically speaking its totally unnecessary and total madness :D -->
 
 The following block details the cookie we store to log your acceptance of the policies outlined within this document. As you can see the cookie will expire after 31 days.
 
@@ -36,11 +123,7 @@ cookie-notice-dismissed - * Expires after 31 days
 ```
 <span class="caption">Code 1: The Cookies, Cookie</span>
 
-### What are Cookies
-
-Cookies are text files containing small amounts of information which are downloaded to your personal computer, mobile or other devices when you visit a website. Cookies are then sent back to the originating website on each subsequent visit, or to another website that recognises that cookie. Cookies are useful because they allow a website to recognise a user’s device. Cookies do lots of different jobs, like letting you navigate between pages efficiently, remembering your preferences, and generally improve the user experience. You can find more information about cookies at [www.allaboutcookies.org](www.allaboutcookies.org)and [www.youronlinechoices.eu](www.youronlinechoices.eu).
-
-Visitors who do not wish to have cookies placed on their devices should set their browsers to refuse cookies before using our websites. Instructions on how this may be achieved are featured within the [Managing Cookies section of this policy](#managing-cookies).
+You can approve the use of this cookie by clicking <a id="cookie-notice-accept" class="btn btn-primary btn-sm">here</a>. You can also change your mind and delete this cookie from your browser by clicking <a id="cookie-notice-decline" class="btn btn-primary btn-sm">here</a>. The approve option (if not already accepted) can also be found via a cookie banner at the base of each of the site(s) pages. Before you make your decision please ensure that you have fully read this document.
 
 ### Github Cookies
 Github indicate within their [privacy statement](https://docs.github.com/en/github/site-policy/github-privacy-statement) that:
@@ -112,36 +195,14 @@ This website uses the function "demographic characteristics" of Google Analytics
 
 -->
 
-## Where we send your data
-
- Our sites are hosted via third party providers. As such our services and website(s) may be hosted outside of your country of residence. Your data may be transferred inside or outside of the EU. By using our website(s) or the services we provide, you acknowledge your consent to such data transfer. 
- 
- For more information on how our third party domain provider [ipage.com](https://www.ipage.com) ensure the protection of your data please see their privacy [information](https://newfold.com/privacy-center). For more information on how our third party hosting provider [Github](https://www.github.com) ensure the protection of your data please see their privacy [information](https://docs.github.com/en/github/site-policy/github-privacy-statement)
-
-### Embedded links to other websites
-
-This website may contain links to other websites provided by third parties not under our control. When following a link and providing information to a 3rd-party website, please be aware that we are not responsible for the data provided to that third party. 
-
-This policy only applies to the website(s) we author and provide for public consumption, so when you visit other websites, even when you click on a link posted on the website(s), you should read their own privacy policies.
-
-### Google Web Fonts
-
-This website uses Web Fonts from Google. The provider is Google Inc, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
-
-The use of Google Fonts allows me to present this website using my choice of fonts, regardless of the fonts that are installed locally. This is done by retrieving the Google Web Fonts from a Google server in the USA and the associated transfer of your data to Google. This data is your IP address and which page you have visited on this website. The use of Google Web Fonts is based on Art. 6 para. 1 lit. f DSGVO. As the operator of this website, I have a legitimate interest in the optimal display and transmission of my web presence.
-
-The company Google is certified for the US-European data protection convention "Privacy Shield". This data protection agreement is intended to ensure compliance with the level of data protection applicable in the EU.
-
-Details about Google Web Fonts can be found here: [https://www.google.com/fonts#AboutPlace:about](https://www.google.com/fonts#AboutPlace:about) and further information in the Google Privacy Policy: [https://policies.google.com/privacy/partners?hl=de](https://policies.google.com/privacy/partners?hl=de).
-
 ## Acknowledgement
 
 By using the website(s) or the services we provide you acknowledge your consent to the practices described herein. You also acknowledge your consent to the practices described within our [Disclaimer](/disclaimer).
 
-### Privacy Policy Changes
+### Policy Changes
 
-Although most changes are likely to be minor, we may change this Privacy & Cookies Policy from time to time, and at our sole discretion. To this end we encourage visitors to frequently check this page for any changes to this policy. Your continued use of this site after any change in our policies will constitute your acceptance of such change.
+Although most changes are likely to be minor, we may change our policies from time to time, and at our sole discretion. To this end we encourage visitors to frequently check this page for any changes to these policies. Your continued use of this site after any change in our policies will constitute your acceptance of such change.
 
 ### Current Status
 
-This Privacy & Cookies Policy was last updated {{page.modified}}
+These Privacy & Cookies Policies were last updated {{page.modified}}
