@@ -9,6 +9,13 @@
         fill: #333;
     }
 
+    .fx
+    {
+        /* color: #14b996;
+        font-weight: bold;
+         */
+    }
+
 </style>
 
 <div class="github-activity">
@@ -45,7 +52,7 @@
         {
             statusHTML += 
             '<li><a href=' + status.html_url + '> \
-                repo: ' + status.name + ' | description: ' + status.description + ' | ' + fork + ': ' + status.forks_count + ' ' + star + ': ' + status.stargazers_count + 
+                repo: <span class="fx">' + status.name + '</span> | description: <span class="fx">' + status.description + '</span> | ' + fork + ': ' + status.forks_count + ' ' + star + ': ' + status.stargazers_count + 
             '</a></li>';
         });
 

@@ -133,7 +133,7 @@ div.post-content strong
         {
             h3.mod-title
             {
-                color: #17D2A8;  
+                // color: #17D2A8;  
                 transition: 0.3s;   
             }
         }
@@ -149,7 +149,7 @@ div.post-content strong
         {
             h3.mod-title
             {
-                color: #17D2A8;  
+                // color: #17D2A8;  
                 transition: 0.3s;  
             }
         }
@@ -184,3 +184,52 @@ div.post-content strong
 }
 
 // body effects --------------------------------------------------------------------------------------------------------------- //
+
+h2.mod-title
+{
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    width: fit-content;
+    padding-right: 20px;
+}
+
+a
+{
+    &:hover
+    {
+        h2.mod-title
+        {
+            // border-bottom: #17D2A8 solid 1px;
+            text-decoration: underline;
+            text-decoration-color: #17D2A8;
+            
+        }
+    }
+}
+
+h3
+{
+    text-decoration-thickness: 1px;
+}
+
+h3.mod-title
+{
+    font-weight: 200;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    width: fit-content;
+    padding-right: 20px;
+}
+
+a
+{
+    &:hover
+    {
+        h3.mod-title
+        {
+            // border-bottom: #17D2A8 solid 1px;
+            text-decoration: underline;
+            text-decoration-color: #17D2A8;            
+        }
+    }
+}

@@ -31,7 +31,13 @@
   font-size: 10px;
   text-transform: uppercase;
 
-  border: #ddd 1px solid;
+  border: #aaa 1px solid;
+}
+
+#navbar a:hover
+{
+  color: #17D2A8;
+  transition: 0.5s;
 }
 
 #navbar a:nth-child(1)
@@ -87,6 +93,7 @@ function navigation2() {
 <div class="navbar" id="navbar">
 
     <div class="wrapper">
+      
     {% for item in site.data.navbar %}
     <a href="{{item.link}}">{{ item.name }}</a>
     {% endfor %} 
