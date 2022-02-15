@@ -2,8 +2,16 @@
 
   
 
-  <div class="site-banner">
-    <canvas id="waves"></canvas>
+  <div class="site-banner">  
+
+    <canvas id="waves"></canvas>  
+
+    <div class="overlay">
+      <div class="wrapper">
+        <h1>a <span class="light">drop</span> in the digital ocean</h1>
+      </div>
+  </div> 
+ 
   </div>
 
 </header>
@@ -24,6 +32,21 @@
   height: 200px;
 }
 
+.overlay
+{
+  color: white;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 55%;
+  font-size: 10px;
+  font-weight: 200;
+}
+
 </style>
 
 <script>
@@ -37,9 +60,9 @@ var waves = new SineWaves({
     return $(window).width();
   },
   
-  ease: 'SineInOut',
+  ease: 'SineIn',
   
-  wavesWidth: '90%',
+  wavesWidth: '100%',
   
   waves: [
     {
