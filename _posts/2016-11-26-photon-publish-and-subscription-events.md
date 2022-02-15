@@ -1,5 +1,4 @@
 ---
-id: 1761
 title: 'Photon Publish and Subscription Events'
 date: '2016-11-26T22:00:47+00:00'
 author: batts
