@@ -61,7 +61,7 @@ div.post-content a,
 	color:#151e30;
 	text-decoration:none;
 
-    background-color: #f8f8f8;
+    // background-color: #f8f8f8;
     margin-bottom: 4px;
     border-bottom: 1px solid #999;
     font-weight: bold;
@@ -137,6 +137,8 @@ div.post-content strong
                 transition: 0.3s;   
             }
         }
+
+        
     }
     
 }
@@ -153,8 +155,7 @@ div.post-content strong
                 transition: 0.3s;  
             }
         }
-    }
-    
+    }    
 }
 
 .post-content
@@ -216,9 +217,16 @@ h3.mod-title
 {
     font-weight: 200;
     margin-top: 20px;
-    background-color: #f8f8f8;
     width: fit-content;
     padding-right: 20px;
+}
+
+.blog-post
+{
+    h3.mod-title 
+    {
+        background-color: #f8f8f8;
+    }
 }
 
 a
