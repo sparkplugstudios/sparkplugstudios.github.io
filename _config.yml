@@ -32,6 +32,7 @@ url: "https://dyadica.github.io" # the base hostname & protocol for your site, e
 
 permalink: /blog/:title/
 
+facebook_username: adropinthedigitalocean
 twitter_username: dyadica
 github_username:  dyadica
 youtube_username: dyadica
