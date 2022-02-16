@@ -16,18 +16,18 @@ tags:
     - Tutorial
 ---
 
-I've recently been playing around with several [RP2040 boards](https://www.tomshardware.com/uk/best-picks/best-rp2040-boards) as a means of investigating the [RP2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) as a potential platform for a new project. However as the RP2040 itself is still fairly new, there is not a great amount of compatible libraries for existing sensors and breakouts yet. 
+Recently I have been playing around with several [RP2040](https://www.tomshardware.com/uk/best-picks/best-rp2040-boards) based micro-controllers in order to investigate the [RP2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) as a platform for an upcoming project. During my studies I have found that because the RP2040 itself is still fairly new; there is not that large an amount of compatible libraries for existing sensors and breakouts yet. The libraries do exist; just for other platforms such as [Arduino](https://www.arduino.cc/) and [Raspberry PI](https://www.raspberrypi.com/).
 
 [![](/wp-content/uploads/2022/02/16/PA5100EJ_Breadboard_1.jpg)](wp-content\uploads\2022\02\16\PA5100EJ_Breadboard_1.jpg)
 <span class="caption">Figure 1: The PAA5100EJ connected to a Feather RP2040</span>
 
-The libraries do exist; just for other platforms such as [Arduino](https://www.arduino.cc/) and [Raspberry PI](https://www.raspberrypi.com/). The [PAA5100JE optical flow sensor](https://shop.pimoroni.com/products/paa5100je-optical-tracking-spi-breakout) is one such sensor; more importantly, its also a sensor I want to use for the aforementioned project. With all this in mind; the only thing for it, was to have a go a porting the existing python library for the PAA5100EJ developed by [Pimoroni](https://github.com/pimoroni/pmw3901-python). The way I look at it is this; hey as I'm a complete noob when it comes to all things python, what better way to get my feet wet! 
+The [PAA5100JE optical flow sensor](https://shop.pimoroni.com/products/paa5100je-optical-tracking-spi-breakout) is one such sensor; more importantly, its a sensor I also want to use for the aforementioned (top secret) project. With all this in mind; the only thing for it, was to have a go a porting an existing library over to circuit-python. I chose circuit-python because I want to utilise its HID capabilities further on in the projects development. This decision also had the knock on effect of highlighting the python library for the PAA5100EJ developed by [Pimoroni](https://github.com/pimoroni/pmw3901-python) as the best starting point for the project.  
 
-Luckily the port was successful and the following post outlines how you can use the code in your own projects. It also highlights some of the discoveries and decisions that I made along the way.
+Luckily the port was successful and this post outlines how you can use the code in your own projects. It also highlights some of the discoveries and decisions that I made along the way so that I can refer to them in the future.
 
 ## Prerequisites
 
-Before you can use the port I came up with you will need to ensure you have several prerequisites. Assuming you already have a CircuitPython installation; you will also need to install the [Adafruit_Circuit_BusDevice library](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice). This library can be located via the previous link or installed via the following pip command:
+Before you can use the code you will need to ensure you have several prerequisites. Assuming you already have a Circuit-python installation, you will also need to install the [Adafruit_Circuit_BusDevice library](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice). This library can be located via the previous link or installed via the following pip command:
 
 ```
 pip3 install adafruit-circuitpython-busdevice
@@ -35,18 +35,18 @@ pip3 install adafruit-circuitpython-busdevice
 
 ## Installing the code
 
-The repo contains two circuit-python files: code.py and pa55100ej.py. For those familiar with Arduino; the code.py file is the equivalent to an arduino sketch file in that it is where you put your main code that you want to run. Similarly pa55100ej.py is like an Arduino library called by the main code.py file. 
+The projects [github repository](https://github.com/dyadica/CircuitPython_PAA5100EJ) contains two circuit-python files: code.py and pa55100ej.py. For those familiar with Arduino; the code.py file is the equivalent to an arduino sketch file in that it is where you put your main code that you want to run. Similarly pa55100ej.py is like an Arduino library called by the main code.py file. These are all you will need to get things up and running. 
 
 [![](/wp-content/uploads/2022/02/16/file_structure_paa5100je.png)](wp-content\uploads\2022\02\16\file_structure_paa5100je.png)
 <span class="caption">Figure 2: Installation setup and file structure</span>
 
-All you need to do is place the file paa5100ej.py in your designated library location and the file code.py in its required location; usually the root of the circuit-python [drive](https://learn.adafruit.com/welcome-to-circuitpython/the-circuitpy-drive). Figure: 2 shows my installation setup and file structure within the [Thonny](https://thonny.org/) IDE. The lib directory contains the  [Adafruit_Circuit_BusDevice library](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice) library detailed in [prerequisites](#prerequisites). 
+Once you have obtained the files you then need to place the file paa5100ej.py in your circuit-python drives designated library location; and also the file code.py in its required location. For the latter this is usually the root. For the former its usually a bespoke library directory also created at the root of the circuit-python [drive](https://learn.adafruit.com/welcome-to-circuitpython/the-circuitpy-drive). Figure: 2 shows my installation setup and file structure within the [Thonny](https://thonny.org/) IDE. For reference: the lib directory contains the [Adafruit_Circuit_BusDevice library](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice) library as detailed in [prerequisites](#prerequisites). 
 
-Additionally I have also two neopixel libs in there because I am using a [Feather RP2040](https://learn.adafruit.com/adafruit-feather-rp2040-pico) board which has an on-board neopixel which annoyingly I need to turn off at every boot. If you don't have such a board i.e. you are using a pi [pico](https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227) then you wont need these libraries. 
+For my setup, I have also two neopixel libs included in the directory as I am using a [Feather RP2040](https://learn.adafruit.com/adafruit-feather-rp2040-pico) board which has an on-board neopixel. This I annoyingly need to turn off at every boot. If you don't have the same board, i.e. you are using a pi [pico](https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227) then you shouldn't need these libraries. 
 
 ## Using the code
 
-With the installation/setup complete; lets move on to setting up the circuit and also having a look at the code itself.
+With the installation/setup complete; lets move on to putting together the circuit and also having a look at the code itself.
 
 ### A look at the circuit
 
@@ -67,9 +67,9 @@ With the connections made lets move onto having a look at the code.
 
 ### A breakdown of code.py
 
-The only code you really need to worry about in order to get things working in your own application is that found within code.py. To this end this section takes a look at the file in detail. 
+The only code you really need to worry about in order to get things working in your own application is that found within code.py. To this end this section takes a look at the file in detail. So it can be adapted for your own needs.
 
-First off we import all the libraries/modules that we will need. These are:
+First up we import all the libraries/modules that we will need. These are:
 
 The [board](https://circuitpython.readthedocs.io/en/latest/shared-bindings/board/index.html#module-board) module; which contains constants for the pins on the specific board we are using. The [busio](https://circuitpython.readthedocs.io/en/latest/shared-bindings/busio/) module which contains classes to support a variety of serial protocols such as SPI and I2C. The [digitalio](https://circuitpython.readthedocs.io/en/latest/shared-bindings/digitalio/index.html#module-digitalio) module to provide access to the boards pins. The [time](https://circuitpython.readthedocs.io/en/latest/shared-bindings/time/index.html) module to allow for use of time and timing related functions. Finally we include the pa55100ej library to allow us to interface with the pa55100ej sensor using [SPI](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi/spi-devices).
 
