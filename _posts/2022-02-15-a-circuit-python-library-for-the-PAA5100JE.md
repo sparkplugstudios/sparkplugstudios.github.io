@@ -3,7 +3,7 @@ title: 'A Circuit-python Library for the PAA5100JE'
 date: '2022-02-15'
 author: batts
 layout: post
-excerpt: "I've recently been playing around with the Feather RP2040 board for a new project. In order to use a PAA5100JE sensor with the board I needed to port the provided python library over to circuit python"
+excerpt: "I've recently been playing around with the Feather RP2040 board for a new project. In order to use a PAA5100JE sensor with the board I needed to port"
 
 image: /wp-content/uploads/2022/02/16/PA5100EJ_Breadboard_3.jpg
 thumb: '/wp-content/uploads/2022/02/16/PA5100EJ_Breadboard_3.jpg'
