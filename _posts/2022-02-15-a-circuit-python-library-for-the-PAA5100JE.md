@@ -93,6 +93,8 @@ cs.direction = digitalio.Direction.OUTPUT
 
 In addition to the boards SPI configuration a custom chip select pin is also passed to the class. The CS pin is one which can be toggled to tell the chip that it should listen and/or respond to requests on the SPI bus. This toggle can be [controlled manually](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi/spi-devices#max31855-spi-thermocouple-temperature-sensor-2837737-1) by code; however by using the [SPIDevice Library](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice) this is handled for us automatically. More Information on the library can be found [here](https://circuitpython.readthedocs.io/projects/busdevice/en/latest/_modules/adafruit_bus_device/spi_device.html) and [here](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi/spi-devices#spidevice-library-2837757-21.)
 
+Next we initialise and make a reference to the paa5100ej class. As we do so we pass to it both the aforementioned references to the SPI and CS pins. The class then utilises this information to create a new SPIDevice that handles the SPI interface and allows us to communicate with the sensor.
+
 ```
 oflow = paa5100ej.PAA5100EJ(spi, cs)
 oflow.set_led_state(True)
@@ -100,9 +102,7 @@ oflow.set_rotation(0)
 ```
 <span class="caption">Code 3: Initialising the PAA5100EJ</span>
 
-Next we initialise and make a reference to the paa5100ej class. As we do so we pass to it both the aforementioned references to the SPI and CS pins. The class then utilises this information to create a new SPIDevice that handles the SPI interface and allows us to communicate with the sensor.
-
-Finally we create two properties to store any movement outputted from sensor in both the x and y direction. These properties are updated each loop of the main class as a means of storing the cumulative movement detected by the sensor. With our setup complete lets move onto the main loop.
+Finally we create two properties to store any movement outputted from sensor in both the x and y direction. These properties are updated each loop of the main class as a means of storing the cumulative movement detected by the sensor. 
 
 ```
 tx = 0
@@ -110,7 +110,9 @@ ty = 0
 ```
 <span class="caption">Code 4: The tx, ty properties</span>
 
- Here we can see that our program is kept alive via the use of a while true statement. On each iteration of the loop a call is made to the pa55100ej class via the oflow.get_motion() function. Any iteration where no data is available is accounted for via wrapping the call in a try. A caught exception causes the loop to continue. If data is received this is assigned to the x and y variables which are in turn used to update the values of tx and ty.
+ With our setup complete lets move onto the main loop. If we take a look at our main program (Code: 5) we can see that it consists of a loop which is kept alive via the use of a while true statement. On each iteration of the loop a call is made to the pa55100ej class via the get_motion() function. Any iteration where data is not available is accounted for via wrapping the call in a try block. 
+ 
+ A caught exception causes the loop to continue. If data is received this is assigned to the x and y variables which are in turn used to update the values of tx and ty.
 
 ```
 while True:
