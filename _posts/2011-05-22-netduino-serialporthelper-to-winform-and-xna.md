@@ -1,11 +1,12 @@
 ---
-id: 245
+
 title: 'Netduino SerialPortHelper to WinForm and XNA'
 date: '2011-05-22T23:18:36+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=245'
-#permalink: /2011/05/22/netduino-serialporthelper-to-winform-and-xna/
+
+excerpt: 'A few weeks ago, I was contacted via YouTube in reference to the Netduino Serial Communication example I posted a while back'
+
 categories:
     - Microcontrollers
     - Tutorials

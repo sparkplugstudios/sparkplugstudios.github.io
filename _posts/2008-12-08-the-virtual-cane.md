@@ -1,12 +1,15 @@
 ---
-id: 1590
+
 title: 'The Virtual Cane'
 date: '2008-12-08T15:09:04+00:00'
 author: batts
 layout: post
-guid: '/?p=1590'
-#permalink: /2008/12/08/the-virtual-cane/
+
+excerpt: 'Accessible interfaces have been created using the Nintendo Wii Remote (Wiimote) device, and other Wii technology.'
+
 image: /wp-content/uploads/2008/12/vc_1-1.png
+thumb: '/wp-content/uploads/2008/12/vc_1-1.png'
+
 categories:
     - Research
 ---
@@ -19,4 +22,7 @@ Using this system, people with visual impairment can explore new spaces to help 
 
 Using Wii technology has many advantages, not least of which are that it is mainstream, readily available and cheap, meaning that it would be easily available to all. This system was invented and created by Steven Battersby of the ISRG and developed in conjunction with other members of the group.
 
-<div class="video-container"><iframe allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/rh6yg7rGgNs"></iframe></div>The video above shows Allan Ridley, a member of the ISRG who is blind, using the system. Video courtesy of Steph Oliver (editor and reporter) and Philip Cobbalt (camera), (2008) Interactive Technology at Nottingham Trent University, Final Year NTU CBJ TV news report on the First Interactive Technology Conference, NTU, November, 2008
+{% include youtube-video.html video_id="rh6yg7rGgNs" %}
+<span class="caption">Video 1: The virtual cane system</span>
+
+The video above shows Allan Ridley, a member of the ISRG who is blind, using the system. Video courtesy of Steph Oliver (editor and reporter) and Philip Cobbalt (camera), (2008) Interactive Technology at Nottingham Trent University, Final Year NTU CBJ TV news report on the First Interactive Technology Conference, NTU, November, 2008

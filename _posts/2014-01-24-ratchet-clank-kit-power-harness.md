@@ -1,6 +1,6 @@
 ---
 id: 405
-title: 'Ratchet &#038; Clank &#8211; Power Harness'
+title: 'Ratchet & Clank - Power Harness'
 date: '2014-01-24T02:14:08+00:00'
 author: batts
 layout: post

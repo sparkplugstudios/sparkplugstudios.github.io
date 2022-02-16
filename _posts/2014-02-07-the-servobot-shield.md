@@ -56,7 +56,8 @@ I was originally planning on including a [LSM303](/journal/building-a-calibrated
 
 Whilst it is true that I could have easily accounted for the orientation etc via software implementation, I instead opted to instead break out the I2C (A4, A5) pins so that I can connect to an externally mounted LSM303. My current plan is to use the original mounting hole made in the body for the Power Disributor Board to mount an LSM303 which would not only be central to the robot but also enable the correct default orientation.
 
-<div class="video-container"><iframe allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/whXuTx-1yeE?rel=0"></iframe></div><span class="caption">Video 1: The Completed Board &amp; Power Harness In Action</span>
+{% include youtube-video.html video_id="whXuTx-1yeE" %}
+<span class="caption">Video 1: The completed board & power harness in action</span>
 
 The above video (Video 1) shows the completed board wired up to the power harness and a couple of servos. With the board complete I am now well on the way to completing my robot Ratchet. Over the weekend I am planning to implement the external LSM303 mounting and create a couple of servo plug connections for two Sharp IR sensors and also a couple of LED’s.
 

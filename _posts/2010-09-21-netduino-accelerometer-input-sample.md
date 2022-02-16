@@ -1,11 +1,12 @@
 ---
-id: 256
+
 title: 'Netduino Accelerometer Input Sample'
 date: '2010-09-21T23:50:04+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=256'
-#permalink: /2010/09/21/netduino-accelerometer-input-sample/
+
+excerpt: 'The following is a simple example detailing how to interface of a Sparkfun ADXL 335 breakout board with a Netduino'
+
 categories:
     - Microcontrollers
     - Tutorials

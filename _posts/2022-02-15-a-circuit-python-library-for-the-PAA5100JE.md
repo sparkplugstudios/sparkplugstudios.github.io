@@ -23,6 +23,8 @@ I've recently been playing around with several [RP2040 boards](https://www.tomsh
 
 The libraries do exist; just for other platforms such as [Arduino](https://www.arduino.cc/) and [Raspberry PI](https://www.raspberrypi.com/). The [PAA5100JE optical flow sensor](https://shop.pimoroni.com/products/paa5100je-optical-tracking-spi-breakout) is one such sensor; more importantly, its also a sensor I want to use for the aforementioned project. With all this in mind; the only thing for it, was to have a go a porting the existing python library for the PAA5100EJ developed by [Pimoroni](https://github.com/pimoroni/pmw3901-python). The way I look at it is this; hey as I'm a complete noob when it comes to all things python, what better way to get my feet wet! 
 
+Luckily the port was successful and the following post outlines how you can use the code in your own projects. It also highlights some of the discoveries and decisions that I made along the way.
+
 ## Prerequisites
 
 Before you can use the port I came up with you will need to ensure you have several prerequisites. Assuming you already have a CircuitPython installation; you will also need to install the [Adafruit_Circuit_BusDevice library](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice). This library can be located via the previous link or installed via the following pip command:

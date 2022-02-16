@@ -1,12 +1,14 @@
 ---
-id: 1462
 title: 'Very Simple Kalman in C#'
 date: '2011-05-17T23:42:57+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=249'
-#permalink: /2011/05/17/very-simple-kalman-in-c/
+
 image: /wp-content/uploads/2011/05/kal-1.png
+thumb: '/wp-content/uploads/2011/05/kal-1.png'
+
+excerpt: 'I have decided to take a break from all things Kinect after the disappointment of a none SDK release yesterday'
+
 categories:
     - Tutorials
 tags:

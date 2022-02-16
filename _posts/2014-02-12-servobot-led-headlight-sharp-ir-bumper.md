@@ -1,13 +1,14 @@
 ---
-id: 686
-title: 'ServoBot LED Headlight &#038; Sharp IR Bumper'
+
+title: 'ServoBot LED Headlight & Sharp IR Bumper'
 date: '2014-02-12T20:57:46+00:00'
 author: batts
 layout: post
-guid: '/?p=686'
-#permalink: /2014/02/12/servobot-led-headlight-sharp-ir-bumper/
+
+
 image: /wp-content/uploads/2014/02/Completed-Bumper-Front1-1-1568x883.jpg
 thumb: '/wp-content/uploads/2014/02/Completed-Bumper-Front1-1-1568x883.jpg'
+
 excerpt: 'In this post I will demonstrate the assembly of the bumper for my current robot build Ratchet. The bumper contains both'
 categories:
     - Robotics

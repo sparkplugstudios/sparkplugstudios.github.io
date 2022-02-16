@@ -4,8 +4,9 @@ title: 'NetduinoPlus SD Card Example'
 date: '2011-02-12T23:45:21+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=251'
-#permalink: /2011/02/12/netduinoplus-sd-card-example/
+
+excerpt: 'I was contacted the other day with a request for some help with code needed for use of the NetduinoPlus SD Card'
+
 categories:
     - Microcontrollers
     - Tutorials

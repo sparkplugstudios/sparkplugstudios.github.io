@@ -4,8 +4,9 @@ title: 'Netduino Flex Sensor Example'
 date: '2010-10-21T23:47:47+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=254'
-#permalink: /2010/10/21/netduino-flex-sensor-example/
+
+excerpt: 'Here we have another Netduino Sensor example. This time I am going to show you how to wire up a Spectra Symbol flex sensor as retailed by Sparkfun Electronics.'
+
 categories:
     - Microcontrollers
     - Tutorials

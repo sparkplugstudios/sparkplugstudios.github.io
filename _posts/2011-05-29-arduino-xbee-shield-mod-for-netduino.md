@@ -1,12 +1,14 @@
 ---
-id: 224
+
 title: 'Arduino Xbee Shield mod for Netduino'
 date: '2011-05-29T21:51:38+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=224'
-#permalink: /2011/05/29/arduino-xbee-shield-mod-for-netduino/
+
 image: /wp-content/uploads/2011/06/WP_000600-1-1568x1176.jpg
+thumb: '/wp-content/uploads/2011/06/WP_000600-1-1568x1176.jpg'
+
+excerpt: 'This is a very quick post detailing how I modded my netduino to be compatible with the arduino xbee shield'
 categories:
     - Microcontrollers
     - Tutorials

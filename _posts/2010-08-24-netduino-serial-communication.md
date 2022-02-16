@@ -1,11 +1,12 @@
 ---
-id: 258
+
 title: 'Netduino &#8211; Serial Communication'
 date: '2010-08-24T23:51:45+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=258'
-#permalink: /2010/08/24/netduino-serial-communication/
+
+excerpt: 'The following details simple 2 way Communication with a Windows Forms App – Rudimentary packet handling'
+
 categories:
     - Microcontrollers
     - Tutorials

@@ -1,12 +1,15 @@
 ---
-id: 240
+
 title: 'How to pair two XBee Radios'
 date: '2011-05-29T23:08:35+00:00'
 author: batts
 layout: post
-guid: 'http://sandbox.dyadica.co.uk/?p=240'
-#permalink: /2011/05/29/how-to-pair-two-xbee-radios/
+
 image: /wp-content/uploads/2011/05/xbee-pair-1.png
+thumb: '/wp-content/uploads/2011/05/xbee-pair-1.png'
+
+excerpt: 'Recently a resulting factor of a new hobby project was the need to revisit the pairing of Xbee radios. The last time I had to undertake such a task'
+
 categories:
     - Microcontrollers
     - Tutorials
@@ -16,7 +19,10 @@ tags:
 
 Recently a resulting factor of a new hobby project was the need to revisit the pairing of Xbee radios. The last time I had to undertake such a task was ages ago and due to my existing set of Xbee’s becoming a permanent fixture within my robot “Sheldon” I had not kept up on all things Xbee and for the life of me could not remember how.
 
-<div class="video-container"><iframe allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/VzgUtZyiHhE"></iframe></div>Luckily I managed to re-track down a great YouTube video (above) produced by [xbeeadapters](http://www.youtube.com/user/xbeeadapters) that I originally used to complete the task. The following list is a summary of all the steps needed to pair your Xbees as taken from the video.
+{% include youtube-video.html video_id="VzgUtZyiHhE" %}
+<span class="caption">Video 1: xbeeadapters: how to pair xbee's</span>
+
+Luckily I managed to re-track down a great YouTube video (above) produced by [xbeeadapters](http://www.youtube.com/user/xbeeadapters) that I originally used to complete the task. The following list is a summary of all the steps needed to pair your Xbees as taken from the video.
 
 In reality you wont need to Read/Write to the radios as much as I do, however I like to be thorough and find that for me this works best:
 
