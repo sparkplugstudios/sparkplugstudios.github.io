@@ -16,7 +16,7 @@ tags:
     - Tutorial
 ---
 
-I've recently been playing around with several [RP2040 boards](https://www.tomshardware.com/uk/best-picks/best-rp2040-boards) as a means of investigating the [RP2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) as a potential platform a new project. However as the RP2040 itself is still fairly new, there is not a great amount of compatible libraries for existing sensors and breakouts yet. The libraries do exist; just for other platforms such as [Arduino](https://www.arduino.cc/) and [Raspberry PI](https://www.raspberrypi.com/).  
+I've recently been playing around with several [RP2040 boards](https://www.tomshardware.com/uk/best-picks/best-rp2040-boards) as a means of investigating the [RP2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) as a potential platform for a new project. However as the RP2040 itself is still fairly new, there is not a great amount of compatible libraries for existing sensors and breakouts yet. The libraries do exist; just for other platforms such as [Arduino](https://www.arduino.cc/) and [Raspberry PI](https://www.raspberrypi.com/).  
 
 [![](/wp-content/uploads/2022/02/16/PA5100EJ_Breadboard_1.jpg)](wp-content\uploads\2022\02\16\PA5100EJ_Breadboard_1.jpg)
 <span class="caption">Figure 1: The PAA5100EJ connected to a Feather RP2040</span>
