@@ -16,12 +16,12 @@ tags:
     - Tutorial
 ---
 
-I've recently been playing around with several [RP2040 boards](https://www.tomshardware.com/uk/best-picks/best-rp2040-boards) as a means of investigating the [RP2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) as a potential platform a new project. However as the RP2040 itself is still fairly new, there is not a great amount of compatible libraries for existing sensors and breakouts yet. The libraries do exist; just for other platforms such as [Arduino](https://www.arduino.cc/) and [Raspberry PI](https://www.raspberrypi.com/). The [PAA5100JE optical flow sensor](https://shop.pimoroni.com/products/paa5100je-optical-tracking-spi-breakout) is one such sensor; more importantly, its also a sensor I need to use for the aforementioned project. 
+I've recently been playing around with several [RP2040 boards](https://www.tomshardware.com/uk/best-picks/best-rp2040-boards) as a means of investigating the [RP2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) as a potential platform a new project. However as the RP2040 itself is still fairly new, there is not a great amount of compatible libraries for existing sensors and breakouts yet. The libraries do exist; just for other platforms such as [Arduino](https://www.arduino.cc/) and [Raspberry PI](https://www.raspberrypi.com/).  
 
 [![](/wp-content/uploads/2022/02/16/PA5100EJ_Breadboard_1.jpg)](wp-content\uploads\2022\02\16\PA5100EJ_Breadboard_1.jpg)
 <span class="caption">Figure 1: The PAA5100EJ connected to a Feather RP2040</span>
 
-The only thing for it was to have a go a porting the existing python library for the PAA5100EJ developed by [Pimoroni](https://github.com/pimoroni/pmw3901-python). The way I look at it is this; as I'm a complete noob when it comes to all things python, what better way to get my feet wet! 
+The [PAA5100JE optical flow sensor](https://shop.pimoroni.com/products/paa5100je-optical-tracking-spi-breakout) is one such sensor; more importantly, its also a sensor I need to use for the aforementioned project. The only thing for it was to have a go a porting the existing python library for the PAA5100EJ developed by [Pimoroni](https://github.com/pimoroni/pmw3901-python). The way I look at it is this; as I'm a complete noob when it comes to all things python, what better way to get my feet wet! 
 
 ## Prerequisites
 
