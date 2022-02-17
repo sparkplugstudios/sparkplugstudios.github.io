@@ -100,27 +100,21 @@ div.post-content strong
 
     a
     {
-        display: block;
         color: #111;
-
-        h1
-        {
-            width: fit-content;
-        }
+        text-decoration: none;
 
         &:hover
         {
-            color: #111;
-            background-color: $background-body-hover-color;
-            transition: 0.3s;
-
-            h1
+            h2
             {
-                color: #17D2A8;
-                // border-bottom: 1px solid #17D2A8;
+                color: #111;
+                text-decoration: underline;
+                text-decoration-color: #17D2A8;
+                transition: 0.3s;
             }
-        }
-    }    
+            
+        }        
+    }   
 }
 
 // recent --------------------------------------------------------------------------------------------------------------- //
@@ -132,15 +126,11 @@ div.post-content strong
         &:hover
         {
             h3.mod-title
-            {
-                // color: #17D2A8;  
+            { 
                 transition: 0.3s;   
             }
-        }
-
-        
-    }
-    
+        }        
+    }    
 }
 
 .module-grid
@@ -201,8 +191,8 @@ a
         h2.mod-title
         {
             // border-bottom: #17D2A8 solid 1px;
-            text-decoration: underline;
-            text-decoration-color: #17D2A8;
+            // text-decoration: underline;
+            // text-decoration-color: #17D2A8;
             
         }
     }

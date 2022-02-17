@@ -13,7 +13,8 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-body {
+body
+{
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
@@ -27,19 +28,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
-}
-
 
 
 /**
@@ -59,92 +47,7 @@ img {
   vertical-align: middle;
 }
 
-
-
-/**
- * Figures
- */
-figure > img {
-  display: block;
-}
-
-figcaption {
-  font-size: $small-font-size;
-}
-
-
-
-/**
- * Lists
- */
-ul, ol {
-  margin-left: $spacing-unit;
-}
-
-li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
-}
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
-}
-
-
-
-/**
- * Links
- */
-a {
-  color: $brand-color;
-  text-decoration: none;
-
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
-  &:hover {
-    color: $text-color;
-  }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }
-}
-
-
-/**
- * Blockquotes
- */
-blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
-
-  > :last-child {
-    margin-bottom: 0;
-  }
-}
-
-
-
-/**
- * Code formatting
- */
+/*-- Code formatting  --------------------------------------------------------------------------------------------*/
 pre,
 code {
   @include relative-font-size(0.9375);
@@ -168,11 +71,8 @@ pre {
   }
 }
 
+/*-- wrapper  --------------------------------------------------------------------------------------------*/
 
-
-/**
- * Wrapper
- */
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -190,22 +90,7 @@ pre {
   }
 }
 
-
-
-/**
- * Clearfix
- */
-%clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-/**
- * Icons
- */
+/*-- SVG formatting  --------------------------------------------------------------------------------------------*/
 
 .svg-icon {
     width: 16px;
