@@ -1,48 +1,36 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post-entry">
   
+  <h1 class="main-title">{{ page.title | escape }}</h1>
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <!-- 
-      <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p> 
-    -->
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content">
     {{ content }}
   </div>
 
   <div class="post-footer">
+
     <h3>{{ page.title | escape }}</h3>
-    <h4 class="post-foot-meta">Posted on {{ page.date | date: "%-d %B %Y" }} in 
 
-      {% if post %}
-        {% assign categories = post.categories %}
-      {% else %}
-        {% assign categories = page.categories %}
-      {% endif %}
+    <p class="post-foot-meta">Posted on {{ page.date | date: "%-d %B %Y" }} in 
 
-      {% for category in categories %}
-        <a href="/blog/categories/{{category | downcase}}">{{category}}</a>
-      {% unless forloop.last %}, {% endunless %}
-      {% endfor %}
+    {% if post %}
+      {% assign categories = post.categories %}
+    {% else %}
+      {% assign categories = page.categories %}
+    {% endif %}
 
-      by {{ page.author }}</h4>
+    {% for category in categories %}
+      <a href="/blog/categories/{{category | downcase}}">{{category}}</a>
+    {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
 
+    by {{ page.author }}</p>
     
   </div>
 
-  <div class="PageNavigation">
+  <div class="page-navigation">
     {% if page.previous.url %}
       <a class="prev" href="{{page.previous.url}}">&laquo; prev </a> <!-- {{page.previous.title}}</a> -->
     {% endif %}

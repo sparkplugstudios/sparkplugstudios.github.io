@@ -1,0 +1,23 @@
+<div class="recent-posts">
+
+    <h1 class="main-title to-fit">recent posts</h1>    
+    
+    <div class="module-grid blog-post">
+
+    {% for post in site.posts limit:3 %}
+
+    <a class="flex-module third" href="{{ post.url }}"> <!-- {{ post.title }}{{ commonTags }} -->
+        {%- if post.thumb -%}
+        <img class="tmpImage" src="{{ post.thumb }}">
+        {%- else -%}
+        <img class="tmpImageEmpty" width="300px" height="169px">
+        {%- endif -%}
+        <h3 class="mod-title">{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html }}...</p>
+    </a>
+
+    {% endfor %}
+
+    </div>
+
+</div>

@@ -1,28 +1,8 @@
-<style>
-    #git-result a
-    {
-        color: #333;          
-    }
-
-    .svg-icon
-    {
-        fill: #333;
-    }
-
-    .fx
-    {
-        /* color: #14b996;
-        font-weight: bold;
-         */
-    }
-
-</style>
-
 <div class="github-activity">
 
-    <h1 class="post-title">github activity</h1>
+    <h1 class="main-title">github activity</h1>
 
-    <ul id="git-result"></ul>
+    <ul class="git-result" id="git-result">
 
     <script>
     var request = new XMLHttpRequest();
@@ -52,12 +32,13 @@
         {
             statusHTML += 
             '<li><a href=' + status.html_url + '> \
-                repo: <span class="fx">' + status.name + '</span> | description: <span class="fx">' + status.description + '</span> | ' + fork + ': ' + status.forks_count + ' ' + star + ': ' + status.stargazers_count + 
-            '</a></li>';
+                repo: <span class="fx">' + status.name + '</span> | description: <span class="fx">' + status.description + '</span> | ' + fork + ':  <span class="fx">' + status.forks_count + '</span> ' + star + ':  <span class="fx">' + status.stargazers_count + 
+            '</span></a></li>';
         });
 
         document.getElementById("git-result").innerHTML = statusHTML;
     }
     request.send();
     </script>
+    </ul>
 </div>

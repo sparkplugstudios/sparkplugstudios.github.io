@@ -1,54 +1,57 @@
 // titles --------------------------------------------------------------------------------------------------------------- //
 
-.page-title h1,
-.post-title h1,
-.cat-title h1,
-.blog-title h1,
-h1.post-title
+.main-title
 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;	
 	font-size: 42px;
 	line-height: 50px;
-	background:none;
-    color: #3a3a3a;
-
-	padding:0px;
-}
-
-h1.post-title.small
-{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;	
-	font-size: 22px;
-	line-height: 30px;
 	background-color:#f8f8f8;  
     color: #3a3a3a;
 
 	padding:0px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &.to-fit
+    {
+        width: fit-content;
+        padding-right: 20px;
+    }
 }
 
-.blog-title h1,
-h1.post-title
+h1
 {
-	background-color:#f8f8f8;   
+    .post-title.small
+    {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;	
+        font-size: 22px;
+        line-height: 30px;
+        background-color:#f8f8f8;  
+        color: #3a3a3a;
+
+        padding:0px;
+    }
+
+    .post-title.featured
+    {
+        width: fit-content;
+        padding-right: 20px;
+    }
 }
 
-h1.post-title.featured
+h2
 {
+    background-color:#f8f8f8; 
     width: fit-content;
     padding-right: 20px;
 }
+
 .light
 {
 	color:#17D2A8
-}
-
-a {
-	margin:0px;
-	padding:0px;
-	color:#151e30;
-	text-decoration:none;
 }
 
 // foot meta --------------------------------------------------------------------------------------------------------------- //
@@ -89,7 +92,7 @@ div.post-content strong
 
 // featured --------------------------------------------------------------------------------------------------------------- //
 
-.featured_post
+.featured-post
 {
     color: #111;
 
@@ -100,17 +103,14 @@ div.post-content strong
 
     a
     {
-        color: #111;
         text-decoration: none;
 
         &:hover
         {
             h2
             {
-                color: #111;
                 text-decoration: underline;
                 text-decoration-color: #17D2A8;
-                transition: 0.3s;
             }
             
         }        
@@ -119,7 +119,7 @@ div.post-content strong
 
 // recent --------------------------------------------------------------------------------------------------------------- //
 
-.latest_posts
+.recent-posts
 {
     a
     {
@@ -127,7 +127,8 @@ div.post-content strong
         {
             h3.mod-title
             { 
-                transition: 0.3s;   
+                text-decoration: underline;
+                text-decoration-color: #17D2A8;                
             }
         }        
     }    
@@ -141,8 +142,8 @@ div.post-content strong
         {
             h3.mod-title
             {
-                // color: #17D2A8;  
-                transition: 0.3s;  
+                text-decoration: underline;
+                text-decoration-color: #17D2A8;
             }
         }
     }    
@@ -176,33 +177,6 @@ div.post-content strong
 
 // body effects --------------------------------------------------------------------------------------------------------------- //
 
-h2.mod-title
-{
-    margin-top: 20px;
-    background-color: #f8f8f8;
-    width: fit-content;
-    padding-right: 20px;
-}
-
-a
-{
-    &:hover
-    {
-        h2.mod-title
-        {
-            // border-bottom: #17D2A8 solid 1px;
-            // text-decoration: underline;
-            // text-decoration-color: #17D2A8;
-            
-        }
-    }
-}
-
-h3
-{
-    text-decoration-thickness: 1px;
-}
-
 h3.mod-title
 {
     font-weight: 200;
@@ -219,15 +193,62 @@ h3.mod-title
     }
 }
 
-a
+// post-entry --------------------------------------------------------------------------------------------------------------- //
+
+.post-entry
 {
-    &:hover
+    a
     {
+        background-color: #f8f8f8;
+        font-weight: 200;
+
         h3.mod-title
         {
-            // border-bottom: #17D2A8 solid 1px;
-            text-decoration: underline;
-            text-decoration-color: #17D2A8;            
+            // font-weight: 100;
+        }
+
+        &:hover
+        {
+            h3.mod-title
+            {
+                // border-bottom: #17D2A8 solid 1px;
+                text-decoration: underline;
+                text-decoration-color: #17D2A8;            
+            }
         }
     }
 }
+
+// github --------------------------------------------------------------------------------------------------------------- //
+.github-activity
+{
+    ul
+    {        
+        li
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+
+    .svg-icon
+    {
+        fill: #333;
+    }
+
+    #git-result a
+    {
+        color: #333;    
+    }
+
+    a:hover
+    {
+        .fx
+        {
+            color: #17D2A8;
+        }
+    }
+}
+
+
+
