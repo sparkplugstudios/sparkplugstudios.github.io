@@ -39,22 +39,9 @@ layout: default
   </div>
 
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">&laquo;</a>
-  {% else %}
-    <span class="previous"></span>
-  {% endif %}
-  <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">&raquo;</a>
-  {% else %}
-    <span class="next "></span>
-  {% endif %}
-</div>
+  <!-- Pagination links -->
+  {%- include pagination.html -%}
+
 
 <!--
 <select name="categories" id="categories" onchange="location = this.value;">
@@ -66,3 +53,5 @@ layout: default
   {% endfor %} 
 </select>
 -->
+
+
