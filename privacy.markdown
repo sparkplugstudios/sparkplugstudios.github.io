@@ -1,6 +1,7 @@
 ---
 title: "Privacy & Cookies"
 modified: 14-02-2022
+layout: page
 ---
 
 <script>
@@ -21,42 +22,6 @@ location.reload();
 });
 
 </script>
-
-<style>
-
-h2
-{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;	
-	font-size: 22px;
-	line-height: 30px;
-	background-color:#f8f8f8;  
-  color: #3a3a3a;
-	padding:0px;
-  margin-top:20px;
-  margin-bottom:20px;
-}
-
-h3
-{
-    background-color: #f8f8f8;
-
-    border-left: 1px solid #17D2A8;
-
-    padding-left: 5px;
-    padding-right: 5px;
-
-    font-size:14px;
-    font-weight:300;
-
-    width: fit-content;
-
-    font-size: 14px;
-	  line-height: 22px;
-    
-}
-
-</style>
 
 The privacy of our visitors is extremely important. This Privacy & Cookies Policy outlines the types of personal information that is received and collected and how it is used by our site(s). 
 

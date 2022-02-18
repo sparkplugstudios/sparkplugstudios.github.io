@@ -70,7 +70,7 @@ h3
 }
 
 
-div.post-content a
+div.post-content a, div.page-content a
 {
     margin:0px;
 	padding:0px;
@@ -91,7 +91,7 @@ div.post-content a
 
 // sub titles --------------------------------------------------------------------------------------------------------------- //
 
-div.post-content strong
+div.post-content strong, div.page-content strong
 {
     background-color: #f8f8f8;
 
@@ -167,7 +167,7 @@ div.post-content strong
     }  
 }
 
-.post-content
+.post-content, .page-content
 {
     img
     {
@@ -194,7 +194,7 @@ div.post-content strong
 
 // post-entry --------------------------------------------------------------------------------------------------------------- //
 
-.post-entry
+.post-entry, .page-entry
 {
     h2
     {
@@ -238,6 +238,26 @@ div.post-content strong
                 border-bottom: #17D2A8 solid 1px;  
             }
         }
+    }
+}
+
+.post-entry, .page-entry
+{
+    h3
+    {
+        background-color: #f8f8f8;
+
+        border-left: 1px solid #17D2A8;
+
+        padding-left: 5px;
+        padding-right: 5px;
+
+        font-weight:300;
+
+        width: fit-content;
+
+        font-size: 16px;
+        line-height: 22px;    
     }
 }
 
