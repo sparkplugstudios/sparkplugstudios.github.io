@@ -14,9 +14,9 @@
 
     h3
     {
-        margin: 10px;
+        background-color: none;
         color: white;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     a
@@ -35,12 +35,12 @@
 
 a.flex-module
  {
-     h3
-     {
-        margin-top: 10px;
-        color: #444;
-        font-weight:600;
-     }
+    //  h3
+    //  {
+    //     margin-top: 10px;
+    //     color: #444;
+    //     font-weight:600;
+    //  }
 
     color: #111;
     text-decoration: none;
@@ -68,12 +68,12 @@ a.flex-module
   {
     a.flex-module
     {
-        h3
-        {
-           margin-top: 10px;
-           color: white;
-           font-weight: 600;
-        }
+        // h3
+        // {
+        //    margin-top: 10px;
+        //    color: white;
+        //    font-weight: 600;
+        // }
    
        color: #888;
        text-decoration: none;
