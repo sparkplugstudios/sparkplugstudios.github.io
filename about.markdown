@@ -5,17 +5,15 @@ author: batts
 layout: page
 ---
 
-For about the last 20 years or so I primarily worked as a software engineer and academic researcher. During this period I specialised in topics like: games design, virtual &amp; augmented reality, natural user interfaces, assistive technology, IOT and robotics.
+Hi im batts; For approximately 20 years or so I spent most of my time working as a software engineer and an academic researcher. During this time I specialised in topics such as: games design, virtual and augmented reality, natural user interfaces, assistive technology, IOT and robotics.
 
-I worked on a number of projects (both commercial &amp; research) developing app’s (desktop &amp; mobile) games (fun &amp; serious) robots and means for human-computer interface. My professional working roles ultimately resulted in an extensive and proven track record for the research, development and realisation of not only computing software and hardware; but the odd physical real-world do-hicky too.
-
-I am now semi-retired 😀 and thus, taking life a little easier. If you would like to get in touch with me please do so via one of my social media incarnations such as my [facebook page](http://www.facebook.com/adropinthedigitalocean "My Facebook Page"). or my [youtube](https://www.youtube.com/user/dyadica) channel.
+I am now semi-retired and taking life a little easier. With that in mind everything I do is just for fun. If you would like to get in touch with me please do so via one of my social media incarnations. You can find the links at the base of each page.
 
 ## A few non-password related facts about me
 
 - I have a beautiful and amazing wife, kids, grand kids.
-- I used to have a little parrot and I miss him dearly.
-- I believed that I would find it harder to give up drinking coffee than smoking. I was right!
+- I once had a little parrot; I miss him dearly.
+- I oce believed I would find it harder to give up drinking coffee than smoking. I was right!
 - I really love coffee, I mean really, really, really love coffee.
 - I really miss smoking, I mean really, really, really miss smoking (6y+).
 - I really miss drinking, I mean really, really, really miss drinking (4y+).
