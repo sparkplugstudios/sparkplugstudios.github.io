@@ -36,7 +36,8 @@ a
  * Lists
  */
  ul, ol {
-  margin-left: $spacing-unit;
+  // margin-left: $spacing-unit;
+  list-style-position: inside;
 }
 
 /**
@@ -135,7 +136,8 @@ pre {
     vertical-align: text-top;
 }
 
-.social-media-list {
+.social-media-list
+{
   li + li {
     padding-top: 5px;
   }

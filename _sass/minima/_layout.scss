@@ -23,6 +23,12 @@
   text-transform: uppercase;
 
   border: #aaa 1px solid;
+
+  &:hover
+  {
+    color: #17D2A8; 
+  }
+
 }
 
 .social-media-list

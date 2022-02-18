@@ -11,7 +11,7 @@ layout: default
 
   <div class="post-footer">
 
-    <h3>{{ page.title | escape }}</h3>
+    <P class="foot-title">{{ page.title | escape }}</P>
 
     <p class="post-foot-meta">Posted on {{ page.date | date: "%-d %B %Y" }} in 
 
@@ -32,13 +32,13 @@ layout: default
 
   <div class="page-navigation">
     {% if page.previous.url %}
-      <a class="prev" href="{{page.previous.url}}">&laquo; prev </a> <!-- {{page.previous.title}}</a> -->
+      <a class="prev" href="{{page.previous.url}}">prev</a> <!-- {{page.previous.title}}</a> -->
     {% endif %}
 
     <a href="#top"> top </a>
 
     {% if page.next.url %}
-      <a class="next" href="{{page.next.url}}">next &raquo;</a> <!-- {{page.next.title}} &raquo;</a> -->
+      <a class="next" href="{{page.next.url}}">next</a> <!-- {{page.next.title}} &raquo;</a> -->
     {% endif %}
   </div>
 
