@@ -32,6 +32,7 @@ Before you can use the code you will need to ensure you have several prerequisit
 ```
 pip3 install adafruit-circuitpython-busdevice
 ```
+<span class="caption">Command 1: Installation via pip3</span>
 
 ## Installing the code
 

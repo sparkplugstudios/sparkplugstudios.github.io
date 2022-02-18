@@ -1,3 +1,9 @@
+.page-content
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 // titles --------------------------------------------------------------------------------------------------------------- //
 
 .main-title
@@ -20,6 +26,8 @@
         padding-right: 20px;
     }
 }
+
+// headings --------------------------------------------------------------------------------------------------------------- //
 
 h1
 {
@@ -44,13 +52,14 @@ h1
 
 h2
 {
-    background-color:#f8f8f8; 
+    /* background-color:#f8f8f8; */
     width: fit-content;
     padding-right: 20px;
 }
 
 h3
 {
+    /* background-color:#f8f8f8; */
     width: fit-content;
     padding-right: 20px;
 }
@@ -60,17 +69,14 @@ h3
 	color:#17D2A8
 }
 
-// foot meta --------------------------------------------------------------------------------------------------------------- //
 
-div.post-content a,
-.post-foot-meta a
+div.post-content a
 {
     margin:0px;
 	padding:0px;
 	color:#151e30;
 	text-decoration:none;
 
-    // background-color: #f8f8f8;
     margin-bottom: 4px;
     border-bottom: 1px solid #999;
     font-weight: bold;
@@ -133,7 +139,7 @@ div.post-content strong
         h3
         {
             margin-top: 20px;
-            font-weight: 500;
+            font-weight: bold;
             background-color:#f8f8f8; 
         }
 
@@ -154,40 +160,18 @@ div.post-content strong
     {
         h3
         {
+            background-color:none; 
             margin-top: 20px;
             font-weight: 500;
         }
     }  
 }
 
-// .blog-post
-// {
-//     a
-//     {
-//         h3
-//         {
-//             margin-top: 20px;
-//             font-weight: 500;
-//             background-color:#f8f8f8; 
-//         }
-
-//         &:hover
-//         {
-//             h3.mod-title
-//             {
-//                 text-decoration: underline;
-//                 text-decoration-color: #17D2A8;
-//             }
-//         }
-//     }    
-// }
-
 .post-content
 {
     img
     {
         border-radius: 8px;
-        // border: #17D2A8 1px solid;
     }
 }
 
@@ -208,32 +192,23 @@ div.post-content strong
     cursor: pointer;
 }
 
-// body effects --------------------------------------------------------------------------------------------------------------- //
-
-// h3.mod-title
-// {
-//     font-weight: 300;
-//     margin-top: 20px;
-//     width: fit-content;
-//     padding-right: 20px;
-// }
-
-// .blog-post
-// {
-//     h3.mod-title 
-//     {
-//         background-color: #f8f8f8;
-//     }
-// }
-
 // post-entry --------------------------------------------------------------------------------------------------------------- //
 
 .post-entry
 {
+    h2
+    {
+        background-color: #f8f8f8;
+    }
+
+    h3
+    {
+        background-color: #f8f8f8;
+    }
+
     a
     {
         background-color: #f8f8f8;
-        font-weight: 200;
 
         &:hover
         {
@@ -245,9 +220,35 @@ div.post-content strong
             }
         }
     }
+
+    .post-footer
+    {
+        h3
+        {
+            background-color: transparent;
+        } 
+        
+        a
+        {
+            border-bottom: 1px solid #999;
+            font-weight: bold;
+
+            &:hover
+            {
+                border-bottom: #17D2A8 solid 1px;  
+            }
+        }
+    }
+}
+
+.site-footer
+ {
+  border-top: 4px solid $grey-color-light;
+  border-bottom: 1px solid #2f3d5a;
 }
 
 // github --------------------------------------------------------------------------------------------------------------- //
+
 .github-activity
 {
     ul
@@ -277,16 +278,3 @@ div.post-content strong
         }
     }
 }
-
-
-
-// h3
-// {
-//     width: fit-content;
-//     padding-right: 20px;
-
-//     font-weight: 300;
-//     margin-top: 20px;
-//     width: fit-content;
-
-// }

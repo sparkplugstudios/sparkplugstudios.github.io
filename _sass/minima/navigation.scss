@@ -1,92 +1,63 @@
-#navbar {
-    background-color: #222b3e; /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    top: 0; /* Stay on top */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
-    z-index: 10000000;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-  }
-  
-  /* Style the navbar links */
-  #navbar a {
-    float: left;
-    display: block;
+.site-banner
+{
+  width: 100%;
+  height: 200px;
+  background-color: #222b3e;
+}
+
+    /* Style the navbar */
+#navbar 
+{
+  overflow: hidden;
+  background-color: #222b3e;
+  z-index: 1000000; 
+  text-align: right;
+
+  a
+  {
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 15px;
-    text-decoration: none;
-  }
+    padding: 2px 12px 2px 12px;
+    text-decoration: none; 
+    border-radius: 4px 4px 4px 4px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    margin-top:8px;
   
-  #navbar a:hover {
-    color: white;
-  }
+    font-size: 10px;
+    text-transform: uppercase;
+  
+    border: #aaa 1px solid;
 
-  #navbar .icon {
-    display: none;
-  }
+    &:hover
+    {
+      color: #17D2A8;
+      transition: 0.5s;
+    }
 
-  @media screen and (max-width: 800px) 
-{
-  /*.wrapper
-  {
-    padding: 30px;
-  }
-  */
-
-}
-
-  /* When the screen is less than 600 pixels wide, hide all links, except for 
-  the first one ("Home"). Show the link that contains should open and close 
-  the topnav (.icon) */
-
-@media screen and (max-width: 600px) 
-{
-  #navbar a:not(:first-child) {display: none;}
-  #navbar a.icon {
-    float: right;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;    
+    &:nth-child(1)
+    {
+      /*padding-left: 0px; */
+    }
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user 
-clicks on the icon. This class makes the topnav look good on small screens 
-(display the links vertically instead of horizontally) */
 
-@media screen and (max-width: 600px) {
-  #navbar.responsive {position: relative; top:0}
-  #navbar.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  #navbar.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
 
-// S8
+// The sticky class is added to the navbar with JS when it reaches its scroll position
 
-@media screen and (max-width: 360px) 
+.sticky 
 {
-  #navbar.responsive {position: relative;}
-  #navbar a
-  {
-    margin-left: -15px;
-  }
-
-}
-
-.pagination
-{
-  display: block;
-  text-align: center;
+  position: fixed;
+  top: 0;
   width: 100%;
+}
+
+// Add some top padding to the page content to prevent sudden quick movement (as the navigation
+// bar gets a new position at the top of the page (position:fixed and top:0)
+
+.sticky ~ .page-content 
+{
+  padding-top: 40px;
 }

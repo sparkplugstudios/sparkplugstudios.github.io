@@ -35,13 +35,6 @@
 
 a.flex-module
  {
-    //  h3
-    //  {
-    //     margin-top: 10px;
-    //     color: #444;
-    //     font-weight:600;
-    //  }
-
     color: #111;
     text-decoration: none;
     // border-radius: 8px;
@@ -68,33 +61,25 @@ a.flex-module
   {
     a.flex-module
     {
-        // h3
-        // {
-        //    margin-top: 10px;
-        //    color: white;
-        //    font-weight: 600;
-        // }
-   
        color: #888;
        text-decoration: none;
-       // border-radius: 8px;
        transition: 0.5s;
      
-       &:visited {
+       &:visited 
+       {
            color: #888;
            text-decoration: none;
        }
      
-       &:hover {
+       &:hover 
+       {
            color: #888;
            text-decoration: none;
-           background-color: $background-related-hover-color
-           
+           background-color: $background-related-hover-color           
        }
        
        border-bottom: $background-related-hover-color solid 1px;
-       margin-bottom: 10px;
-     
+       margin-bottom: 10px;     
      }
   }
 

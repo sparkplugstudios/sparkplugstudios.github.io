@@ -1,90 +1,30 @@
-<style>
-
-.site-banner
-{
-  width: 100%;
-  height: 200px;
-  background-color: #222b3e;
-}
-
-    /* Style the navbar */
-#navbar {
-  overflow: hidden;
-  background-color: #222b3e;
-  z-index: 1000000; 
-  text-align: right;
-}
-
-/* Navbar links */
-#navbar a {
-  
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 2px 12px 2px 12px;
-  text-decoration: none; 
-  border-radius: 4px 4px 4px 4px;
-  margin-right: 5px;
-  margin-bottom: 8px;
-  margin-top:8px;
-
-  font-size: 10px;
-  text-transform: uppercase;
-
-  border: #aaa 1px solid;
-}
-
-#navbar a:hover
-{
-  color: #17D2A8;
-  transition: 0.5s;
-}
-
-#navbar a:nth-child(1)
-{
-    /*padding-left: 0px; */
-}
-
-/* Page content */
-.content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky ~ .page-content {
-  padding-top: 80px;
-}
-
-</style>
-
 <script>
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() 
+{
+  // When the user scrolls the page, execute myFunction 
+  window.addEventListener('scroll', navigation2);
 
-// When the user scrolls the page, execute myFunction 
-window.addEventListener('scroll', navigation2);
+  // Get the navbar
+  var navbar = document.getElementById("navbar");
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+  // Add the sticky class to the navbar when you reach its scroll 
+  // position. Remove "sticky" when you leave the scroll position
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function navigation2() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
+  function navigation2() 
+  {
+    if (window.pageYOffset >= sticky) 
+    {
+      navbar.classList.add("sticky")
+    } 
+    else 
+    {
+      navbar.classList.remove("sticky");
+    }
   }
-}
 
 });
 
@@ -92,19 +32,20 @@ function navigation2() {
 
 <div class="navbar" id="navbar">
 
-    <div class="wrapper">
-      
-    {% for item in site.data.navbar %}
-    <a href="{{item.link}}">{{ item.name }}</a>
-    {% endfor %} 
+  <div class="wrapper">
+    
+  {% for item in site.data.navbar %}
+  <a href="{{item.link}}">{{ item.name }}</a>
+  {% endfor %} 
 
-    <!--
-    <a href="javascript:void(0);" class="icon" onclick="naviFunction()">
-        <i class="fa fa-bars"></i>
-    </a>  
-    -->
-    </div>
+  <!--
+  <a href="javascript:void(0);" class="icon" onclick="naviFunction()">
+      <i class="fa fa-bars"></i>
+  </a>  
+  -->
 
-    {%- include scroll-progress-bar.html -%}
+  </div>
+
+  {%- include scroll-progress-bar.html -%}
 
 </div>
