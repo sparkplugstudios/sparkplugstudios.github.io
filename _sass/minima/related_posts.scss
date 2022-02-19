@@ -104,10 +104,19 @@ a.flex-module
     }
 }
 
-@include media-query(600px) 
+@media screen and (max-width: 600px) 
 {
     .flex-module.third
     {
         width: 100%; 
     }
 }
+
+
+// @include media-query(600px) 
+// {
+//     .flex-module.third
+//     {
+//         width: 100%; 
+//     }
+// }
