@@ -45,6 +45,12 @@
 }
 
 
+@media all and (max-width: 480px) 
+{
+    #navbar a.blog-logo-title { display: none; }
+}
+
+
 
 // The sticky class is added to the navbar with JS when it reaches its scroll position
 
