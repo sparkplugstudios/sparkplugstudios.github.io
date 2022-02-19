@@ -26,13 +26,35 @@ document.addEventListener('DOMContentLoaded', function()
     }
   }
 
+
+
 });
 
 </script>
 
+<style>
+
+.blog-logo-title
+{
+  color: white;
+  display: block;
+}
+
+@include media-query(360px) 
+{
+  .blog-logo-title
+  {
+    display: none;
+  }
+}
+
+</style>
+
 <div class="navbar" id="navbar">
 
   <div class="wrapper">
+
+  <a href='' class="blog-logo-title">a drop in the digital ocean</a>
     
   {% for item in site.data.navbar %}
   <a href="{{item.link}}">{{ item.name }}</a>
