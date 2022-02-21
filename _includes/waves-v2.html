@@ -2,8 +2,11 @@
 
     #waves
     {
-        width: 100%;
+        position: absolute;
+        width: 120%;
         height: 200px;
+        left: -10;
+        overflow: hidden;
     }
 
     .overlay
@@ -43,19 +46,56 @@
     var canvas  = document.getElementById("waves");
     var context = canvas.getContext('2d');
 
-    const wave = {
-        y: 200,
-        length: 0.01,
-        amplitude:100,
+    const wave = 
+    {
+        y: 175,
+        length: 0.001,
+        amplitude:-50,
         frequency: 0.01
-    }
+    };
+
+    const strokeColor =
+    {
+        h: 200,
+        s: 50,
+        l: 50
+    };
+
+    const backgroundColor =
+    {
+        r: 34,
+        g: 43,
+        b: 62,
+        a: 0.1
+    };
 
     var increment = wave.frequency
 
-    gui.add(wave, 'y', 0, 200);
-    gui.add(wave, 'length', -0.01, 0.01);
-    gui.add(wave, 'amplitude', -200, 200);
-    gui.add(wave, 'frequency', 0.01, 1);
+    const backgroundFolder = gui.addFolder('background');
+
+    backgroundFolder.add(backgroundColor, 'r', 0, 255);
+    backgroundFolder.add(backgroundColor, 'g', 0, 255);
+    backgroundFolder.add(backgroundColor, 'b', 0, 255);
+    backgroundFolder.add(backgroundColor, 'a', 0, 1);
+
+    backgroundFolder.open();
+
+    const waveFolder = gui.addFolder('wave');
+
+    waveFolder.add(wave, 'y', 0, 200);
+    waveFolder.add(wave, 'length', -0.01, 0.01);
+    waveFolder.add(wave, 'amplitude', -200, 200);
+    waveFolder.add(wave, 'frequency', 0.01, 1);
+
+    waveFolder.open();
+
+    const strokeFolder = gui.addFolder('stroke')
+
+    strokeFolder.add(strokeColor, 'h', 0, 255);
+    strokeFolder.add(strokeColor, 's', 0, 100);
+    strokeFolder.add(strokeColor, 'l', 0, 100);
+
+    strokeFolder.open();
 
     // const canvas = document.querySelector('waves');
     // const c = canvas.getContext('2d');
@@ -69,15 +109,24 @@
     {
         requestAnimationFrame(animate);
 
-        context.clearRect(0,0,canvas.width, canvas.height);
+        // context.clearRect(0,0,canvas.width, canvas.height);
+
+        context.fillStyle = `rgba(${backgroundColor.r},${backgroundColor.g},${backgroundColor.b},${backgroundColor.a})`;
+        context.fillRect(0,0,canvas.width, canvas.height);
 
         context.beginPath();
         context.moveTo(0, canvas.height / 2);
 
         for(let i = 0; i < canvas.width; i++)
         {
-            context.lineTo(i, wave.y + Math.sin(i * wave.length + increment) * wave.amplitude);
+            context.lineTo(i, wave.y + Math.sin(i * wave.length + increment) * wave.amplitude * Math.cos(increment));
         }
+
+        context.strokeStyle = 
+        `hsl(${Math.abs(strokeColor.h * Math.sin(increment))},
+        ${strokeColor.s}%,
+        ${strokeColor.l}%
+        )`;
 
         context.stroke()
         increment += wave.frequency;

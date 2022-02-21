@@ -45,6 +45,8 @@
 }
 
 
+#navbar a.blog-logo-title { border: none; text-transform: lowercase;}
+
 @media all and (max-width: 480px) 
 {
     #navbar a.blog-logo-title { display: none; }

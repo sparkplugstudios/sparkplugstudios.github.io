@@ -3,4 +3,6 @@ _drafts
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.vscode
 vendor
+_development

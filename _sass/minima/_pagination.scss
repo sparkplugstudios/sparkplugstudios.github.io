@@ -40,12 +40,7 @@
       display: inline-block;
       border: solid 1px #eee;
       margin: 5px;
-      border-radius: 4px;
-
-      &.current-page
-      {
-        border: solid 1px #17D2A8;
-      }
+      border-radius: 4px;     
 
       a
       {
@@ -55,7 +50,17 @@
         &:hover
         {
           color: #17D2A8;
+
+          &.current-page
+          {
+            color: #333;
+          }
         }
+      }
+
+      &.current-page
+      {
+        border: solid 1px #17D2A8;
       }
     }
   }
