@@ -16,9 +16,10 @@ categories:
     - Tutorials
     - Unity3D
 tags:
+    - Serialport
     - serial
-    - 'Serial Communication'
-    - 'Unity Serialport'
+    - Serial Communication
+    - Unity Serialport
     - Unity3D
 ---
 

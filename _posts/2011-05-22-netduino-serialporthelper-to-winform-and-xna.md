@@ -53,4 +53,6 @@ The resulting amalgamation of code enables simple filtering of data via separati
 
 In order to get things working via a windows form and even xna all that was needed was to clone Hari’s class and swap it over to the windows System.IO.Ports namespace, simple 🙂
 
-<div class="video-container"><iframe allowfullscreen="" frameborder="0" src="//www.youtube.com/embed/fJEjDibe-Q8?rel=0"></iframe></div>The full source for both the forms and xna examples can be downloaded [here](/wp-content/uploads/2011/05/Netduino-to-Form-via-SPH.zip).
+{% include youtube-video.html video_id="fJEjDibe-Q8?rel=0" %}
+
+The full source for both the forms and xna examples can be downloaded [here](/wp-content/uploads/2011/05/Netduino-to-Form-via-SPH.zip).

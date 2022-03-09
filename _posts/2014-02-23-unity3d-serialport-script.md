@@ -16,10 +16,11 @@ categories:
     - Tutorials
     - Unity3D
 tags:
+    - Serialport
     - Arduino
     - Hardware
-    - 'Serial Communication'
-    - 'Serial Port'
+    - Serial Communication
+    - Serial Port
     - Unity
     - Unity3D
 ---

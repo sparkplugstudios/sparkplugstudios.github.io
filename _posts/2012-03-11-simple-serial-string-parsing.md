@@ -14,6 +14,9 @@ excerpt: 'One of the requirements I came across whilst developing with the Ardui
 categories:
     - Microcontrollers
 tags:
+    - Serialport
+    - Serial
+    - Serial Port
     - Arduino
     - atoi()
     - serial
