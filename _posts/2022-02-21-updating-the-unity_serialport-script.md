@@ -27,7 +27,7 @@ This post is a TLDR look at the project and how it's components can be used in y
 
 ## The Example Unity Project
 
-[![](/wp-content/uploads/2022/02/21/SP_Full.png)](wp-content\uploads\2022\02\21\SP_Full.png)
+[![](/wp-content/uploads/2022/02/21/SP_Full.png)]({% link /wp-content/uploads/2022/02/21/SP_Full.png %})
 <span class="caption">Figure 1: The Opened Unity Project</span>
 
 The unity project demonstrates the use of serial communication between a [Unity](https://unity.com/) application and a micro-controller such as an Arduino. Communication is achieved via use of a configurable [com](https://en.wikipedia.org/wiki/COM_(hardware_interface)) port.
@@ -38,7 +38,7 @@ Once you have downloaded and opened the project you should be greeted with a pro
 
 By selecting the gameObject you will be able to see all the configuration properties and options within the [inspector](https://docs.unity3d.com/Manual/UsingTheInspector.html) window (Figure: 2). The properties can be modified to match the requirements of the port you wish to open.
 
-[![](/wp-content/uploads/2022/02/21/SP_Inspector.png)](wp-content\uploads\2022\02\21\SP_Full.png)
+[![](/wp-content/uploads/2022/02/21/SP_Inspector.png)]({% link wp-content/uploads/2022/02/21/SP_Full.png %})
 <span class="caption">Figure 2: The Inspector Window</span>
 
 Assuming that you have already deployed the accompanying Arduino script to a compatible micro-controller; modify the COM port property to match that of your attached micro-controller. 
