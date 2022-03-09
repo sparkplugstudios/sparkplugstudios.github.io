@@ -21,7 +21,7 @@ tags:
     - Unity3D
 ---
 
-I recently made a few updates to the old Unity_SerialPort project I initially put together in 2014. The updates include: compatibility with Unity 2021, reintroduction of the [removed]({% link _posts/2014-03-06-adding-events-to-the-serialport-script.md %}) threading based update loop, inclusion of additional port configuration and finally some minor changes to the arduino code so that it also complies and runs on an ESP32. 
+I recently made a few updates to the old Unity_SerialPort project I initially put together in 2014. The updates include: compatibility with Unity 2021, reintroduction of the previously [removed]({% link _posts/2014-03-06-adding-events-to-the-serialport-script.md %}) threading based update loop, inclusion of additional port configuration and finally some minor changes to the arduino code so that it also complies and runs on an ESP32. 
 
 This post is a TLDR look at the project and how it's components can be used in your own projects. As always the source-code is available [here](https://github.com/dyadica/Unity_SerialPort).
 
