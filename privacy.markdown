@@ -1,6 +1,6 @@
 ---
 title: "Privacy & Cookies"
-modified: 14-02-2022
+modified: 10-30-2022
 layout: page
 ---
 
@@ -39,7 +39,7 @@ All of this information is not linked to anything that is personally identifiabl
 
 ### Third Parties
 
-There may be server logs held by the domain provider [ipage.com](https://www.ipage.com) containing such information in order to comply with legal obligations. Furthermore our hosting provider [Github](https://www.github.com) may also collect User Personal Information from visitors to this site in order to also comply with legal obligations, and/or to maintain the security and integrity of their Website and their Service(s). 
+There may be server logs held by the domain provider [domains.google.com](https://domains.google.com/) containing such information in order to comply with legal obligations. Furthermore our hosting provider [Github](https://www.github.com) may also collect User Personal Information from visitors to this site in order to also comply with legal obligations, and/or to maintain the security and integrity of their Website and their Service(s). 
 
 Further information for both of of these third party services/providers and their respective privacy policies can be found within the [Where we send your data](#where-we-send-your-data) section of this document.
 
@@ -47,7 +47,7 @@ Further information for both of of these third party services/providers and thei
 
  Our sites are hosted via third party providers. As such our services and website(s) may be hosted outside of your country of residence. Your data may be transferred inside or outside of the EU. By using our website(s) or the services we provide, you acknowledge your consent to such data transfer. 
  
- For more information on how our third party domain provider [ipage.com](https://www.ipage.com) ensure the protection of your data please see their privacy [information](https://newfold.com/privacy-center). For more information on how our third party hosting provider [Github](https://www.github.com) ensure the protection of your data please see their privacy [information](https://docs.github.com/en/github/site-policy/github-privacy-statement)
+ For more information on how our third party domain provider [domains.google.com](https://domains.google.com/) ensure the protection of your data please see their privacy [information](https://policies.google.com/privacy?hl=en-US). For more information on how our third party hosting provider [Github](https://www.github.com) ensure the protection of your data please see their privacy [information](https://docs.github.com/en/github/site-policy/github-privacy-statement)
 
 ### Embedded links to other websites
 
